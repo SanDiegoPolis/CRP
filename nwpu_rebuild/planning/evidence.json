@@ -1,0 +1,1555 @@
+{
+  "sources": [
+    {
+      "id": "MAP",
+      "url": "https://npuinternationalcollege.nwpu.edu.cn/__local/E/6E/25/5F37628D7D0C7315914F51E5518_4F623DF5_1F4A3A2.pdf",
+      "file": "layout-2025.png",
+      "date": "2025 brochure, printed pp.41-42",
+      "kind": "illustrated map; not survey"
+    },
+    {
+      "id": "PHOTOS",
+      "url": "https://www.nwpu.edu.cn/info/1198/92938.htm",
+      "date": "published 2024-10-08; individual photographs 2022-2024",
+      "kind": "official real photographs"
+    },
+    {
+      "id": "SCENERY",
+      "url": "https://yzb.nwpu.edu.cn/new/xxjj/xyfg.htm",
+      "date": "viewed 2026-09-24",
+      "kind": "official campus photo index"
+    }
+  ],
+  "objects": [
+    {
+      "id": "B001",
+      "name": "图书馆与启真楼",
+      "map": "MAP",
+      "map_uv": [
+        1091,
+        650
+      ],
+      "facade_source": "library.png",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "B: identifiable photograph features",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B002",
+      "name": "启翔楼",
+      "map": "MAP",
+      "map_uv": [
+        635,
+        638
+      ],
+      "facade_source": "qixiang.png",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "B: identifiable photograph features",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B003",
+      "name": "军工素质教育实践中心",
+      "map": "MAP",
+      "map_uv": [
+        463,
+        562
+      ],
+      "facade_source": "aircraft.png",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "B: identifiable photograph features",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B004",
+      "name": "航空宇航支撑学科创新中心",
+      "map": "MAP",
+      "map_uv": [
+        568,
+        464
+      ],
+      "facade_source": "aerial.png / map typology",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B005",
+      "name": "海天苑大楼",
+      "map": "MAP",
+      "map_uv": [
+        851,
+        617
+      ],
+      "facade_source": "aerial.png / map typology",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B006",
+      "name": "海天苑餐厅",
+      "map": "MAP",
+      "map_uv": [
+        833,
+        481
+      ],
+      "facade_source": "aerial.png / map typology",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B007",
+      "name": "艺术教育中心",
+      "map": "MAP",
+      "map_uv": [
+        788,
+        479
+      ],
+      "facade_source": "aerial.png / map typology",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B008",
+      "name": "南山苑国际学术交流中心",
+      "map": "MAP",
+      "map_uv": [
+        810,
+        799
+      ],
+      "facade_source": "aerial.png / map typology",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B009",
+      "name": "翱翔游泳馆",
+      "map": "MAP",
+      "map_uv": [
+        1097,
+        477
+      ],
+      "facade_source": "aerial.png / map typology",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B010",
+      "name": "综合训练馆",
+      "map": "MAP",
+      "map_uv": [
+        1236,
+        446
+      ],
+      "facade_source": "aerial.png / map typology",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B011",
+      "name": "学生体质监测中心",
+      "map": "MAP",
+      "map_uv": [
+        1096,
+        420
+      ],
+      "facade_source": "aerial.png / map typology",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B012",
+      "name": "星天苑田径场",
+      "map": "MAP",
+      "map_uv": [
+        1187,
+        487
+      ],
+      "facade_source": "aerial.png / map typology",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B013",
+      "name": "实验大楼",
+      "map": "MAP",
+      "map_uv": [
+        1045,
+        557
+      ],
+      "facade_source": "aerial.png / map typology",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B014",
+      "name": "教学西楼",
+      "map": "MAP",
+      "map_uv": [
+        1167,
+        577
+      ],
+      "facade_source": "aerial.png / map typology",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B015",
+      "name": "教学东楼",
+      "map": "MAP",
+      "map_uv": [
+        1270,
+        716
+      ],
+      "facade_source": "aerial.png / map typology",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B016",
+      "name": "翱翔学生中心",
+      "map": "MAP",
+      "map_uv": [
+        1400,
+        643
+      ],
+      "facade_source": "aerial.png / map typology",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B017",
+      "name": "数字化大楼",
+      "map": "MAP",
+      "map_uv": [
+        1285,
+        561
+      ],
+      "facade_source": "aerial.png / map typology",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B018",
+      "name": "云天苑餐厅",
+      "map": "MAP",
+      "map_uv": [
+        1398,
+        718
+      ],
+      "facade_source": "aerial.png / map typology",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B019",
+      "name": "翱翔体育馆",
+      "map": "MAP",
+      "map_uv": [
+        1461,
+        815
+      ],
+      "facade_source": "arena.png",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "B: identifiable photograph features",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B020",
+      "name": "云天苑田径场",
+      "map": "MAP",
+      "map_uv": [
+        1598,
+        832
+      ],
+      "facade_source": "aerial.png / map typology",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B021",
+      "name": "星天苑南餐厅",
+      "map": "MAP",
+      "map_uv": [
+        1346,
+        530
+      ],
+      "facade_source": "aerial.png / map typology",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B022",
+      "name": "星天苑北餐厅",
+      "map": "MAP",
+      "map_uv": [
+        1510,
+        526
+      ],
+      "facade_source": "aerial.png / map typology",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B023",
+      "name": "大学生双创楼",
+      "map": "MAP",
+      "map_uv": [
+        1497,
+        477
+      ],
+      "facade_source": "aerial.png / map typology",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B024",
+      "name": "东大门",
+      "map": "MAP",
+      "map_uv": [
+        1108,
+        889
+      ],
+      "facade_source": "east-gate.png",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "B: identifiable photograph features",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B025",
+      "name": "物理科学与技术学院",
+      "map": "MAP",
+      "map_uv": [
+        891,
+        767
+      ],
+      "facade_source": "aerial.png / map typology",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B026",
+      "name": "化学与化工学院",
+      "map": "MAP",
+      "map_uv": [
+        935,
+        756
+      ],
+      "facade_source": "aerial.png / map typology",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B027",
+      "name": "自动化学院",
+      "map": "MAP",
+      "map_uv": [
+        978,
+        763
+      ],
+      "facade_source": "aerial.png / map typology",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B028",
+      "name": "电子信息与微电子学院",
+      "map": "MAP",
+      "map_uv": [
+        1045,
+        784
+      ],
+      "facade_source": "aerial.png / map typology",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B029",
+      "name": "力学与土木建筑学院",
+      "map": "MAP",
+      "map_uv": [
+        1238,
+        777
+      ],
+      "facade_source": "aerial.png / map typology",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B030",
+      "name": "管理学院",
+      "map": "MAP",
+      "map_uv": [
+        1158,
+        768
+      ],
+      "facade_source": "aerial.png / map typology",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B031",
+      "name": "动力与能源学院",
+      "map": "MAP",
+      "map_uv": [
+        1193,
+        823
+      ],
+      "facade_source": "aerial.png / map typology",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B032",
+      "name": "计算机学院",
+      "map": "MAP",
+      "map_uv": [
+        1258,
+        821
+      ],
+      "facade_source": "aerial.png / map typology",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B033",
+      "name": "公共政策与管理学院",
+      "map": "MAP",
+      "map_uv": [
+        1313,
+        824
+      ],
+      "facade_source": "aerial.png / map typology",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B034",
+      "name": "马克思主义学院",
+      "map": "MAP",
+      "map_uv": [
+        1331,
+        780
+      ],
+      "facade_source": "aerial.png / map typology",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B035",
+      "name": "网络空间安全学院",
+      "map": "MAP",
+      "map_uv": [
+        1383,
+        610.8461538461538
+      ],
+      "facade_source": "aerial.png / map typology",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {
+        "dx_blocks": -16,
+        "basis": "clearance from adjacent student-center plot"
+      },
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B036",
+      "name": "工程实践训练中心",
+      "map": "MAP",
+      "map_uv": [
+        1360,
+        430
+      ],
+      "facade_source": "aerial.png / map typology",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B037",
+      "name": "海天苑公寓南区1",
+      "map": "MAP",
+      "map_uv": [
+        677,
+        462
+      ],
+      "facade_source": "dormitories.png",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {
+        "entry_orientation": "west-facing; avoids the opposing plot",
+        "basis": "circulation adaptation, facade orientation not surveyed"
+      },
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B038",
+      "name": "海天苑公寓南区2",
+      "map": "MAP",
+      "map_uv": [
+        701,
+        462
+      ],
+      "facade_source": "dormitories.png",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {
+        "entry_orientation": "west-facing; avoids the opposing plot",
+        "basis": "circulation adaptation, facade orientation not surveyed"
+      },
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B039",
+      "name": "海天苑公寓南区3",
+      "map": "MAP",
+      "map_uv": [
+        725,
+        462
+      ],
+      "facade_source": "dormitories.png",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {
+        "entry_orientation": "west-facing; avoids the opposing plot",
+        "basis": "circulation adaptation, facade orientation not surveyed"
+      },
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B040",
+      "name": "海天苑公寓南区4",
+      "map": "MAP",
+      "map_uv": [
+        749,
+        462
+      ],
+      "facade_source": "dormitories.png",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {
+        "entry_orientation": "west-facing; avoids the opposing plot",
+        "basis": "circulation adaptation, facade orientation not surveyed"
+      },
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B041",
+      "name": "海天苑公寓南区5",
+      "map": "MAP",
+      "map_uv": [
+        677,
+        482
+      ],
+      "facade_source": "dormitories.png",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B042",
+      "name": "海天苑公寓南区6",
+      "map": "MAP",
+      "map_uv": [
+        701,
+        482
+      ],
+      "facade_source": "dormitories.png",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B043",
+      "name": "海天苑公寓南区7",
+      "map": "MAP",
+      "map_uv": [
+        725,
+        482
+      ],
+      "facade_source": "dormitories.png",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B044",
+      "name": "海天苑公寓南区8",
+      "map": "MAP",
+      "map_uv": [
+        749,
+        482
+      ],
+      "facade_source": "dormitories.png",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B045",
+      "name": "海天苑公寓北区1",
+      "map": "MAP",
+      "map_uv": [
+        781,
+        444
+      ],
+      "facade_source": "dormitories.png",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B046",
+      "name": "海天苑公寓北区2",
+      "map": "MAP",
+      "map_uv": [
+        807,
+        440
+      ],
+      "facade_source": "dormitories.png",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B047",
+      "name": "海天苑公寓北区3",
+      "map": "MAP",
+      "map_uv": [
+        833,
+        444
+      ],
+      "facade_source": "dormitories.png",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B048",
+      "name": "海天苑公寓北区4",
+      "map": "MAP",
+      "map_uv": [
+        861,
+        442
+      ],
+      "facade_source": "dormitories.png",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B049",
+      "name": "海天苑公寓北区5",
+      "map": "MAP",
+      "map_uv": [
+        891,
+        449
+      ],
+      "facade_source": "dormitories.png",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B050",
+      "name": "海天苑公寓北区6",
+      "map": "MAP",
+      "map_uv": [
+        902,
+        475
+      ],
+      "facade_source": "dormitories.png",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B051",
+      "name": "星天苑公寓01",
+      "map": "MAP",
+      "map_uv": [
+        1331,
+        461
+      ],
+      "facade_source": "dormitories.png",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B052",
+      "name": "星天苑公寓02",
+      "map": "MAP",
+      "map_uv": [
+        1359,
+        461
+      ],
+      "facade_source": "dormitories.png",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B053",
+      "name": "星天苑公寓03",
+      "map": "MAP",
+      "map_uv": [
+        1387,
+        461
+      ],
+      "facade_source": "dormitories.png",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B054",
+      "name": "星天苑公寓04",
+      "map": "MAP",
+      "map_uv": [
+        1415,
+        461
+      ],
+      "facade_source": "dormitories.png",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B055",
+      "name": "星天苑公寓05",
+      "map": "MAP",
+      "map_uv": [
+        1443,
+        461
+      ],
+      "facade_source": "dormitories.png",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B056",
+      "name": "星天苑公寓06",
+      "map": "MAP",
+      "map_uv": [
+        1471,
+        461
+      ],
+      "facade_source": "dormitories.png",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B057",
+      "name": "星天苑公寓07",
+      "map": "MAP",
+      "map_uv": [
+        1351,
+        582
+      ],
+      "facade_source": "dormitories.png",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B058",
+      "name": "星天苑公寓08",
+      "map": "MAP",
+      "map_uv": [
+        1379,
+        582
+      ],
+      "facade_source": "dormitories.png",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B059",
+      "name": "星天苑公寓09",
+      "map": "MAP",
+      "map_uv": [
+        1407,
+        582
+      ],
+      "facade_source": "dormitories.png",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B060",
+      "name": "星天苑公寓10",
+      "map": "MAP",
+      "map_uv": [
+        1435,
+        582
+      ],
+      "facade_source": "dormitories.png",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B061",
+      "name": "星天苑公寓11",
+      "map": "MAP",
+      "map_uv": [
+        1463,
+        582
+      ],
+      "facade_source": "dormitories.png",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B062",
+      "name": "星天苑公寓12",
+      "map": "MAP",
+      "map_uv": [
+        1491,
+        582
+      ],
+      "facade_source": "dormitories.png",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B063",
+      "name": "云天苑公寓01",
+      "map": "MAP",
+      "map_uv": [
+        1436,
+        708
+      ],
+      "facade_source": "dormitories.png",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B064",
+      "name": "云天苑公寓02",
+      "map": "MAP",
+      "map_uv": [
+        1479,
+        708
+      ],
+      "facade_source": "dormitories.png",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B065",
+      "name": "云天苑公寓03",
+      "map": "MAP",
+      "map_uv": [
+        1522,
+        708
+      ],
+      "facade_source": "dormitories.png",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B066",
+      "name": "云天苑公寓04",
+      "map": "MAP",
+      "map_uv": [
+        1565,
+        708
+      ],
+      "facade_source": "dormitories.png",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B067",
+      "name": "云天苑公寓05",
+      "map": "MAP",
+      "map_uv": [
+        1448,
+        769
+      ],
+      "facade_source": "dormitories.png",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B068",
+      "name": "云天苑公寓06",
+      "map": "MAP",
+      "map_uv": [
+        1491,
+        769
+      ],
+      "facade_source": "dormitories.png",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B069",
+      "name": "云天苑公寓07",
+      "map": "MAP",
+      "map_uv": [
+        1534,
+        769
+      ],
+      "facade_source": "dormitories.png",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B070",
+      "name": "云天苑公寓08",
+      "map": "MAP",
+      "map_uv": [
+        1577,
+        769
+      ],
+      "facade_source": "dormitories.png",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B071",
+      "name": "星天苑篮球场",
+      "map": "MAP",
+      "map_uv": [
+        1272,
+        489
+      ],
+      "facade_source": "aerial.png / map typology",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B072",
+      "name": "海天苑运动场",
+      "map": "MAP",
+      "map_uv": [
+        637,
+        465
+      ],
+      "facade_source": "aerial.png / map typology",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B073",
+      "name": "配套楼1",
+      "map": "MAP",
+      "map_uv": [
+        356,
+        454
+      ],
+      "facade_source": "aerial.png / map typology",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B074",
+      "name": "配套楼2",
+      "map": "MAP",
+      "map_uv": [
+        422,
+        456
+      ],
+      "facade_source": "aerial.png / map typology",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B075",
+      "name": "配套楼3",
+      "map": "MAP",
+      "map_uv": [
+        493,
+        453
+      ],
+      "facade_source": "aerial.png / map typology",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B076",
+      "name": "配套楼4",
+      "map": "MAP",
+      "map_uv": [
+        359,
+        503
+      ],
+      "facade_source": "aerial.png / map typology",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B077",
+      "name": "配套楼5",
+      "map": "MAP",
+      "map_uv": [
+        895,
+        421
+      ],
+      "facade_source": "aerial.png / map typology",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B078",
+      "name": "配套楼6",
+      "map": "MAP",
+      "map_uv": [
+        1311,
+        437
+      ],
+      "facade_source": "aerial.png / map typology",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {},
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    },
+    {
+      "id": "B079",
+      "name": "配套楼7",
+      "map": "MAP",
+      "map_uv": [
+        1444,
+        438
+      ],
+      "facade_source": "aerial.png / map typology",
+      "layout_confidence": "B: interpreted official illustrated map",
+      "facade_confidence": "C: simplified/inferred typology",
+      "interior": "C: designed for exploration, not measured rooms",
+      "adaptation": {
+        "entry_orientation": "west-facing; avoids the opposing plot",
+        "basis": "circulation adaptation, facade orientation not surveyed"
+      },
+      "missing_evidence": [
+        "survey dimensions",
+        "complete side/rear photos",
+        "measured interior"
+      ]
+    }
+  ],
+  "local_reference_sha256": {
+    "aerial.png": "789a6cafd9cc6e645304ac061c65ab478cd44f41395ae5c80174a22249cab100",
+    "aircraft.png": "90678e2dd7340f3c10f0c564281eaa9b1c29fd69ad4f85d9f2da82c7c29d8efe",
+    "arena.png": "ea005dc2d0172c991d0088b91e771b8a024aee54fff74d7b43fe599c47d8dfc4",
+    "dormitories.png": "7d92344ea9721a7100a7ffa7dc630a0f3bf38e54ff6d4a1f1bf416190b85501c",
+    "east-gate.png": "8feeaf7f74e643e45f98bcc283b623a6ce96ccd3b0156e33b0b46da4d8b40782",
+    "layout-2025.png": "5902747650d261214efd947153f062f9b0519fd5ae26446229c027971cb20a6e",
+    "library.png": "9fc3532a020eb2c3c5ff9f3225034d46612cadb1e2ce4c370b3e639652e03dec",
+    "qixiang.png": "89941d6c29f2dbebd30c0a711885f5560639fe94c81b8bcee6a48a618e306002",
+    "warriors.png": "503b365bfc6b0a104bcdc12f614a84ef5bf881d3fc06d13180896aaecc3ecea1"
+  }
+}

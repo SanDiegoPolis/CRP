@@ -1,0 +1,123 @@
+{
+  "status": "PARTIAL",
+  "delivery_decision": "READY_WITH_DECLARED_APPROXIMATIONS",
+  "reviewed_at": "2026-09-24",
+  "method": "Model-visible inspection of final voxel renderings, official photographs, source map and fixed-view before/after comparison.",
+  "same_camera_before_after": "重制前后对比.png",
+  "source_photo_camera_alignment": "Qualitative feature comparison, not a calibrated perspective fit.",
+  "rows": [
+    {
+      "object_id": "B001",
+      "source": "research/library.png",
+      "source_sha256": "9fc3532a020eb2c3c5ff9f3225034d46612cadb1e2ce4c370b3e639652e03dec",
+      "render": "图书馆与启真湖.png",
+      "render_sha256": "f7b9e8ecea872f1335a1c986661bb17b78a5b7365ae1723a9182301b0768432a",
+      "target_world_binding_sha256": "e28a82f26917341610b89d00c1ef241d2806c6f211c6b61f60d790cd523d4d08",
+      "camera": {
+        "projection": "orthographic SE",
+        "world_crop_xz": [
+          640,
+          925,
+          1010,
+          1275
+        ],
+        "width": 2400,
+        "vertical_projection_factor": 1.1
+      },
+      "observations": "弧形较窄主楼、低层柱廊、水平玻璃分带与采光体可辨认，旧版过厚屋面已减小。",
+      "unverified": "尺寸、弧率、背面及室内为估算；不是按照片透视逐像素配准。",
+      "decision": "partial; identified exterior features reviewed"
+    },
+    {
+      "object_id": "B002",
+      "source": "research/qixiang.png",
+      "source_sha256": "89941d6c29f2dbebd30c0a711885f5560639fe94c81b8bcee6a48a618e306002",
+      "render": "启翔楼与启翔湖.png",
+      "render_sha256": "346c735a4012e6c96037748cc86963324a24abd1ce7fd95953fe69fa1d16bb35",
+      "target_world_binding_sha256": "e28a82f26917341610b89d00c1ef241d2806c6f211c6b61f60d790cd523d4d08",
+      "camera": {
+        "projection": "orthographic SE",
+        "world_crop_xz": [
+          440,
+          1670,
+          970,
+          2050
+        ],
+        "width": 2500,
+        "vertical_projection_factor": 1.1
+      },
+      "observations": "较高四角、低檐门厅、深色挑檐、院落与坡顶层次可辨认。",
+      "unverified": "门窗节奏和角楼比例为近似，未核对每一侧实测尺寸。",
+      "decision": "partial; identified exterior features reviewed"
+    },
+    {
+      "object_id": "B019",
+      "source": "research/arena.png",
+      "source_sha256": "ea005dc2d0172c991d0088b91e771b8a024aee54fff74d7b43fe599c47d8dfc4",
+      "render": "翱翔体育馆.png",
+      "render_sha256": "667b1dab71b08d38cc320dc2e84b4a234bcbd91ac0e630963c3748d8f0e0e4e1",
+      "target_world_binding_sha256": "e28a82f26917341610b89d00c1ef241d2806c6f211c6b61f60d790cd523d4d08",
+      "camera": {
+        "projection": "orthographic SE",
+        "world_crop_xz": [
+          1070,
+          300,
+          1380,
+          615
+        ],
+        "width": 2300,
+        "vertical_projection_factor": 1.1
+      },
+      "observations": "双馆的高低体量、圆形上窗和细屋顶构架已区分，球场入口保持可通行。",
+      "unverified": "圆窗为体素近似，主入口台阶/台地高差采用平接适配，未按实测恢复。",
+      "decision": "partial; identified exterior features reviewed"
+    },
+    {
+      "object_id": "B024",
+      "source": "research/east-gate.png",
+      "source_sha256": "8feeaf7f74e643e45f98bcc283b623a6ce96ccd3b0156e33b0b46da4d8b40782",
+      "render": "东门与何尊广场.png",
+      "render_sha256": "a4684823ff1a20083041876031fd1cc89b560aaf3ebb7f00b061b055e60f2e08",
+      "target_world_binding_sha256": "e28a82f26917341610b89d00c1ef241d2806c6f211c6b61f60d790cd523d4d08",
+      "camera": {
+        "projection": "orthographic SE",
+        "world_crop_xz": [
+          945,
+          910,
+          1515,
+          1230
+        ],
+        "width": 2400,
+        "vertical_projection_factor": 1.1
+      },
+      "observations": "成束柱组、連梁、浅钵柱头与连续校名墙可辨认；门区开放通道可通过。",
+      "unverified": "附属侧门和精确字形未逐项测量复刻。",
+      "decision": "partial; identified exterior features reviewed"
+    },
+    {
+      "object_id": "B003",
+      "source": "research/aircraft.png",
+      "source_sha256": "90678e2dd7340f3c10f0c564281eaa9b1c29fd69ad4f85d9f2da82c7c29d8efe",
+      "render": "博物馆航空展区.png",
+      "render_sha256": "86bae76fc5b5d52bfdded0a995ad6ac42491aee43348bd433d64e095c9057d83",
+      "target_world_binding_sha256": "e28a82f26917341610b89d00c1ef241d2806c6f211c6b61f60d790cd523d4d08",
+      "camera": {
+        "projection": "orthographic SE",
+        "world_crop_xz": [
+          395,
+          1955,
+          790,
+          2330
+        ],
+        "width": 2300,
+        "vertical_projection_factor": 1.1
+      },
+      "observations": "低层展馆与航空展示前庭的主要关系保留，模型按静态展品制作。",
+      "unverified": "展机为简化类型，不作为具体机型、数量与陈列朝向的精确记录。",
+      "decision": "partial; identified exterior features reviewed"
+    }
+  ],
+  "client_runtime_visual_review": "NOT_RUN",
+  "night_and_performance": "NOT_RUN",
+  "limits": "Ordinary facades, interiors, terrain and some entrance grading remain inferred; no realism percentage claimed."
+}

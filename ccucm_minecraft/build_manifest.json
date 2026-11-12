@@ -1,0 +1,756 @@
+{
+  "title": "长春中医药大学 · 净月校区",
+  "version": "26.2",
+  "data_version": 4903,
+  "scale": "约 1.25 方块 / 现实 1 米（估算）",
+  "dimensions": [
+    1152,
+    96,
+    896
+  ],
+  "spawn": [
+    370,
+    65,
+    800
+  ],
+  "chunks": 4032,
+  "palette": [
+    {
+      "Name": "minecraft:air"
+    },
+    {
+      "Name": "minecraft:grass_block",
+      "Properties": {
+        "snowy": "false"
+      }
+    },
+    {
+      "Name": "minecraft:stone"
+    },
+    {
+      "Name": "minecraft:dirt"
+    },
+    {
+      "Name": "minecraft:bedrock"
+    },
+    {
+      "Name": "minecraft:smooth_quartz"
+    },
+    {
+      "Name": "minecraft:white_concrete"
+    },
+    {
+      "Name": "minecraft:bricks"
+    },
+    {
+      "Name": "minecraft:terracotta"
+    },
+    {
+      "Name": "minecraft:white_terracotta"
+    },
+    {
+      "Name": "minecraft:polished_granite"
+    },
+    {
+      "Name": "minecraft:polished_deepslate"
+    },
+    {
+      "Name": "minecraft:gray_concrete"
+    },
+    {
+      "Name": "minecraft:smooth_stone"
+    },
+    {
+      "Name": "minecraft:polished_andesite"
+    },
+    {
+      "Name": "minecraft:black_concrete"
+    },
+    {
+      "Name": "minecraft:cyan_stained_glass"
+    },
+    {
+      "Name": "minecraft:glass"
+    },
+    {
+      "Name": "minecraft:light_blue_stained_glass"
+    },
+    {
+      "Name": "minecraft:water",
+      "Properties": {
+        "level": "0"
+      }
+    },
+    {
+      "Name": "minecraft:oak_planks"
+    },
+    {
+      "Name": "minecraft:spruce_planks"
+    },
+    {
+      "Name": "minecraft:oak_log",
+      "Properties": {
+        "axis": "y"
+      }
+    },
+    {
+      "Name": "minecraft:oak_leaves",
+      "Properties": {
+        "persistent": "true",
+        "distance": "1",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "Name": "minecraft:birch_leaves",
+      "Properties": {
+        "persistent": "true",
+        "distance": "1",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "Name": "minecraft:spruce_leaves",
+      "Properties": {
+        "persistent": "true",
+        "distance": "1",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "Name": "minecraft:birch_log",
+      "Properties": {
+        "axis": "y"
+      }
+    },
+    {
+      "Name": "minecraft:spruce_log",
+      "Properties": {
+        "axis": "y"
+      }
+    },
+    {
+      "Name": "minecraft:red_concrete"
+    },
+    {
+      "Name": "minecraft:yellow_concrete"
+    },
+    {
+      "Name": "minecraft:gold_block"
+    },
+    {
+      "Name": "minecraft:green_concrete"
+    },
+    {
+      "Name": "minecraft:lime_concrete"
+    },
+    {
+      "Name": "minecraft:blue_concrete"
+    },
+    {
+      "Name": "minecraft:orange_terracotta"
+    },
+    {
+      "Name": "minecraft:sea_lantern"
+    },
+    {
+      "Name": "minecraft:glowstone"
+    },
+    {
+      "Name": "minecraft:iron_block"
+    },
+    {
+      "Name": "minecraft:iron_bars",
+      "Properties": {
+        "north": "true",
+        "south": "true",
+        "east": "true",
+        "west": "true",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "Name": "minecraft:oak_fence",
+      "Properties": {
+        "north": "true",
+        "south": "true",
+        "east": "true",
+        "west": "true",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "Name": "minecraft:bookshelf"
+    },
+    {
+      "Name": "minecraft:barrel",
+      "Properties": {
+        "facing": "up",
+        "open": "false"
+      }
+    },
+    {
+      "Name": "minecraft:poppy"
+    },
+    {
+      "Name": "minecraft:dandelion"
+    },
+    {
+      "Name": "minecraft:azure_bluet"
+    },
+    {
+      "Name": "minecraft:short_grass"
+    },
+    {
+      "Name": "minecraft:farmland",
+      "Properties": {
+        "moisture": "7"
+      }
+    },
+    {
+      "Name": "minecraft:wheat",
+      "Properties": {
+        "age": "7"
+      }
+    },
+    {
+      "Name": "minecraft:carrots",
+      "Properties": {
+        "age": "7"
+      }
+    },
+    {
+      "Name": "minecraft:beetroots",
+      "Properties": {
+        "age": "3"
+      }
+    },
+    {
+      "Name": "minecraft:fern"
+    },
+    {
+      "Name": "minecraft:oak_sign",
+      "Properties": {
+        "rotation": "8",
+        "waterlogged": "false"
+      }
+    }
+  ],
+  "colors": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      103,
+      147,
+      74
+    ],
+    [
+      119,
+      121,
+      122
+    ],
+    [
+      129,
+      95,
+      66
+    ],
+    [
+      69,
+      69,
+      69
+    ],
+    [
+      231,
+      228,
+      219
+    ],
+    [
+      212,
+      214,
+      213
+    ],
+    [
+      162,
+      94,
+      80
+    ],
+    [
+      158,
+      108,
+      81
+    ],
+    [
+      202,
+      173,
+      163
+    ],
+    [
+      151,
+      107,
+      93
+    ],
+    [
+      65,
+      66,
+      71
+    ],
+    [
+      69,
+      72,
+      78
+    ],
+    [
+      160,
+      161,
+      160
+    ],
+    [
+      135,
+      138,
+      138
+    ],
+    [
+      35,
+      37,
+      40
+    ],
+    [
+      70,
+      131,
+      140
+    ],
+    [
+      168,
+      201,
+      205
+    ],
+    [
+      92,
+      158,
+      190
+    ],
+    [
+      61,
+      128,
+      179
+    ],
+    [
+      167,
+      130,
+      76
+    ],
+    [
+      111,
+      82,
+      48
+    ],
+    [
+      113,
+      89,
+      54
+    ],
+    [
+      62,
+      115,
+      49
+    ],
+    [
+      93,
+      138,
+      66
+    ],
+    [
+      45,
+      91,
+      59
+    ],
+    [
+      213,
+      209,
+      181
+    ],
+    [
+      92,
+      71,
+      45
+    ],
+    [
+      167,
+      54,
+      51
+    ],
+    [
+      227,
+      175,
+      40
+    ],
+    [
+      238,
+      200,
+      63
+    ],
+    [
+      75,
+      107,
+      50
+    ],
+    [
+      119,
+      161,
+      47
+    ],
+    [
+      63,
+      83,
+      154
+    ],
+    [
+      158,
+      80,
+      45
+    ],
+    [
+      174,
+      211,
+      197
+    ],
+    [
+      199,
+      164,
+      93
+    ],
+    [
+      209,
+      211,
+      210
+    ],
+    [
+      149,
+      155,
+      157
+    ],
+    [
+      137,
+      108,
+      63
+    ],
+    [
+      147,
+      116,
+      68
+    ],
+    [
+      128,
+      98,
+      57
+    ],
+    [
+      203,
+      62,
+      52
+    ],
+    [
+      241,
+      206,
+      54
+    ],
+    [
+      230,
+      230,
+      219
+    ],
+    [
+      87,
+      131,
+      60
+    ],
+    [
+      110,
+      75,
+      44
+    ],
+    [
+      192,
+      178,
+      68
+    ],
+    [
+      88,
+      143,
+      54
+    ],
+    [
+      116,
+      136,
+      58
+    ],
+    [
+      74,
+      123,
+      57
+    ],
+    [
+      155,
+      125,
+      78
+    ]
+  ],
+  "landmarks": [
+    {
+      "name": "四象城 · 图书馆",
+      "x": 565,
+      "z": 185,
+      "width": 249,
+      "depth": 123,
+      "kind": "library",
+      "note": "柱廊、玻璃幕墙、五层阅览区"
+    },
+    {
+      "name": "致知楼 · 第一教学楼",
+      "x": 226,
+      "z": 518,
+      "width": 254,
+      "depth": 39,
+      "kind": "classroom",
+      "note": ""
+    },
+    {
+      "name": "行知楼 · 第二教学楼",
+      "x": 579,
+      "z": 522,
+      "width": 237,
+      "depth": 35,
+      "kind": "classroom",
+      "note": ""
+    },
+    {
+      "name": "明德楼 · 行政办公",
+      "x": 122,
+      "z": 749,
+      "width": 184,
+      "depth": 30,
+      "kind": "office",
+      "note": ""
+    },
+    {
+      "name": "仲景楼 · 临床实验",
+      "x": 508,
+      "z": 734,
+      "width": 135,
+      "depth": 45,
+      "kind": "lab",
+      "note": ""
+    },
+    {
+      "name": "时珍楼 · 药学实验",
+      "x": 689,
+      "z": 742,
+      "width": 145,
+      "depth": 37,
+      "kind": "lab",
+      "note": ""
+    },
+    {
+      "name": "启德馆 · 中医药博物馆",
+      "x": 105,
+      "z": 621,
+      "width": 83,
+      "depth": 59,
+      "kind": "museum",
+      "note": ""
+    },
+    {
+      "name": "日新楼",
+      "x": 908,
+      "z": 613,
+      "width": 67,
+      "depth": 101,
+      "kind": "lab",
+      "note": ""
+    },
+    {
+      "name": "格物楼 · 创新实践中心",
+      "x": 991,
+      "z": 636,
+      "width": 92,
+      "depth": 143,
+      "kind": "lab",
+      "note": ""
+    },
+    {
+      "name": "校园服务楼",
+      "x": 105,
+      "z": 369,
+      "width": 58,
+      "depth": 61,
+      "kind": "office",
+      "note": ""
+    },
+    {
+      "name": "教学附楼",
+      "x": 116,
+      "z": 460,
+      "width": 47,
+      "depth": 73,
+      "kind": "lab",
+      "note": ""
+    },
+    {
+      "name": "新公寓 · 半夏居",
+      "x": 260,
+      "z": 187,
+      "width": 220,
+      "depth": 26,
+      "kind": "dorm",
+      "note": ""
+    },
+    {
+      "name": "新公寓 · 茯苓居",
+      "x": 260,
+      "z": 233,
+      "width": 220,
+      "depth": 26,
+      "kind": "dorm",
+      "note": ""
+    },
+    {
+      "name": "新公寓 · 人参居",
+      "x": 260,
+      "z": 279,
+      "width": 220,
+      "depth": 26,
+      "kind": "dorm",
+      "note": ""
+    },
+    {
+      "name": "杏林创客空间",
+      "x": 232,
+      "z": 328,
+      "width": 248,
+      "depth": 22,
+      "kind": "office",
+      "note": ""
+    },
+    {
+      "name": "白术居",
+      "x": 232,
+      "z": 378,
+      "width": 31,
+      "depth": 87,
+      "kind": "dorm",
+      "note": ""
+    },
+    {
+      "name": "陈皮居",
+      "x": 401,
+      "z": 378,
+      "width": 31,
+      "depth": 87,
+      "kind": "dorm",
+      "note": ""
+    },
+    {
+      "name": "六君子居 · 学生公寓",
+      "x": 658,
+      "z": 377,
+      "width": 158,
+      "depth": 25,
+      "kind": "dorm",
+      "note": ""
+    },
+    {
+      "name": "杏林餐厅",
+      "x": 568,
+      "z": 383,
+      "width": 68,
+      "depth": 77,
+      "kind": "canteen",
+      "note": ""
+    },
+    {
+      "name": "行德馆 · 八卦广场",
+      "x": 737,
+      "z": 604,
+      "width": 86,
+      "depth": 76,
+      "kind": "gym",
+      "note": ""
+    },
+    {
+      "name": "体育场 · 环形跑道",
+      "x": 980,
+      "z": 364,
+      "width": 122,
+      "depth": 214,
+      "kind": "stadium",
+      "note": ""
+    },
+    {
+      "name": "七星百草园",
+      "x": 902,
+      "z": 176,
+      "width": 190,
+      "depth": 151,
+      "kind": "garden",
+      "note": ""
+    },
+    {
+      "name": "九宫喷泉",
+      "x": 333,
+      "z": 597,
+      "width": 76,
+      "depth": 51,
+      "kind": "fountain",
+      "note": ""
+    },
+    {
+      "name": "南门门卫室",
+      "x": 418,
+      "z": 788,
+      "width": 20,
+      "depth": 18,
+      "kind": "office",
+      "note": ""
+    },
+    {
+      "name": "南门 · 校名石",
+      "x": 237,
+      "z": 791,
+      "width": 204,
+      "depth": 29,
+      "kind": "gate",
+      "note": ""
+    },
+    {
+      "name": "三才轩",
+      "x": 106,
+      "z": 25,
+      "width": 256,
+      "depth": 29,
+      "kind": "classroom",
+      "note": ""
+    },
+    {
+      "name": "杏林苑",
+      "x": 813,
+      "z": 27,
+      "width": 102,
+      "depth": 39,
+      "kind": "office",
+      "note": ""
+    },
+    {
+      "name": "五行宫",
+      "x": 99,
+      "z": 220,
+      "width": 58,
+      "depth": 55,
+      "kind": "pavilion",
+      "note": "外形为示意"
+    }
+  ],
+  "block_count_above_ground": 2236557
+}

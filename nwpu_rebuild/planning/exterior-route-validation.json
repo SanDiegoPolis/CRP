@@ -1,0 +1,1114 @@
+{
+  "result": "PASS",
+  "scope": "Spawn to each plot exterior entry within 3 blocks; feet at y69, 2-block clearance, paved support only. Indoor stairs checked separately.",
+  "reachable_paved_cells": 448979,
+  "plots_checked": 79,
+  "routes": [
+    {
+      "name": "图书馆与启真楼",
+      "outside_entry": [
+        867,
+        69,
+        1078
+      ],
+      "reachable_paved_point": [
+        867,
+        69,
+        1078
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "启翔楼",
+      "outside_entry": [
+        819,
+        69,
+        1854
+      ],
+      "reachable_paved_point": [
+        819,
+        69,
+        1854
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "军工素质教育实践中心",
+      "outside_entry": [
+        687,
+        69,
+        2146
+      ],
+      "reachable_paved_point": [
+        687,
+        69,
+        2146
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "航空宇航支撑学科创新中心",
+      "outside_entry": [
+        367,
+        69,
+        1967
+      ],
+      "reachable_paved_point": [
+        367,
+        69,
+        1967
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "海天苑大楼",
+      "outside_entry": [
+        791,
+        69,
+        1486
+      ],
+      "reachable_paved_point": [
+        791,
+        69,
+        1486
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "海天苑餐厅",
+      "outside_entry": [
+        388,
+        69,
+        1517
+      ],
+      "reachable_paved_point": [
+        388,
+        69,
+        1517
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "艺术教育中心",
+      "outside_entry": [
+        376,
+        69,
+        1593
+      ],
+      "reachable_paved_point": [
+        376,
+        69,
+        1593
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "南山苑国际学术交流中心",
+      "outside_entry": [
+        1241,
+        69,
+        1556
+      ],
+      "reachable_paved_point": [
+        1241,
+        69,
+        1556
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "翱翔游泳馆",
+      "outside_entry": [
+        401,
+        69,
+        1068
+      ],
+      "reachable_paved_point": [
+        401,
+        69,
+        1068
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "综合训练馆",
+      "outside_entry": [
+        295,
+        69,
+        832
+      ],
+      "reachable_paved_point": [
+        295,
+        69,
+        832
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "学生体质监测中心",
+      "outside_entry": [
+        210,
+        69,
+        1070
+      ],
+      "reachable_paved_point": [
+        210,
+        69,
+        1070
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "星天苑田径场",
+      "outside_entry": [
+        424,
+        69,
+        915
+      ],
+      "reachable_paved_point": [
+        424,
+        69,
+        915
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "实验大楼",
+      "outside_entry": [
+        582,
+        69,
+        1156
+      ],
+      "reachable_paved_point": [
+        582,
+        69,
+        1156
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "教学西楼",
+      "outside_entry": [
+        680,
+        69,
+        949
+      ],
+      "reachable_paved_point": [
+        680,
+        69,
+        949
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "教学东楼",
+      "outside_entry": [
+        1043,
+        69,
+        774
+      ],
+      "reachable_paved_point": [
+        1043,
+        69,
+        774
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "翱翔学生中心",
+      "outside_entry": [
+        826,
+        69,
+        553
+      ],
+      "reachable_paved_point": [
+        826,
+        69,
+        553
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "数字化大楼",
+      "outside_entry": [
+        596,
+        69,
+        748
+      ],
+      "reachable_paved_point": [
+        596,
+        69,
+        748
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "云天苑餐厅",
+      "outside_entry": [
+        1004,
+        69,
+        556
+      ],
+      "reachable_paved_point": [
+        1004,
+        69,
+        556
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "翱翔体育馆",
+      "outside_entry": [
+        1290,
+        69,
+        449
+      ],
+      "reachable_paved_point": [
+        1290,
+        69,
+        449
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "云天苑田径场",
+      "outside_entry": [
+        1324,
+        69,
+        216
+      ],
+      "reachable_paved_point": [
+        1324,
+        69,
+        216
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "星天苑南餐厅",
+      "outside_entry": [
+        514,
+        69,
+        645
+      ],
+      "reachable_paved_point": [
+        514,
+        69,
+        645
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "星天苑北餐厅",
+      "outside_entry": [
+        504,
+        69,
+        366
+      ],
+      "reachable_paved_point": [
+        504,
+        69,
+        366
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "大学生双创楼",
+      "outside_entry": [
+        371,
+        69,
+        388
+      ],
+      "reachable_paved_point": [
+        371,
+        69,
+        388
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "东大门",
+      "outside_entry": [
+        1434,
+        69,
+        1049
+      ],
+      "reachable_paved_point": [
+        1434,
+        69,
+        1049
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "物理科学与技术学院",
+      "outside_entry": [
+        1146,
+        69,
+        1418
+      ],
+      "reachable_paved_point": [
+        1146,
+        69,
+        1418
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "化学与化工学院",
+      "outside_entry": [
+        1118,
+        69,
+        1344
+      ],
+      "reachable_paved_point": [
+        1118,
+        69,
+        1344
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "自动化学院",
+      "outside_entry": [
+        1141,
+        69,
+        1270
+      ],
+      "reachable_paved_point": [
+        1141,
+        69,
+        1270
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "电子信息与微电子学院",
+      "outside_entry": [
+        1192,
+        69,
+        1156
+      ],
+      "reachable_paved_point": [
+        1192,
+        69,
+        1156
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "力学与土木建筑学院",
+      "outside_entry": [
+        1158,
+        69,
+        828
+      ],
+      "reachable_paved_point": [
+        1158,
+        69,
+        828
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "管理学院",
+      "outside_entry": [
+        1136,
+        69,
+        964
+      ],
+      "reachable_paved_point": [
+        1136,
+        69,
+        964
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "动力与能源学院",
+      "outside_entry": [
+        1280,
+        69,
+        905
+      ],
+      "reachable_paved_point": [
+        1280,
+        69,
+        905
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "计算机学院",
+      "outside_entry": [
+        1275,
+        69,
+        794
+      ],
+      "reachable_paved_point": [
+        1275,
+        69,
+        794
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "公共政策与管理学院",
+      "outside_entry": [
+        1282,
+        69,
+        701
+      ],
+      "reachable_paved_point": [
+        1282,
+        69,
+        701
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "马克思主义学院",
+      "outside_entry": [
+        1158,
+        69,
+        670
+      ],
+      "reachable_paved_point": [
+        1158,
+        69,
+        670
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "网络空间安全学院",
+      "outside_entry": [
+        706,
+        69,
+        582
+      ],
+      "reachable_paved_point": [
+        706,
+        69,
+        582
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "工程实践训练中心",
+      "outside_entry": [
+        242,
+        69,
+        621
+      ],
+      "reachable_paved_point": [
+        242,
+        69,
+        621
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "海天苑公寓南区1",
+      "outside_entry": [
+        264,
+        69,
+        1782
+      ],
+      "reachable_paved_point": [
+        264,
+        69,
+        1782
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "海天苑公寓南区2",
+      "outside_entry": [
+        264,
+        69,
+        1741
+      ],
+      "reachable_paved_point": [
+        264,
+        69,
+        1741
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "海天苑公寓南区3",
+      "outside_entry": [
+        264,
+        69,
+        1700
+      ],
+      "reachable_paved_point": [
+        264,
+        69,
+        1700
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "海天苑公寓南区4",
+      "outside_entry": [
+        264,
+        69,
+        1660
+      ],
+      "reachable_paved_point": [
+        264,
+        69,
+        1660
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "海天苑公寓南区5",
+      "outside_entry": [
+        380,
+        69,
+        1782
+      ],
+      "reachable_paved_point": [
+        380,
+        69,
+        1782
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "海天苑公寓南区6",
+      "outside_entry": [
+        380,
+        69,
+        1741
+      ],
+      "reachable_paved_point": [
+        380,
+        69,
+        1741
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "海天苑公寓南区7",
+      "outside_entry": [
+        380,
+        69,
+        1700
+      ],
+      "reachable_paved_point": [
+        380,
+        69,
+        1700
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "海天苑公寓南区8",
+      "outside_entry": [
+        380,
+        69,
+        1660
+      ],
+      "reachable_paved_point": [
+        380,
+        69,
+        1660
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "海天苑公寓北区1",
+      "outside_entry": [
+        286,
+        69,
+        1605
+      ],
+      "reachable_paved_point": [
+        286,
+        69,
+        1605
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "海天苑公寓北区2",
+      "outside_entry": [
+        276,
+        69,
+        1561
+      ],
+      "reachable_paved_point": [
+        276,
+        69,
+        1561
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "海天苑公寓北区3",
+      "outside_entry": [
+        286,
+        69,
+        1517
+      ],
+      "reachable_paved_point": [
+        286,
+        69,
+        1517
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "海天苑公寓北区4",
+      "outside_entry": [
+        282,
+        69,
+        1469
+      ],
+      "reachable_paved_point": [
+        282,
+        69,
+        1469
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "海天苑公寓北区5",
+      "outside_entry": [
+        300,
+        69,
+        1418
+      ],
+      "reachable_paved_point": [
+        300,
+        69,
+        1418
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "海天苑公寓北区6",
+      "outside_entry": [
+        368,
+        69,
+        1400
+      ],
+      "reachable_paved_point": [
+        368,
+        69,
+        1400
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "星天苑公寓01",
+      "outside_entry": [
+        338,
+        69,
+        670
+      ],
+      "reachable_paved_point": [
+        338,
+        69,
+        670
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "星天苑公寓02",
+      "outside_entry": [
+        338,
+        69,
+        623
+      ],
+      "reachable_paved_point": [
+        338,
+        69,
+        623
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "星天苑公寓03",
+      "outside_entry": [
+        338,
+        69,
+        575
+      ],
+      "reachable_paved_point": [
+        338,
+        69,
+        575
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "星天苑公寓04",
+      "outside_entry": [
+        338,
+        69,
+        528
+      ],
+      "reachable_paved_point": [
+        338,
+        69,
+        528
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "星天苑公寓05",
+      "outside_entry": [
+        338,
+        69,
+        480
+      ],
+      "reachable_paved_point": [
+        338,
+        69,
+        480
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "星天苑公寓06",
+      "outside_entry": [
+        338,
+        69,
+        432
+      ],
+      "reachable_paved_point": [
+        338,
+        69,
+        432
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "星天苑公寓07",
+      "outside_entry": [
+        652,
+        69,
+        636
+      ],
+      "reachable_paved_point": [
+        652,
+        69,
+        636
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "星天苑公寓08",
+      "outside_entry": [
+        652,
+        69,
+        589
+      ],
+      "reachable_paved_point": [
+        652,
+        69,
+        589
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "星天苑公寓09",
+      "outside_entry": [
+        652,
+        69,
+        541
+      ],
+      "reachable_paved_point": [
+        652,
+        69,
+        541
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "星天苑公寓10",
+      "outside_entry": [
+        652,
+        69,
+        494
+      ],
+      "reachable_paved_point": [
+        652,
+        69,
+        494
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "星天苑公寓11",
+      "outside_entry": [
+        652,
+        69,
+        446
+      ],
+      "reachable_paved_point": [
+        652,
+        69,
+        446
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "星天苑公寓12",
+      "outside_entry": [
+        652,
+        69,
+        398
+      ],
+      "reachable_paved_point": [
+        652,
+        69,
+        398
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "云天苑公寓01",
+      "outside_entry": [
+        984,
+        69,
+        492
+      ],
+      "reachable_paved_point": [
+        984,
+        69,
+        492
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "云天苑公寓02",
+      "outside_entry": [
+        984,
+        69,
+        419
+      ],
+      "reachable_paved_point": [
+        984,
+        69,
+        419
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "云天苑公寓03",
+      "outside_entry": [
+        984,
+        69,
+        346
+      ],
+      "reachable_paved_point": [
+        984,
+        69,
+        346
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "云天苑公寓04",
+      "outside_entry": [
+        984,
+        69,
+        272
+      ],
+      "reachable_paved_point": [
+        984,
+        69,
+        272
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "云天苑公寓05",
+      "outside_entry": [
+        1142,
+        69,
+        471
+      ],
+      "reachable_paved_point": [
+        1142,
+        69,
+        471
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "云天苑公寓06",
+      "outside_entry": [
+        1142,
+        69,
+        398
+      ],
+      "reachable_paved_point": [
+        1142,
+        69,
+        398
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "云天苑公寓07",
+      "outside_entry": [
+        1142,
+        69,
+        325
+      ],
+      "reachable_paved_point": [
+        1142,
+        69,
+        325
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "云天苑公寓08",
+      "outside_entry": [
+        1142,
+        69,
+        252
+      ],
+      "reachable_paved_point": [
+        1142,
+        69,
+        252
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "星天苑篮球场",
+      "outside_entry": [
+        421,
+        69,
+        771
+      ],
+      "reachable_paved_point": [
+        421,
+        69,
+        771
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "海天苑运动场",
+      "outside_entry": [
+        406,
+        69,
+        1850
+      ],
+      "reachable_paved_point": [
+        406,
+        69,
+        1850
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "配套楼1",
+      "outside_entry": [
+        321,
+        69,
+        2328
+      ],
+      "reachable_paved_point": [
+        321,
+        69,
+        2328
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "配套楼2",
+      "outside_entry": [
+        334,
+        69,
+        2216
+      ],
+      "reachable_paved_point": [
+        334,
+        69,
+        2216
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "配套楼3",
+      "outside_entry": [
+        357,
+        69,
+        2095
+      ],
+      "reachable_paved_point": [
+        357,
+        69,
+        2095
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "配套楼4",
+      "outside_entry": [
+        428,
+        69,
+        2323
+      ],
+      "reachable_paved_point": [
+        428,
+        69,
+        2323
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "配套楼5",
+      "outside_entry": [
+        213,
+        69,
+        1412
+      ],
+      "reachable_paved_point": [
+        213,
+        69,
+        1412
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "配套楼6",
+      "outside_entry": [
+        258,
+        69,
+        704
+      ],
+      "reachable_paved_point": [
+        258,
+        69,
+        704
+      ],
+      "result": "PASS"
+    },
+    {
+      "name": "配套楼7",
+      "outside_entry": [
+        206,
+        69,
+        478
+      ],
+      "reachable_paved_point": [
+        206,
+        69,
+        478
+      ],
+      "result": "PASS"
+    }
+  ]
+}

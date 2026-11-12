@@ -1,0 +1,48 @@
+{
+  "schema": 1,
+  "minecraft_version": "26.2",
+  "assets": [
+    {
+      "path": "ccucm_minecraft/长春中医药大学_净月校区_Java26.2.zip",
+      "bytes": 6399770,
+      "sha256": "1b555b867523885edb8fe841939bc95c19ba4a13880e8ba242614221aad90e6e"
+    },
+    {
+      "path": "pitt_minecraft/匹兹堡大学_奥克兰校区_Java26.2.zip",
+      "bytes": 13070952,
+      "sha256": "463ce50d32ece04fc01ea2e15efeb0b7c3029761159e4406a82f87bc4b915ca3"
+    },
+    {
+      "path": "nwpu_minecraft/西北工业大学_长安校区_Java26.2.zip",
+      "bytes": 18605707,
+      "sha256": "05973e6faefe10ece3014dc87501687663b10befd93546d2fe658f8133d98940"
+    },
+    {
+      "path": "njtech_minecraft/南京工业大学_江浦校区_Java26.2.zip",
+      "bytes": 26295231,
+      "sha256": "0a4d133888613a581248fa64a844983f0e932f67081c0c5ae15848e3024ddc27"
+    },
+    {
+      "path": "nwpu_rebuild/西北工业大学_长安校区_重制版_Java26.2.zip",
+      "bytes": 22431784,
+      "sha256": "c17c221b8d2f7a5579536f4b2cb17c667cdeb82e8a3e00bd34afbc04bfd48b35"
+    },
+    {
+      "path": "assets/cloud-data.zip",
+      "bytes": 44470327,
+      "sha256": "d2f87b1afbd8c28ef0e2e42ee281b7fac945ab98b665be45204dab7150c09c89",
+      "parts": [
+        {
+          "path": "assets/cloud-data.zip.part01",
+          "bytes": 22235164,
+          "sha256": "41c9234a6a2065dd5b686cd715f92622356e1cf736ee43517ac9e90d9c338b3a"
+        },
+        {
+          "path": "assets/cloud-data.zip.part02",
+          "bytes": 22235163,
+          "sha256": "6e3a662489be95c82f8836a60628901c5ae3ab1e603d9d8c8b0f97094db38791"
+        }
+      ]
+    }
+  ]
+}

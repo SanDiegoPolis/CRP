@@ -1,0 +1,74 @@
+{
+  "nbt_round_trip": {
+    "regions": 6,
+    "chunks": 4032,
+    "decoded_block_states_compared": 99090432,
+    "signs": 41,
+    "result": "PASS"
+  },
+  "walking_routes": [
+    {
+      "building": "致知楼",
+      "floor_feet_heights_local": [
+        2,
+        8,
+        14,
+        20
+      ],
+      "missing": [],
+      "reachable_positions": 35339,
+      "result": "PASS"
+    },
+    {
+      "building": "图书馆",
+      "floor_feet_heights_local": [
+        6,
+        12,
+        18,
+        24,
+        30
+      ],
+      "missing": [],
+      "reachable_positions": 153791,
+      "result": "PASS"
+    },
+    {
+      "building": "新公寓 半夏居",
+      "floor_feet_heights_local": [
+        2,
+        8,
+        14,
+        20,
+        26,
+        32
+      ],
+      "missing": [],
+      "reachable_positions": 26468,
+      "result": "PASS"
+    },
+    {
+      "building": "杏林餐厅",
+      "floor_feet_heights_local": [
+        2,
+        8,
+        14
+      ],
+      "missing": [],
+      "reachable_positions": 15718,
+      "result": "PASS"
+    }
+  ],
+  "official_server": {
+    "result": "PASS",
+    "server_version": "26.2",
+    "every_authored_chunk_loaded": 4032,
+    "landmark_blocks_checked": 28,
+    "authored_chunks_with_saved_lighting": 4032,
+    "clean_shutdown": true,
+    "world_errors": [],
+    "host_diagnostics": [
+      "[14:52:21] [ServerMain/ERROR]: Unable to locate English counter names in registry Perflib 009. Counters may need to be rebuilt: "
+    ],
+    "log": "validation/campus-26.2.log"
+  }
+}

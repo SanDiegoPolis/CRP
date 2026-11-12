@@ -1,0 +1,1171 @@
+{
+  "title": "匹兹堡大学 · 奥克兰主校区",
+  "version": "26.2",
+  "data_version": 4903,
+  "scale": "约 1.1 方块 / 米，局部体量适配",
+  "dimensions": [
+    1792,
+    208,
+    1280
+  ],
+  "spawn": [
+    1350,
+    69,
+    648
+  ],
+  "chunks": 8960,
+  "palette": [
+    {
+      "Name": "minecraft:air"
+    },
+    {
+      "Name": "minecraft:grass_block",
+      "Properties": {
+        "snowy": "false"
+      }
+    },
+    {
+      "Name": "minecraft:stone"
+    },
+    {
+      "Name": "minecraft:dirt"
+    },
+    {
+      "Name": "minecraft:bedrock"
+    },
+    {
+      "Name": "minecraft:smooth_quartz"
+    },
+    {
+      "Name": "minecraft:white_concrete"
+    },
+    {
+      "Name": "minecraft:bricks"
+    },
+    {
+      "Name": "minecraft:terracotta"
+    },
+    {
+      "Name": "minecraft:white_terracotta"
+    },
+    {
+      "Name": "minecraft:polished_granite"
+    },
+    {
+      "Name": "minecraft:polished_deepslate"
+    },
+    {
+      "Name": "minecraft:gray_concrete"
+    },
+    {
+      "Name": "minecraft:smooth_stone"
+    },
+    {
+      "Name": "minecraft:polished_andesite"
+    },
+    {
+      "Name": "minecraft:black_concrete"
+    },
+    {
+      "Name": "minecraft:cyan_stained_glass"
+    },
+    {
+      "Name": "minecraft:glass"
+    },
+    {
+      "Name": "minecraft:light_blue_stained_glass"
+    },
+    {
+      "Name": "minecraft:water",
+      "Properties": {
+        "level": "0"
+      }
+    },
+    {
+      "Name": "minecraft:oak_planks"
+    },
+    {
+      "Name": "minecraft:spruce_planks"
+    },
+    {
+      "Name": "minecraft:oak_log",
+      "Properties": {
+        "axis": "y"
+      }
+    },
+    {
+      "Name": "minecraft:oak_leaves",
+      "Properties": {
+        "persistent": "true",
+        "distance": "1",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "Name": "minecraft:birch_leaves",
+      "Properties": {
+        "persistent": "true",
+        "distance": "1",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "Name": "minecraft:spruce_leaves",
+      "Properties": {
+        "persistent": "true",
+        "distance": "1",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "Name": "minecraft:birch_log",
+      "Properties": {
+        "axis": "y"
+      }
+    },
+    {
+      "Name": "minecraft:spruce_log",
+      "Properties": {
+        "axis": "y"
+      }
+    },
+    {
+      "Name": "minecraft:red_concrete"
+    },
+    {
+      "Name": "minecraft:yellow_concrete"
+    },
+    {
+      "Name": "minecraft:gold_block"
+    },
+    {
+      "Name": "minecraft:green_concrete"
+    },
+    {
+      "Name": "minecraft:lime_concrete"
+    },
+    {
+      "Name": "minecraft:blue_concrete"
+    },
+    {
+      "Name": "minecraft:orange_terracotta"
+    },
+    {
+      "Name": "minecraft:sea_lantern"
+    },
+    {
+      "Name": "minecraft:glowstone"
+    },
+    {
+      "Name": "minecraft:iron_block"
+    },
+    {
+      "Name": "minecraft:iron_bars",
+      "Properties": {
+        "north": "true",
+        "south": "true",
+        "east": "true",
+        "west": "true",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "Name": "minecraft:oak_fence",
+      "Properties": {
+        "north": "true",
+        "south": "true",
+        "east": "true",
+        "west": "true",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "Name": "minecraft:bookshelf"
+    },
+    {
+      "Name": "minecraft:barrel",
+      "Properties": {
+        "facing": "up",
+        "open": "false"
+      }
+    },
+    {
+      "Name": "minecraft:poppy"
+    },
+    {
+      "Name": "minecraft:dandelion"
+    },
+    {
+      "Name": "minecraft:azure_bluet"
+    },
+    {
+      "Name": "minecraft:short_grass"
+    },
+    {
+      "Name": "minecraft:farmland",
+      "Properties": {
+        "moisture": "7"
+      }
+    },
+    {
+      "Name": "minecraft:wheat",
+      "Properties": {
+        "age": "7"
+      }
+    },
+    {
+      "Name": "minecraft:carrots",
+      "Properties": {
+        "age": "7"
+      }
+    },
+    {
+      "Name": "minecraft:beetroots",
+      "Properties": {
+        "age": "3"
+      }
+    },
+    {
+      "Name": "minecraft:fern"
+    },
+    {
+      "Name": "minecraft:quartz_bricks"
+    },
+    {
+      "Name": "minecraft:bone_block",
+      "Properties": {
+        "axis": "y"
+      }
+    },
+    {
+      "Name": "minecraft:smooth_sandstone"
+    },
+    {
+      "Name": "minecraft:stone_bricks"
+    },
+    {
+      "Name": "minecraft:gray_stained_glass"
+    },
+    {
+      "Name": "minecraft:blue_terracotta"
+    },
+    {
+      "Name": "minecraft:red_stained_glass"
+    },
+    {
+      "Name": "minecraft:yellow_stained_glass"
+    },
+    {
+      "Name": "minecraft:purple_stained_glass"
+    },
+    {
+      "Name": "minecraft:lapis_block"
+    },
+    {
+      "Name": "minecraft:waxed_oxidized_copper"
+    },
+    {
+      "Name": "minecraft:azalea_leaves",
+      "Properties": {
+        "persistent": "true",
+        "distance": "1",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "Name": "minecraft:oak_sign",
+      "Properties": {
+        "rotation": "8",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "Name": "minecraft:oak_sign",
+      "Properties": {
+        "rotation": "6",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "Name": "minecraft:oak_sign",
+      "Properties": {
+        "rotation": "10",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "Name": "minecraft:oak_sign",
+      "Properties": {
+        "rotation": "7",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "Name": "minecraft:oak_sign",
+      "Properties": {
+        "rotation": "9",
+        "waterlogged": "false"
+      }
+    }
+  ],
+  "colors": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      103,
+      147,
+      74
+    ],
+    [
+      119,
+      121,
+      122
+    ],
+    [
+      129,
+      95,
+      66
+    ],
+    [
+      69,
+      69,
+      69
+    ],
+    [
+      231,
+      228,
+      219
+    ],
+    [
+      212,
+      214,
+      213
+    ],
+    [
+      162,
+      94,
+      80
+    ],
+    [
+      158,
+      108,
+      81
+    ],
+    [
+      202,
+      173,
+      163
+    ],
+    [
+      151,
+      107,
+      93
+    ],
+    [
+      65,
+      66,
+      71
+    ],
+    [
+      69,
+      72,
+      78
+    ],
+    [
+      160,
+      161,
+      160
+    ],
+    [
+      135,
+      138,
+      138
+    ],
+    [
+      35,
+      37,
+      40
+    ],
+    [
+      70,
+      131,
+      140
+    ],
+    [
+      168,
+      201,
+      205
+    ],
+    [
+      92,
+      158,
+      190
+    ],
+    [
+      61,
+      128,
+      179
+    ],
+    [
+      167,
+      130,
+      76
+    ],
+    [
+      111,
+      82,
+      48
+    ],
+    [
+      113,
+      89,
+      54
+    ],
+    [
+      62,
+      115,
+      49
+    ],
+    [
+      93,
+      138,
+      66
+    ],
+    [
+      45,
+      91,
+      59
+    ],
+    [
+      213,
+      209,
+      181
+    ],
+    [
+      92,
+      71,
+      45
+    ],
+    [
+      167,
+      54,
+      51
+    ],
+    [
+      227,
+      175,
+      40
+    ],
+    [
+      238,
+      200,
+      63
+    ],
+    [
+      75,
+      107,
+      50
+    ],
+    [
+      119,
+      161,
+      47
+    ],
+    [
+      63,
+      83,
+      154
+    ],
+    [
+      158,
+      80,
+      45
+    ],
+    [
+      174,
+      211,
+      197
+    ],
+    [
+      199,
+      164,
+      93
+    ],
+    [
+      209,
+      211,
+      210
+    ],
+    [
+      149,
+      155,
+      157
+    ],
+    [
+      137,
+      108,
+      63
+    ],
+    [
+      147,
+      116,
+      68
+    ],
+    [
+      128,
+      98,
+      57
+    ],
+    [
+      203,
+      62,
+      52
+    ],
+    [
+      241,
+      206,
+      54
+    ],
+    [
+      230,
+      230,
+      219
+    ],
+    [
+      87,
+      131,
+      60
+    ],
+    [
+      110,
+      75,
+      44
+    ],
+    [
+      192,
+      178,
+      68
+    ],
+    [
+      88,
+      143,
+      54
+    ],
+    [
+      116,
+      136,
+      58
+    ],
+    [
+      74,
+      123,
+      57
+    ],
+    [
+      211,
+      207,
+      190
+    ],
+    [
+      226,
+      222,
+      204
+    ],
+    [
+      213,
+      196,
+      156
+    ],
+    [
+      130,
+      133,
+      131
+    ],
+    [
+      78,
+      100,
+      105
+    ],
+    [
+      44,
+      58,
+      100
+    ],
+    [
+      158,
+      40,
+      52
+    ],
+    [
+      210,
+      168,
+      46
+    ],
+    [
+      119,
+      77,
+      157
+    ],
+    [
+      39,
+      68,
+      142
+    ],
+    [
+      82,
+      139,
+      119
+    ],
+    [
+      116,
+      143,
+      65
+    ],
+    [
+      155,
+      125,
+      78
+    ],
+    [
+      155,
+      125,
+      78
+    ],
+    [
+      155,
+      125,
+      78
+    ],
+    [
+      155,
+      125,
+      78
+    ],
+    [
+      155,
+      125,
+      78
+    ]
+  ],
+  "landmarks": [
+    {
+      "name": "Cathedral of Learning",
+      "label": "学习大教堂",
+      "x": 1293,
+      "z": 484,
+      "base": 4,
+      "width": 96,
+      "depth": 96,
+      "height": 181,
+      "angle": -40,
+      "entrance": [
+        1328,
+        69,
+        526
+      ]
+    },
+    {
+      "name": "Heinz Memorial Chapel",
+      "label": "亨氏纪念礼拜堂",
+      "x": 1411,
+      "z": 363,
+      "base": 4,
+      "width": 54,
+      "depth": 88,
+      "height": 82,
+      "angle": 40,
+      "entrance": [
+        1378,
+        69,
+        402
+      ]
+    },
+    {
+      "name": "William Pitt Union",
+      "label": "学生中心",
+      "x": 1136,
+      "z": 571,
+      "base": 4,
+      "width": 86,
+      "depth": 65,
+      "height": 50,
+      "angle": -40,
+      "entrance": [
+        1161,
+        69,
+        601
+      ]
+    },
+    {
+      "name": "Litchfield Towers",
+      "label": "三座圆形宿舍塔",
+      "x": 986,
+      "z": 664,
+      "base": 7,
+      "width": 111,
+      "depth": 112,
+      "height": 98,
+      "angle": -40,
+      "entrance": [
+        1026,
+        72,
+        712
+      ]
+    },
+    {
+      "name": "Hillman Library",
+      "label": "希尔曼图书馆",
+      "x": 1203,
+      "z": 672,
+      "base": 4,
+      "width": 101,
+      "depth": 87,
+      "height": 31,
+      "angle": -16,
+      "entrance": [
+        1217,
+        69,
+        721
+      ]
+    },
+    {
+      "name": "Petersen Events Center",
+      "label": "篮球馆",
+      "x": 472,
+      "z": 501,
+      "base": 23,
+      "width": 159,
+      "depth": 140,
+      "height": 45,
+      "angle": -40,
+      "entrance": [
+        521,
+        88,
+        560
+      ]
+    },
+    {
+      "name": "Frick Fine Arts",
+      "label": "艺术楼",
+      "x": 1483,
+      "z": 778,
+      "base": 4,
+      "width": 86,
+      "depth": 71,
+      "height": 28,
+      "angle": 30,
+      "entrance": [
+        1462,
+        69,
+        815
+      ]
+    },
+    {
+      "name": "Soldiers & Sailors",
+      "label": "周边地标 · 纪念馆",
+      "x": 997,
+      "z": 390,
+      "base": 9,
+      "width": 107,
+      "depth": 81,
+      "height": 34,
+      "angle": -40,
+      "entrance": [
+        1028,
+        74,
+        426
+      ]
+    },
+    {
+      "name": "Alumni Hall",
+      "label": "校友楼",
+      "x": 1242,
+      "z": 322,
+      "base": 4,
+      "width": 85,
+      "depth": 55,
+      "height": 30,
+      "angle": -40,
+      "entrance": [
+        1264,
+        69,
+        348
+      ]
+    },
+    {
+      "name": "Wesley W. Posvar Hall",
+      "label": "波斯瓦尔楼",
+      "x": 1219,
+      "z": 787,
+      "base": 4,
+      "width": 128,
+      "depth": 89,
+      "height": 30,
+      "angle": -16,
+      "entrance": [
+        1233,
+        69,
+        837
+      ]
+    },
+    {
+      "name": "Stephen Foster Memorial",
+      "label": "纪念剧院 · 示意内装",
+      "x": 1321,
+      "z": 533,
+      "base": 4,
+      "width": 58,
+      "depth": 47,
+      "height": 32,
+      "angle": -15,
+      "entrance": [
+        1329,
+        69,
+        562
+      ]
+    },
+    {
+      "name": "Benedum Hall",
+      "label": "工程楼",
+      "x": 793,
+      "z": 530,
+      "base": 13,
+      "width": 111,
+      "depth": 60,
+      "height": 75,
+      "angle": -40,
+      "entrance": [
+        817,
+        78,
+        558
+      ]
+    },
+    {
+      "name": "Chevron Science Center",
+      "label": "化学科学中心",
+      "x": 891,
+      "z": 279,
+      "base": 14,
+      "width": 92,
+      "depth": 52,
+      "height": 80,
+      "angle": -40,
+      "entrance": [
+        912,
+        79,
+        304
+      ]
+    },
+    {
+      "name": "Sutherland Hall",
+      "label": "上校区宿舍",
+      "x": 439,
+      "z": 254,
+      "base": 34,
+      "width": 109,
+      "depth": 48,
+      "height": 45,
+      "angle": 20,
+      "entrance": [
+        428,
+        99,
+        283
+      ]
+    },
+    {
+      "name": "Panther Hall",
+      "label": "黑豹宿舍",
+      "x": 506,
+      "z": 331,
+      "base": 28,
+      "width": 124,
+      "depth": 37,
+      "height": 45,
+      "angle": 0,
+      "entrance": [
+        506,
+        93,
+        356
+      ]
+    },
+    {
+      "name": "Irvis Hall",
+      "label": "学生宿舍",
+      "x": 624,
+      "z": 381,
+      "base": 22,
+      "width": 123,
+      "depth": 42,
+      "height": 35,
+      "angle": -10,
+      "entrance": [
+        629,
+        87,
+        409
+      ]
+    },
+    {
+      "name": "Salk Hall",
+      "label": "萨尔克楼",
+      "x": 402,
+      "z": 624,
+      "base": 20,
+      "width": 99,
+      "depth": 76,
+      "height": 65,
+      "angle": -40,
+      "entrance": [
+        431,
+        85,
+        658
+      ]
+    },
+    {
+      "name": "Scaife Hall",
+      "label": "医学院",
+      "x": 545,
+      "z": 618,
+      "base": 17,
+      "width": 118,
+      "depth": 64,
+      "height": 55,
+      "angle": -40,
+      "entrance": [
+        570,
+        82,
+        648
+      ]
+    },
+    {
+      "name": "Biomedical Science Towers",
+      "label": "生物医学楼群",
+      "x": 474,
+      "z": 723,
+      "base": 15,
+      "width": 106,
+      "depth": 65,
+      "height": 80,
+      "angle": 37,
+      "entrance": [
+        450,
+        80,
+        755
+      ]
+    },
+    {
+      "name": "Biomedical Science Tower 3",
+      "label": "生物医学三号塔",
+      "x": 648,
+      "z": 841,
+      "base": 9,
+      "width": 100,
+      "depth": 65,
+      "height": 65,
+      "angle": 37,
+      "entrance": [
+        624,
+        74,
+        873
+      ]
+    },
+    {
+      "name": "Sennott Square",
+      "label": "教学与科研楼",
+      "x": 1005,
+      "z": 795,
+      "base": 6,
+      "width": 93,
+      "depth": 60,
+      "height": 40,
+      "angle": -40,
+      "entrance": [
+        1029,
+        71,
+        823
+      ]
+    },
+    {
+      "name": "Barco Law Building",
+      "label": "法学院",
+      "x": 1062,
+      "z": 738,
+      "base": 5,
+      "width": 62,
+      "depth": 48,
+      "height": 35,
+      "angle": -40,
+      "entrance": [
+        1082,
+        70,
+        762
+      ]
+    },
+    {
+      "name": "Mervis Hall",
+      "label": "商学院",
+      "x": 1264,
+      "z": 871,
+      "base": 4,
+      "width": 88,
+      "depth": 40,
+      "height": 25,
+      "angle": -10,
+      "entrance": [
+        1269,
+        69,
+        898
+      ]
+    },
+    {
+      "name": "Bellefield Hall",
+      "label": "贝尔菲尔德楼",
+      "x": 1504,
+      "z": 354,
+      "base": 4,
+      "width": 71,
+      "depth": 49,
+      "height": 25,
+      "angle": 0,
+      "entrance": [
+        1504,
+        69,
+        386
+      ]
+    },
+    {
+      "name": "Carnegie Museum & Library",
+      "label": "周边地标 · 卡内基博物馆",
+      "x": 1577,
+      "z": 601,
+      "base": 4,
+      "width": 208,
+      "depth": 135,
+      "height": 25,
+      "angle": -16,
+      "entrance": [
+        1598,
+        69,
+        673
+      ]
+    },
+    {
+      "name": "Mellon Institute",
+      "label": "周边地标 · 梅隆研究所",
+      "x": 1494,
+      "z": 269,
+      "base": 4,
+      "width": 108,
+      "depth": 93,
+      "height": 34,
+      "angle": -10,
+      "entrance": [
+        1503,
+        69,
+        322
+      ]
+    },
+    {
+      "name": "Schenley Plaza",
+      "label": "申利广场 · 出生区",
+      "x": 1350,
+      "z": 648,
+      "base": 4,
+      "width": 100,
+      "depth": 95,
+      "height": 1,
+      "angle": 0,
+      "entrance": [
+        1350,
+        69,
+        648
+      ]
+    }
+  ],
+  "navigation_checks": [
+    {
+      "name": "Cathedral of Learning",
+      "template_shape": [
+        204,
+        104,
+        104
+      ],
+      "targets": [
+        2,
+        22,
+        82,
+        166,
+        170
+      ],
+      "width": 96,
+      "depth": 96
+    },
+    {
+      "name": "Heinz Memorial Chapel",
+      "template_shape": [
+        204,
+        96,
+        62
+      ],
+      "targets": [
+        2
+      ],
+      "width": 54,
+      "depth": 88
+    },
+    {
+      "name": "William Pitt Union",
+      "template_shape": [
+        204,
+        73,
+        94
+      ],
+      "targets": [
+        3,
+        8,
+        13,
+        18,
+        23,
+        28,
+        33,
+        38,
+        43
+      ],
+      "width": 86,
+      "depth": 65
+    },
+    {
+      "name": "Hillman Library",
+      "template_shape": [
+        204,
+        95,
+        109
+      ],
+      "targets": [
+        3,
+        8,
+        13,
+        18,
+        23
+      ],
+      "width": 101,
+      "depth": 87
+    },
+    {
+      "name": "Petersen Events Center",
+      "template_shape": [
+        185,
+        148,
+        167
+      ],
+      "targets": [
+        2
+      ],
+      "width": 159,
+      "depth": 140
+    }
+  ],
+  "above_terrain_blocks": 3665095
+}

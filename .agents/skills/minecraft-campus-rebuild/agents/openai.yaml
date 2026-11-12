@@ -1,0 +1,4 @@
+interface:
+  display_name: "Minecraft 高校校园复原"
+  short_description: "依据地图与实景复原任意高校校区，支持新建、返修、存档和原理图交付"
+  default_prompt: "使用 $minecraft-campus-rebuild，沿用已确定的校区、游戏版本、比例和输出要求，完成高校校园的新建或指定返修，验证后交付所需存档或原理图。"

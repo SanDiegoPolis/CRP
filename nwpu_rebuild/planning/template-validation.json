@@ -1,0 +1,95 @@
+[
+  {
+    "building": "图书馆与启真楼",
+    "check": "template entrance and upper-floor walking; two-block player clearance",
+    "target_heights": [
+      2,
+      8,
+      14,
+      20,
+      26,
+      32,
+      38
+    ],
+    "missing": [],
+    "reachable_positions": 40503,
+    "result": "PASS"
+  },
+  {
+    "building": "启翔楼",
+    "check": "template entrance and upper-floor walking; two-block player clearance",
+    "target_heights": [
+      2,
+      8,
+      14,
+      20,
+      26,
+      32
+    ],
+    "missing": [],
+    "reachable_positions": 12403,
+    "result": "PASS"
+  },
+  {
+    "building": "军工素质教育实践中心",
+    "check": "template entrance and upper-floor walking; two-block player clearance",
+    "target_heights": [
+      2
+    ],
+    "missing": [],
+    "reachable_positions": 38040,
+    "result": "PASS"
+  },
+  {
+    "building": "教学西楼",
+    "check": "template entrance and upper-floor walking; two-block player clearance",
+    "target_heights": [
+      2,
+      8,
+      14,
+      20,
+      26
+    ],
+    "missing": [],
+    "reachable_positions": 59571,
+    "result": "PASS"
+  },
+  {
+    "building": "云天苑餐厅",
+    "check": "template entrance and upper-floor walking; two-block player clearance",
+    "target_heights": [
+      2,
+      8,
+      14
+    ],
+    "missing": [],
+    "reachable_positions": 11700,
+    "result": "PASS"
+  },
+  {
+    "building": "翱翔体育馆",
+    "check": "template entrance and upper-floor walking; two-block player clearance",
+    "target_heights": [
+      2
+    ],
+    "missing": [],
+    "reachable_positions": 25617,
+    "result": "PASS"
+  },
+  {
+    "building": "海天苑公寓北区1",
+    "check": "template entrance and upper-floor walking; two-block player clearance",
+    "target_heights": [
+      2,
+      8,
+      14,
+      20,
+      26,
+      32,
+      38
+    ],
+    "missing": [],
+    "reachable_positions": 6351,
+    "result": "PASS"
+  }
+]

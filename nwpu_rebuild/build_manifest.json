@@ -1,0 +1,4867 @@
+{
+  "title": "西北工业大学 · 长安校区重制版",
+  "version": "26.2",
+  "data_version": 4903,
+  "scale": "约 1.1 方块 / 米，局部体量适配",
+  "dimensions": [
+    1536,
+    128,
+    2560
+  ],
+  "spawn": [
+    1487,
+    69,
+    1049
+  ],
+  "chunks": 15360,
+  "palette": [
+    {
+      "Name": "minecraft:air"
+    },
+    {
+      "Name": "minecraft:grass_block",
+      "Properties": {
+        "snowy": "false"
+      }
+    },
+    {
+      "Name": "minecraft:stone"
+    },
+    {
+      "Name": "minecraft:dirt"
+    },
+    {
+      "Name": "minecraft:bedrock"
+    },
+    {
+      "Name": "minecraft:smooth_quartz"
+    },
+    {
+      "Name": "minecraft:white_concrete"
+    },
+    {
+      "Name": "minecraft:bricks"
+    },
+    {
+      "Name": "minecraft:terracotta"
+    },
+    {
+      "Name": "minecraft:white_terracotta"
+    },
+    {
+      "Name": "minecraft:polished_granite"
+    },
+    {
+      "Name": "minecraft:polished_deepslate"
+    },
+    {
+      "Name": "minecraft:gray_concrete"
+    },
+    {
+      "Name": "minecraft:smooth_stone"
+    },
+    {
+      "Name": "minecraft:polished_andesite"
+    },
+    {
+      "Name": "minecraft:black_concrete"
+    },
+    {
+      "Name": "minecraft:cyan_stained_glass"
+    },
+    {
+      "Name": "minecraft:glass"
+    },
+    {
+      "Name": "minecraft:light_blue_stained_glass"
+    },
+    {
+      "Name": "minecraft:water",
+      "Properties": {
+        "level": "0"
+      }
+    },
+    {
+      "Name": "minecraft:oak_planks"
+    },
+    {
+      "Name": "minecraft:spruce_planks"
+    },
+    {
+      "Name": "minecraft:oak_log",
+      "Properties": {
+        "axis": "y"
+      }
+    },
+    {
+      "Name": "minecraft:oak_leaves",
+      "Properties": {
+        "persistent": "true",
+        "distance": "1",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "Name": "minecraft:birch_leaves",
+      "Properties": {
+        "persistent": "true",
+        "distance": "1",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "Name": "minecraft:spruce_leaves",
+      "Properties": {
+        "persistent": "true",
+        "distance": "1",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "Name": "minecraft:birch_log",
+      "Properties": {
+        "axis": "y"
+      }
+    },
+    {
+      "Name": "minecraft:spruce_log",
+      "Properties": {
+        "axis": "y"
+      }
+    },
+    {
+      "Name": "minecraft:red_concrete"
+    },
+    {
+      "Name": "minecraft:yellow_concrete"
+    },
+    {
+      "Name": "minecraft:gold_block"
+    },
+    {
+      "Name": "minecraft:green_concrete"
+    },
+    {
+      "Name": "minecraft:lime_concrete"
+    },
+    {
+      "Name": "minecraft:blue_concrete"
+    },
+    {
+      "Name": "minecraft:orange_terracotta"
+    },
+    {
+      "Name": "minecraft:sea_lantern"
+    },
+    {
+      "Name": "minecraft:glowstone"
+    },
+    {
+      "Name": "minecraft:iron_block"
+    },
+    {
+      "Name": "minecraft:iron_bars",
+      "Properties": {
+        "north": "true",
+        "south": "true",
+        "east": "true",
+        "west": "true",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "Name": "minecraft:oak_fence",
+      "Properties": {
+        "north": "true",
+        "south": "true",
+        "east": "true",
+        "west": "true",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "Name": "minecraft:bookshelf"
+    },
+    {
+      "Name": "minecraft:barrel",
+      "Properties": {
+        "facing": "up",
+        "open": "false"
+      }
+    },
+    {
+      "Name": "minecraft:poppy"
+    },
+    {
+      "Name": "minecraft:dandelion"
+    },
+    {
+      "Name": "minecraft:azure_bluet"
+    },
+    {
+      "Name": "minecraft:short_grass"
+    },
+    {
+      "Name": "minecraft:farmland",
+      "Properties": {
+        "moisture": "7"
+      }
+    },
+    {
+      "Name": "minecraft:wheat",
+      "Properties": {
+        "age": "7"
+      }
+    },
+    {
+      "Name": "minecraft:carrots",
+      "Properties": {
+        "age": "7"
+      }
+    },
+    {
+      "Name": "minecraft:beetroots",
+      "Properties": {
+        "age": "3"
+      }
+    },
+    {
+      "Name": "minecraft:fern"
+    },
+    {
+      "Name": "minecraft:quartz_bricks"
+    },
+    {
+      "Name": "minecraft:smooth_sandstone"
+    },
+    {
+      "Name": "minecraft:light_gray_concrete"
+    },
+    {
+      "Name": "minecraft:gray_stained_glass"
+    },
+    {
+      "Name": "minecraft:warped_planks"
+    },
+    {
+      "Name": "minecraft:waxed_oxidized_copper"
+    },
+    {
+      "Name": "minecraft:green_terracotta"
+    },
+    {
+      "Name": "minecraft:cherry_leaves",
+      "Properties": {
+        "persistent": "true",
+        "distance": "1",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "Name": "minecraft:azalea_leaves",
+      "Properties": {
+        "persistent": "true",
+        "distance": "1",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "Name": "minecraft:gray_terracotta"
+    },
+    {
+      "Name": "minecraft:polished_blackstone"
+    },
+    {
+      "Name": "minecraft:oak_sign",
+      "Properties": {
+        "rotation": "8",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "Name": "minecraft:oak_sign",
+      "Properties": {
+        "rotation": "4",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "Name": "minecraft:oak_sign",
+      "Properties": {
+        "rotation": "12",
+        "waterlogged": "false"
+      }
+    }
+  ],
+  "colors": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      103,
+      147,
+      74
+    ],
+    [
+      119,
+      121,
+      122
+    ],
+    [
+      129,
+      95,
+      66
+    ],
+    [
+      69,
+      69,
+      69
+    ],
+    [
+      231,
+      228,
+      219
+    ],
+    [
+      212,
+      214,
+      213
+    ],
+    [
+      162,
+      94,
+      80
+    ],
+    [
+      158,
+      108,
+      81
+    ],
+    [
+      202,
+      173,
+      163
+    ],
+    [
+      151,
+      107,
+      93
+    ],
+    [
+      65,
+      66,
+      71
+    ],
+    [
+      69,
+      72,
+      78
+    ],
+    [
+      160,
+      161,
+      160
+    ],
+    [
+      135,
+      138,
+      138
+    ],
+    [
+      35,
+      37,
+      40
+    ],
+    [
+      70,
+      131,
+      140
+    ],
+    [
+      168,
+      201,
+      205
+    ],
+    [
+      92,
+      158,
+      190
+    ],
+    [
+      61,
+      128,
+      179
+    ],
+    [
+      167,
+      130,
+      76
+    ],
+    [
+      111,
+      82,
+      48
+    ],
+    [
+      113,
+      89,
+      54
+    ],
+    [
+      62,
+      115,
+      49
+    ],
+    [
+      93,
+      138,
+      66
+    ],
+    [
+      45,
+      91,
+      59
+    ],
+    [
+      213,
+      209,
+      181
+    ],
+    [
+      92,
+      71,
+      45
+    ],
+    [
+      167,
+      54,
+      51
+    ],
+    [
+      227,
+      175,
+      40
+    ],
+    [
+      238,
+      200,
+      63
+    ],
+    [
+      75,
+      107,
+      50
+    ],
+    [
+      119,
+      161,
+      47
+    ],
+    [
+      63,
+      83,
+      154
+    ],
+    [
+      158,
+      80,
+      45
+    ],
+    [
+      174,
+      211,
+      197
+    ],
+    [
+      199,
+      164,
+      93
+    ],
+    [
+      209,
+      211,
+      210
+    ],
+    [
+      149,
+      155,
+      157
+    ],
+    [
+      137,
+      108,
+      63
+    ],
+    [
+      147,
+      116,
+      68
+    ],
+    [
+      128,
+      98,
+      57
+    ],
+    [
+      203,
+      62,
+      52
+    ],
+    [
+      241,
+      206,
+      54
+    ],
+    [
+      230,
+      230,
+      219
+    ],
+    [
+      87,
+      131,
+      60
+    ],
+    [
+      110,
+      75,
+      44
+    ],
+    [
+      192,
+      178,
+      68
+    ],
+    [
+      88,
+      143,
+      54
+    ],
+    [
+      116,
+      136,
+      58
+    ],
+    [
+      74,
+      123,
+      57
+    ],
+    [
+      210,
+      212,
+      207
+    ],
+    [
+      208,
+      196,
+      162
+    ],
+    [
+      182,
+      190,
+      192
+    ],
+    [
+      74,
+      112,
+      133
+    ],
+    [
+      57,
+      114,
+      113
+    ],
+    [
+      80,
+      125,
+      107
+    ],
+    [
+      108,
+      119,
+      72
+    ],
+    [
+      217,
+      157,
+      177
+    ],
+    [
+      130,
+      150,
+      66
+    ],
+    [
+      78,
+      87,
+      75
+    ],
+    [
+      55,
+      60,
+      59
+    ],
+    [
+      155,
+      125,
+      78
+    ],
+    [
+      155,
+      125,
+      78
+    ],
+    [
+      155,
+      125,
+      78
+    ]
+  ],
+  "landmarks": [
+    {
+      "name": "图书馆与启真楼",
+      "label": "斜坡玻璃立面 / 阅览区",
+      "x": 785,
+      "z": 1078,
+      "base": 4,
+      "width": 210,
+      "depth": 150,
+      "height": 78,
+      "angle": -90,
+      "entrance": [
+        867,
+        69,
+        1078
+      ],
+      "object_id": "B001",
+      "model_source": "rebuild"
+    },
+    {
+      "name": "启翔楼",
+      "label": "中式屋顶 / 庭院",
+      "x": 754,
+      "z": 1854,
+      "base": 4,
+      "width": 144,
+      "depth": 116,
+      "height": 46,
+      "angle": -90,
+      "entrance": [
+        819,
+        69,
+        1854
+      ],
+      "object_id": "B002",
+      "model_source": "rebuild"
+    },
+    {
+      "name": "军工素质教育实践中心",
+      "label": "博物馆 / 静态航空展品",
+      "x": 556,
+      "z": 2146,
+      "base": 4,
+      "width": 210,
+      "depth": 248,
+      "height": 28,
+      "angle": -90,
+      "entrance": [
+        687,
+        69,
+        2146
+      ],
+      "object_id": "B003",
+      "model_source": "rebuild"
+    },
+    {
+      "name": "航空宇航支撑学科创新中心",
+      "label": "现代院落组团",
+      "x": 301,
+      "z": 1967,
+      "base": 4,
+      "width": 142,
+      "depth": 118,
+      "height": 40,
+      "angle": -90,
+      "entrance": [
+        367,
+        69,
+        1967
+      ],
+      "object_id": "B004",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "海天苑大楼",
+      "label": "学院楼群 / 设计补全内装",
+      "x": 699,
+      "z": 1486,
+      "base": 4,
+      "width": 192,
+      "depth": 170,
+      "height": 52,
+      "angle": -90,
+      "entrance": [
+        791,
+        69,
+        1486
+      ],
+      "object_id": "B005",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "海天苑餐厅",
+      "label": "餐饮空间",
+      "x": 346,
+      "z": 1517,
+      "base": 4,
+      "width": 78,
+      "depth": 69,
+      "height": 22,
+      "angle": -90,
+      "entrance": [
+        388,
+        69,
+        1517
+      ],
+      "object_id": "B006",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "艺术教育中心",
+      "label": "艺术教育",
+      "x": 340,
+      "z": 1593,
+      "base": 4,
+      "width": 57,
+      "depth": 58,
+      "height": 22,
+      "angle": -90,
+      "entrance": [
+        376,
+        69,
+        1593
+      ],
+      "object_id": "B007",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "南山苑国际学术交流中心",
+      "label": "坡屋顶 / 院落",
+      "x": 1172,
+      "z": 1556,
+      "base": 4,
+      "width": 141,
+      "depth": 124,
+      "height": 34,
+      "angle": -90,
+      "entrance": [
+        1241,
+        69,
+        1556
+      ],
+      "object_id": "B008",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "翱翔游泳馆",
+      "label": "室内泳池",
+      "x": 335,
+      "z": 1068,
+      "base": 4,
+      "width": 85,
+      "depth": 118,
+      "height": 23,
+      "angle": -90,
+      "entrance": [
+        401,
+        69,
+        1068
+      ],
+      "object_id": "B009",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "综合训练馆",
+      "label": "体育训练空间",
+      "x": 255,
+      "z": 832,
+      "base": 4,
+      "width": 56,
+      "depth": 66,
+      "height": 16,
+      "angle": -90,
+      "entrance": [
+        295,
+        69,
+        832
+      ],
+      "object_id": "B010",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "学生体质监测中心",
+      "label": "体育配套",
+      "x": 187,
+      "z": 1070,
+      "base": 4,
+      "width": 58,
+      "depth": 31,
+      "height": 16,
+      "angle": -90,
+      "entrance": [
+        210,
+        69,
+        1070
+      ],
+      "object_id": "B011",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "星天苑田径场",
+      "label": "跑道 / 足球场 / 看台",
+      "x": 361,
+      "z": 915,
+      "base": 4,
+      "width": 197,
+      "depth": 112,
+      "height": 16,
+      "angle": -90,
+      "entrance": [
+        424,
+        69,
+        915
+      ],
+      "object_id": "B012",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "实验大楼",
+      "label": "教学实验",
+      "x": 543,
+      "z": 1156,
+      "base": 4,
+      "width": 63,
+      "depth": 65,
+      "height": 34,
+      "angle": -90,
+      "entrance": [
+        582,
+        69,
+        1156
+      ],
+      "object_id": "B013",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "教学西楼",
+      "label": "连廊 / 四翼教学楼",
+      "x": 595,
+      "z": 949,
+      "base": 4,
+      "width": 178,
+      "depth": 156,
+      "height": 34,
+      "angle": -90,
+      "entrance": [
+        680,
+        69,
+        949
+      ],
+      "object_id": "B014",
+      "model_source": "rebuild"
+    },
+    {
+      "name": "教学东楼",
+      "label": "连廊 / 四翼教学楼",
+      "x": 957,
+      "z": 774,
+      "base": 4,
+      "width": 175,
+      "depth": 158,
+      "height": 34,
+      "angle": -90,
+      "entrance": [
+        1043,
+        69,
+        774
+      ],
+      "object_id": "B015",
+      "model_source": "rebuild"
+    },
+    {
+      "name": "翱翔学生中心",
+      "label": "中央庭院 / 屋顶绿化",
+      "x": 767,
+      "z": 553,
+      "base": 4,
+      "width": 137,
+      "depth": 105,
+      "height": 22,
+      "angle": -90,
+      "entrance": [
+        826,
+        69,
+        553
+      ],
+      "object_id": "B016",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "数字化大楼",
+      "label": "校园服务",
+      "x": 554,
+      "z": 748,
+      "base": 4,
+      "width": 82,
+      "depth": 71,
+      "height": 28,
+      "angle": -90,
+      "entrance": [
+        596,
+        69,
+        748
+      ],
+      "object_id": "B017",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "云天苑餐厅",
+      "label": "三层餐厅",
+      "x": 962,
+      "z": 556,
+      "base": 4,
+      "width": 82,
+      "depth": 71,
+      "height": 22,
+      "angle": -90,
+      "entrance": [
+        1004,
+        69,
+        556
+      ],
+      "object_id": "B018",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "翱翔体育馆",
+      "label": "双馆 / 篮球场 / 看台",
+      "x": 1214,
+      "z": 449,
+      "base": 4,
+      "width": 187,
+      "depth": 138,
+      "height": 44,
+      "angle": -90,
+      "entrance": [
+        1290,
+        69,
+        449
+      ],
+      "object_id": "B019",
+      "model_source": "rebuild"
+    },
+    {
+      "name": "云天苑田径场",
+      "label": "跑道 / 足球场 / 看台",
+      "x": 1258,
+      "z": 216,
+      "base": 4,
+      "width": 210,
+      "depth": 118,
+      "height": 16,
+      "angle": -90,
+      "entrance": [
+        1324,
+        69,
+        216
+      ],
+      "object_id": "B020",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "星天苑南餐厅",
+      "label": "星天苑餐饮",
+      "x": 473,
+      "z": 645,
+      "base": 4,
+      "width": 73,
+      "depth": 69,
+      "height": 22,
+      "angle": -90,
+      "entrance": [
+        514,
+        69,
+        645
+      ],
+      "object_id": "B021",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "星天苑北餐厅",
+      "label": "星天苑餐饮",
+      "x": 463,
+      "z": 366,
+      "base": 4,
+      "width": 61,
+      "depth": 68,
+      "height": 22,
+      "angle": -90,
+      "entrance": [
+        504,
+        69,
+        366
+      ],
+      "object_id": "B022",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "大学生双创楼",
+      "label": "创新创业空间",
+      "x": 335,
+      "z": 388,
+      "base": 4,
+      "width": 60,
+      "depth": 58,
+      "height": 28,
+      "angle": -90,
+      "entrance": [
+        371,
+        69,
+        388
+      ],
+      "object_id": "B023",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "东大门",
+      "label": "入口 / 参观出生区",
+      "x": 1406,
+      "z": 1049,
+      "base": 4,
+      "width": 220,
+      "depth": 42,
+      "height": 30,
+      "angle": -90,
+      "entrance": [
+        1434,
+        69,
+        1049
+      ],
+      "object_id": "B024",
+      "model_source": "rebuild"
+    },
+    {
+      "name": "物理科学与技术学院",
+      "label": "学院与教学配套",
+      "x": 1089,
+      "z": 1418,
+      "base": 4,
+      "width": 52,
+      "depth": 99,
+      "height": 34,
+      "angle": -90,
+      "entrance": [
+        1146,
+        69,
+        1418
+      ],
+      "object_id": "B025",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "化学与化工学院",
+      "label": "学院与教学配套",
+      "x": 1061,
+      "z": 1344,
+      "base": 4,
+      "width": 52,
+      "depth": 100,
+      "height": 34,
+      "angle": -90,
+      "entrance": [
+        1118,
+        69,
+        1344
+      ],
+      "object_id": "B026",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "自动化学院",
+      "label": "学院与教学配套",
+      "x": 1079,
+      "z": 1270,
+      "base": 4,
+      "width": 64,
+      "depth": 110,
+      "height": 34,
+      "angle": -90,
+      "entrance": [
+        1141,
+        69,
+        1270
+      ],
+      "object_id": "B027",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "电子信息与微电子学院",
+      "label": "学院与教学配套",
+      "x": 1133,
+      "z": 1156,
+      "base": 4,
+      "width": 63,
+      "depth": 105,
+      "height": 34,
+      "angle": -90,
+      "entrance": [
+        1192,
+        69,
+        1156
+      ],
+      "object_id": "B028",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "力学与土木建筑学院",
+      "label": "学院与教学配套",
+      "x": 1115,
+      "z": 828,
+      "base": 4,
+      "width": 63,
+      "depth": 72,
+      "height": 34,
+      "angle": -90,
+      "entrance": [
+        1158,
+        69,
+        828
+      ],
+      "object_id": "B029",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "管理学院",
+      "label": "学院与教学配套",
+      "x": 1092,
+      "z": 964,
+      "base": 4,
+      "width": 65,
+      "depth": 75,
+      "height": 34,
+      "angle": -90,
+      "entrance": [
+        1136,
+        69,
+        964
+      ],
+      "object_id": "B030",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "动力与能源学院",
+      "label": "学院与教学配套",
+      "x": 1235,
+      "z": 905,
+      "base": 4,
+      "width": 75,
+      "depth": 75,
+      "height": 34,
+      "angle": -90,
+      "entrance": [
+        1280,
+        69,
+        905
+      ],
+      "object_id": "B031",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "计算机学院",
+      "label": "学院与教学配套",
+      "x": 1230,
+      "z": 794,
+      "base": 4,
+      "width": 75,
+      "depth": 76,
+      "height": 34,
+      "angle": -90,
+      "entrance": [
+        1275,
+        69,
+        794
+      ],
+      "object_id": "B032",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "公共政策与管理学院",
+      "label": "学院与教学配套",
+      "x": 1237,
+      "z": 701,
+      "base": 4,
+      "width": 61,
+      "depth": 75,
+      "height": 34,
+      "angle": -90,
+      "entrance": [
+        1282,
+        69,
+        701
+      ],
+      "object_id": "B033",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "马克思主义学院",
+      "label": "学院与教学配套",
+      "x": 1123,
+      "z": 670,
+      "base": 4,
+      "width": 50,
+      "depth": 55,
+      "height": 34,
+      "angle": -90,
+      "entrance": [
+        1158,
+        69,
+        670
+      ],
+      "object_id": "B034",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "网络空间安全学院",
+      "label": "学院与教学配套",
+      "x": 683,
+      "z": 582,
+      "base": 4,
+      "width": 112,
+      "depth": 32,
+      "height": 34,
+      "angle": -90,
+      "entrance": [
+        706,
+        69,
+        582
+      ],
+      "object_id": "B035",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "工程实践训练中心",
+      "label": "学院与教学配套",
+      "x": 213,
+      "z": 621,
+      "base": 4,
+      "width": 80,
+      "depth": 43,
+      "height": 34,
+      "angle": -90,
+      "entrance": [
+        242,
+        69,
+        621
+      ],
+      "object_id": "B036",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "海天苑公寓北区1",
+      "label": "学生宿舍 / 示例内装",
+      "x": 249,
+      "z": 1605,
+      "base": 4,
+      "width": 32,
+      "depth": 61,
+      "height": 46,
+      "angle": -90,
+      "entrance": [
+        286,
+        69,
+        1605
+      ],
+      "object_id": "B045",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "星天苑篮球场",
+      "label": "篮球场组团",
+      "x": 366,
+      "z": 771,
+      "base": 4,
+      "width": 90,
+      "depth": 96,
+      "height": 9,
+      "angle": -90,
+      "entrance": [
+        421,
+        69,
+        771
+      ],
+      "object_id": "B071",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "海天苑运动场",
+      "label": "室外球场",
+      "x": 304,
+      "z": 1850,
+      "base": 4,
+      "width": 56,
+      "depth": 190,
+      "height": 9,
+      "angle": -90,
+      "entrance": [
+        406,
+        69,
+        1850
+      ],
+      "object_id": "B072",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "何尊与勇士广场",
+      "label": "何尊 / 勇士组雕 / 六大军工图腾柱",
+      "x": 1118,
+      "z": 1049,
+      "base": 4,
+      "width": 40,
+      "depth": 40,
+      "height": 2,
+      "angle": -90,
+      "entrance": [
+        1118,
+        69,
+        1049
+      ]
+    },
+    {
+      "name": "启真湖",
+      "label": "沿湖步道 / 小桥",
+      "x": 793,
+      "z": 1231,
+      "base": 4,
+      "width": 40,
+      "depth": 40,
+      "height": 2,
+      "angle": -90,
+      "entrance": [
+        793,
+        69,
+        1231
+      ]
+    },
+    {
+      "name": "启翔湖",
+      "label": "湖畔园林",
+      "x": 559,
+      "z": 1757,
+      "base": 4,
+      "width": 40,
+      "depth": 40,
+      "height": 2,
+      "angle": -90,
+      "entrance": [
+        559,
+        69,
+        1757
+      ]
+    },
+    {
+      "name": "校友林",
+      "label": "林荫步道",
+      "x": 1066,
+      "z": 1792,
+      "base": 4,
+      "width": 40,
+      "depth": 40,
+      "height": 2,
+      "angle": -90,
+      "entrance": [
+        1066,
+        69,
+        1792
+      ]
+    },
+    {
+      "name": "出生点",
+      "label": "东门外 / 创造模式",
+      "x": 1487,
+      "z": 1049,
+      "base": 4,
+      "width": 40,
+      "depth": 40,
+      "height": 2,
+      "angle": -90,
+      "entrance": [
+        1487,
+        69,
+        1049
+      ]
+    }
+  ],
+  "navigation_checks": [
+    {
+      "name": "图书馆与启真楼",
+      "template_shape": [
+        124,
+        158,
+        218
+      ],
+      "width": 210,
+      "depth": 150,
+      "targets": [
+        2,
+        8,
+        14,
+        20,
+        26,
+        32,
+        38
+      ]
+    },
+    {
+      "name": "启翔楼",
+      "template_shape": [
+        124,
+        124,
+        152
+      ],
+      "width": 144,
+      "depth": 116,
+      "targets": [
+        2,
+        8,
+        14,
+        20,
+        26,
+        32
+      ]
+    },
+    {
+      "name": "军工素质教育实践中心",
+      "template_shape": [
+        124,
+        256,
+        218
+      ],
+      "width": 210,
+      "depth": 248,
+      "targets": [
+        2
+      ]
+    },
+    {
+      "name": "教学西楼",
+      "template_shape": [
+        124,
+        164,
+        186
+      ],
+      "width": 178,
+      "depth": 156,
+      "targets": [
+        2,
+        8,
+        14,
+        20,
+        26
+      ]
+    },
+    {
+      "name": "云天苑餐厅",
+      "template_shape": [
+        124,
+        79,
+        90
+      ],
+      "width": 82,
+      "depth": 71,
+      "targets": [
+        2,
+        8,
+        14
+      ]
+    },
+    {
+      "name": "翱翔体育馆",
+      "template_shape": [
+        124,
+        146,
+        195
+      ],
+      "width": 187,
+      "depth": 138,
+      "targets": [
+        2
+      ]
+    },
+    {
+      "name": "海天苑公寓北区1",
+      "template_shape": [
+        124,
+        69,
+        40
+      ],
+      "width": 32,
+      "depth": 61,
+      "targets": [
+        2,
+        8,
+        14,
+        20,
+        26,
+        32,
+        38
+      ]
+    }
+  ],
+  "source_map": "官方国际学生招生简章，第 41–42 页，2025 PDF",
+  "above_terrain_blocks": 4064021,
+  "building_groups": [
+    {
+      "name": "图书馆与启真楼",
+      "label": "斜坡玻璃立面 / 阅览区",
+      "x": 785,
+      "z": 1078,
+      "base": 4,
+      "width": 210,
+      "depth": 150,
+      "height": 78,
+      "angle": -90,
+      "entrance": [
+        867,
+        69,
+        1078
+      ],
+      "object_id": "B001",
+      "model_source": "rebuild"
+    },
+    {
+      "name": "启翔楼",
+      "label": "中式屋顶 / 庭院",
+      "x": 754,
+      "z": 1854,
+      "base": 4,
+      "width": 144,
+      "depth": 116,
+      "height": 46,
+      "angle": -90,
+      "entrance": [
+        819,
+        69,
+        1854
+      ],
+      "object_id": "B002",
+      "model_source": "rebuild"
+    },
+    {
+      "name": "军工素质教育实践中心",
+      "label": "博物馆 / 静态航空展品",
+      "x": 556,
+      "z": 2146,
+      "base": 4,
+      "width": 210,
+      "depth": 248,
+      "height": 28,
+      "angle": -90,
+      "entrance": [
+        687,
+        69,
+        2146
+      ],
+      "object_id": "B003",
+      "model_source": "rebuild"
+    },
+    {
+      "name": "航空宇航支撑学科创新中心",
+      "label": "现代院落组团",
+      "x": 301,
+      "z": 1967,
+      "base": 4,
+      "width": 142,
+      "depth": 118,
+      "height": 40,
+      "angle": -90,
+      "entrance": [
+        367,
+        69,
+        1967
+      ],
+      "object_id": "B004",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "海天苑大楼",
+      "label": "学院楼群 / 设计补全内装",
+      "x": 699,
+      "z": 1486,
+      "base": 4,
+      "width": 192,
+      "depth": 170,
+      "height": 52,
+      "angle": -90,
+      "entrance": [
+        791,
+        69,
+        1486
+      ],
+      "object_id": "B005",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "海天苑餐厅",
+      "label": "餐饮空间",
+      "x": 346,
+      "z": 1517,
+      "base": 4,
+      "width": 78,
+      "depth": 69,
+      "height": 22,
+      "angle": -90,
+      "entrance": [
+        388,
+        69,
+        1517
+      ],
+      "object_id": "B006",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "艺术教育中心",
+      "label": "艺术教育",
+      "x": 340,
+      "z": 1593,
+      "base": 4,
+      "width": 57,
+      "depth": 58,
+      "height": 22,
+      "angle": -90,
+      "entrance": [
+        376,
+        69,
+        1593
+      ],
+      "object_id": "B007",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "南山苑国际学术交流中心",
+      "label": "坡屋顶 / 院落",
+      "x": 1172,
+      "z": 1556,
+      "base": 4,
+      "width": 141,
+      "depth": 124,
+      "height": 34,
+      "angle": -90,
+      "entrance": [
+        1241,
+        69,
+        1556
+      ],
+      "object_id": "B008",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "翱翔游泳馆",
+      "label": "室内泳池",
+      "x": 335,
+      "z": 1068,
+      "base": 4,
+      "width": 85,
+      "depth": 118,
+      "height": 23,
+      "angle": -90,
+      "entrance": [
+        401,
+        69,
+        1068
+      ],
+      "object_id": "B009",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "综合训练馆",
+      "label": "体育训练空间",
+      "x": 255,
+      "z": 832,
+      "base": 4,
+      "width": 56,
+      "depth": 66,
+      "height": 16,
+      "angle": -90,
+      "entrance": [
+        295,
+        69,
+        832
+      ],
+      "object_id": "B010",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "学生体质监测中心",
+      "label": "体育配套",
+      "x": 187,
+      "z": 1070,
+      "base": 4,
+      "width": 58,
+      "depth": 31,
+      "height": 16,
+      "angle": -90,
+      "entrance": [
+        210,
+        69,
+        1070
+      ],
+      "object_id": "B011",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "星天苑田径场",
+      "label": "跑道 / 足球场 / 看台",
+      "x": 361,
+      "z": 915,
+      "base": 4,
+      "width": 197,
+      "depth": 112,
+      "height": 16,
+      "angle": -90,
+      "entrance": [
+        424,
+        69,
+        915
+      ],
+      "object_id": "B012",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "实验大楼",
+      "label": "教学实验",
+      "x": 543,
+      "z": 1156,
+      "base": 4,
+      "width": 63,
+      "depth": 65,
+      "height": 34,
+      "angle": -90,
+      "entrance": [
+        582,
+        69,
+        1156
+      ],
+      "object_id": "B013",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "教学西楼",
+      "label": "连廊 / 四翼教学楼",
+      "x": 595,
+      "z": 949,
+      "base": 4,
+      "width": 178,
+      "depth": 156,
+      "height": 34,
+      "angle": -90,
+      "entrance": [
+        680,
+        69,
+        949
+      ],
+      "object_id": "B014",
+      "model_source": "rebuild"
+    },
+    {
+      "name": "教学东楼",
+      "label": "连廊 / 四翼教学楼",
+      "x": 957,
+      "z": 774,
+      "base": 4,
+      "width": 175,
+      "depth": 158,
+      "height": 34,
+      "angle": -90,
+      "entrance": [
+        1043,
+        69,
+        774
+      ],
+      "object_id": "B015",
+      "model_source": "rebuild"
+    },
+    {
+      "name": "翱翔学生中心",
+      "label": "中央庭院 / 屋顶绿化",
+      "x": 767,
+      "z": 553,
+      "base": 4,
+      "width": 137,
+      "depth": 105,
+      "height": 22,
+      "angle": -90,
+      "entrance": [
+        826,
+        69,
+        553
+      ],
+      "object_id": "B016",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "数字化大楼",
+      "label": "校园服务",
+      "x": 554,
+      "z": 748,
+      "base": 4,
+      "width": 82,
+      "depth": 71,
+      "height": 28,
+      "angle": -90,
+      "entrance": [
+        596,
+        69,
+        748
+      ],
+      "object_id": "B017",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "云天苑餐厅",
+      "label": "三层餐厅",
+      "x": 962,
+      "z": 556,
+      "base": 4,
+      "width": 82,
+      "depth": 71,
+      "height": 22,
+      "angle": -90,
+      "entrance": [
+        1004,
+        69,
+        556
+      ],
+      "object_id": "B018",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "翱翔体育馆",
+      "label": "双馆 / 篮球场 / 看台",
+      "x": 1214,
+      "z": 449,
+      "base": 4,
+      "width": 187,
+      "depth": 138,
+      "height": 44,
+      "angle": -90,
+      "entrance": [
+        1290,
+        69,
+        449
+      ],
+      "object_id": "B019",
+      "model_source": "rebuild"
+    },
+    {
+      "name": "云天苑田径场",
+      "label": "跑道 / 足球场 / 看台",
+      "x": 1258,
+      "z": 216,
+      "base": 4,
+      "width": 210,
+      "depth": 118,
+      "height": 16,
+      "angle": -90,
+      "entrance": [
+        1324,
+        69,
+        216
+      ],
+      "object_id": "B020",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "星天苑南餐厅",
+      "label": "星天苑餐饮",
+      "x": 473,
+      "z": 645,
+      "base": 4,
+      "width": 73,
+      "depth": 69,
+      "height": 22,
+      "angle": -90,
+      "entrance": [
+        514,
+        69,
+        645
+      ],
+      "object_id": "B021",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "星天苑北餐厅",
+      "label": "星天苑餐饮",
+      "x": 463,
+      "z": 366,
+      "base": 4,
+      "width": 61,
+      "depth": 68,
+      "height": 22,
+      "angle": -90,
+      "entrance": [
+        504,
+        69,
+        366
+      ],
+      "object_id": "B022",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "大学生双创楼",
+      "label": "创新创业空间",
+      "x": 335,
+      "z": 388,
+      "base": 4,
+      "width": 60,
+      "depth": 58,
+      "height": 28,
+      "angle": -90,
+      "entrance": [
+        371,
+        69,
+        388
+      ],
+      "object_id": "B023",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "东大门",
+      "label": "入口 / 参观出生区",
+      "x": 1406,
+      "z": 1049,
+      "base": 4,
+      "width": 220,
+      "depth": 42,
+      "height": 30,
+      "angle": -90,
+      "entrance": [
+        1434,
+        69,
+        1049
+      ],
+      "object_id": "B024",
+      "model_source": "rebuild"
+    },
+    {
+      "name": "物理科学与技术学院",
+      "label": "学院与教学配套",
+      "x": 1089,
+      "z": 1418,
+      "base": 4,
+      "width": 52,
+      "depth": 99,
+      "height": 34,
+      "angle": -90,
+      "entrance": [
+        1146,
+        69,
+        1418
+      ],
+      "object_id": "B025",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "化学与化工学院",
+      "label": "学院与教学配套",
+      "x": 1061,
+      "z": 1344,
+      "base": 4,
+      "width": 52,
+      "depth": 100,
+      "height": 34,
+      "angle": -90,
+      "entrance": [
+        1118,
+        69,
+        1344
+      ],
+      "object_id": "B026",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "自动化学院",
+      "label": "学院与教学配套",
+      "x": 1079,
+      "z": 1270,
+      "base": 4,
+      "width": 64,
+      "depth": 110,
+      "height": 34,
+      "angle": -90,
+      "entrance": [
+        1141,
+        69,
+        1270
+      ],
+      "object_id": "B027",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "电子信息与微电子学院",
+      "label": "学院与教学配套",
+      "x": 1133,
+      "z": 1156,
+      "base": 4,
+      "width": 63,
+      "depth": 105,
+      "height": 34,
+      "angle": -90,
+      "entrance": [
+        1192,
+        69,
+        1156
+      ],
+      "object_id": "B028",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "力学与土木建筑学院",
+      "label": "学院与教学配套",
+      "x": 1115,
+      "z": 828,
+      "base": 4,
+      "width": 63,
+      "depth": 72,
+      "height": 34,
+      "angle": -90,
+      "entrance": [
+        1158,
+        69,
+        828
+      ],
+      "object_id": "B029",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "管理学院",
+      "label": "学院与教学配套",
+      "x": 1092,
+      "z": 964,
+      "base": 4,
+      "width": 65,
+      "depth": 75,
+      "height": 34,
+      "angle": -90,
+      "entrance": [
+        1136,
+        69,
+        964
+      ],
+      "object_id": "B030",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "动力与能源学院",
+      "label": "学院与教学配套",
+      "x": 1235,
+      "z": 905,
+      "base": 4,
+      "width": 75,
+      "depth": 75,
+      "height": 34,
+      "angle": -90,
+      "entrance": [
+        1280,
+        69,
+        905
+      ],
+      "object_id": "B031",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "计算机学院",
+      "label": "学院与教学配套",
+      "x": 1230,
+      "z": 794,
+      "base": 4,
+      "width": 75,
+      "depth": 76,
+      "height": 34,
+      "angle": -90,
+      "entrance": [
+        1275,
+        69,
+        794
+      ],
+      "object_id": "B032",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "公共政策与管理学院",
+      "label": "学院与教学配套",
+      "x": 1237,
+      "z": 701,
+      "base": 4,
+      "width": 61,
+      "depth": 75,
+      "height": 34,
+      "angle": -90,
+      "entrance": [
+        1282,
+        69,
+        701
+      ],
+      "object_id": "B033",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "马克思主义学院",
+      "label": "学院与教学配套",
+      "x": 1123,
+      "z": 670,
+      "base": 4,
+      "width": 50,
+      "depth": 55,
+      "height": 34,
+      "angle": -90,
+      "entrance": [
+        1158,
+        69,
+        670
+      ],
+      "object_id": "B034",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "网络空间安全学院",
+      "label": "学院与教学配套",
+      "x": 683,
+      "z": 582,
+      "base": 4,
+      "width": 112,
+      "depth": 32,
+      "height": 34,
+      "angle": -90,
+      "entrance": [
+        706,
+        69,
+        582
+      ],
+      "object_id": "B035",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "工程实践训练中心",
+      "label": "学院与教学配套",
+      "x": 213,
+      "z": 621,
+      "base": 4,
+      "width": 80,
+      "depth": 43,
+      "height": 34,
+      "angle": -90,
+      "entrance": [
+        242,
+        69,
+        621
+      ],
+      "object_id": "B036",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "海天苑公寓南区1",
+      "label": "学生宿舍",
+      "x": 296,
+      "z": 1782,
+      "base": 4,
+      "width": 31,
+      "depth": 49,
+      "height": 40,
+      "angle": 90,
+      "entrance": [
+        264,
+        69,
+        1782
+      ],
+      "object_id": "B037",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "海天苑公寓南区2",
+      "label": "学生宿舍",
+      "x": 296,
+      "z": 1741,
+      "base": 4,
+      "width": 31,
+      "depth": 49,
+      "height": 40,
+      "angle": 90,
+      "entrance": [
+        264,
+        69,
+        1741
+      ],
+      "object_id": "B038",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "海天苑公寓南区3",
+      "label": "学生宿舍",
+      "x": 296,
+      "z": 1700,
+      "base": 4,
+      "width": 31,
+      "depth": 49,
+      "height": 40,
+      "angle": 90,
+      "entrance": [
+        264,
+        69,
+        1700
+      ],
+      "object_id": "B039",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "海天苑公寓南区4",
+      "label": "学生宿舍",
+      "x": 296,
+      "z": 1660,
+      "base": 4,
+      "width": 31,
+      "depth": 49,
+      "height": 40,
+      "angle": 90,
+      "entrance": [
+        264,
+        69,
+        1660
+      ],
+      "object_id": "B040",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "海天苑公寓南区5",
+      "label": "学生宿舍",
+      "x": 348,
+      "z": 1782,
+      "base": 4,
+      "width": 31,
+      "depth": 49,
+      "height": 40,
+      "angle": -90,
+      "entrance": [
+        380,
+        69,
+        1782
+      ],
+      "object_id": "B041",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "海天苑公寓南区6",
+      "label": "学生宿舍",
+      "x": 348,
+      "z": 1741,
+      "base": 4,
+      "width": 31,
+      "depth": 49,
+      "height": 40,
+      "angle": -90,
+      "entrance": [
+        380,
+        69,
+        1741
+      ],
+      "object_id": "B042",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "海天苑公寓南区7",
+      "label": "学生宿舍",
+      "x": 348,
+      "z": 1700,
+      "base": 4,
+      "width": 31,
+      "depth": 49,
+      "height": 40,
+      "angle": -90,
+      "entrance": [
+        380,
+        69,
+        1700
+      ],
+      "object_id": "B043",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "海天苑公寓南区8",
+      "label": "学生宿舍",
+      "x": 348,
+      "z": 1660,
+      "base": 4,
+      "width": 31,
+      "depth": 49,
+      "height": 40,
+      "angle": -90,
+      "entrance": [
+        380,
+        69,
+        1660
+      ],
+      "object_id": "B044",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "海天苑公寓北区1",
+      "label": "学生宿舍 / 示例内装",
+      "x": 249,
+      "z": 1605,
+      "base": 4,
+      "width": 32,
+      "depth": 61,
+      "height": 46,
+      "angle": -90,
+      "entrance": [
+        286,
+        69,
+        1605
+      ],
+      "object_id": "B045",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "海天苑公寓北区2",
+      "label": "学生宿舍 / 示例内装",
+      "x": 239,
+      "z": 1561,
+      "base": 4,
+      "width": 32,
+      "depth": 61,
+      "height": 46,
+      "angle": -90,
+      "entrance": [
+        276,
+        69,
+        1561
+      ],
+      "object_id": "B046",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "海天苑公寓北区3",
+      "label": "学生宿舍 / 示例内装",
+      "x": 249,
+      "z": 1517,
+      "base": 4,
+      "width": 32,
+      "depth": 61,
+      "height": 46,
+      "angle": -90,
+      "entrance": [
+        286,
+        69,
+        1517
+      ],
+      "object_id": "B047",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "海天苑公寓北区4",
+      "label": "学生宿舍 / 示例内装",
+      "x": 244,
+      "z": 1469,
+      "base": 4,
+      "width": 32,
+      "depth": 61,
+      "height": 46,
+      "angle": -90,
+      "entrance": [
+        282,
+        69,
+        1469
+      ],
+      "object_id": "B048",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "海天苑公寓北区5",
+      "label": "学生宿舍 / 示例内装",
+      "x": 262,
+      "z": 1418,
+      "base": 4,
+      "width": 32,
+      "depth": 61,
+      "height": 46,
+      "angle": -90,
+      "entrance": [
+        300,
+        69,
+        1418
+      ],
+      "object_id": "B049",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "海天苑公寓北区6",
+      "label": "学生宿舍 / 示例内装",
+      "x": 330,
+      "z": 1400,
+      "base": 4,
+      "width": 32,
+      "depth": 61,
+      "height": 46,
+      "angle": -90,
+      "entrance": [
+        368,
+        69,
+        1400
+      ],
+      "object_id": "B050",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "星天苑公寓01",
+      "label": "学生宿舍",
+      "x": 294,
+      "z": 670,
+      "base": 4,
+      "width": 34,
+      "depth": 75,
+      "height": 40,
+      "angle": -90,
+      "entrance": [
+        338,
+        69,
+        670
+      ],
+      "object_id": "B051",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "星天苑公寓02",
+      "label": "学生宿舍",
+      "x": 294,
+      "z": 623,
+      "base": 4,
+      "width": 34,
+      "depth": 75,
+      "height": 40,
+      "angle": -90,
+      "entrance": [
+        338,
+        69,
+        623
+      ],
+      "object_id": "B052",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "星天苑公寓03",
+      "label": "学生宿舍",
+      "x": 294,
+      "z": 575,
+      "base": 4,
+      "width": 34,
+      "depth": 75,
+      "height": 40,
+      "angle": -90,
+      "entrance": [
+        338,
+        69,
+        575
+      ],
+      "object_id": "B053",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "星天苑公寓04",
+      "label": "学生宿舍",
+      "x": 294,
+      "z": 528,
+      "base": 4,
+      "width": 34,
+      "depth": 75,
+      "height": 40,
+      "angle": -90,
+      "entrance": [
+        338,
+        69,
+        528
+      ],
+      "object_id": "B054",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "星天苑公寓05",
+      "label": "学生宿舍",
+      "x": 294,
+      "z": 480,
+      "base": 4,
+      "width": 34,
+      "depth": 75,
+      "height": 40,
+      "angle": -90,
+      "entrance": [
+        338,
+        69,
+        480
+      ],
+      "object_id": "B055",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "星天苑公寓06",
+      "label": "学生宿舍",
+      "x": 294,
+      "z": 432,
+      "base": 4,
+      "width": 34,
+      "depth": 75,
+      "height": 40,
+      "angle": -90,
+      "entrance": [
+        338,
+        69,
+        432
+      ],
+      "object_id": "B056",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "星天苑公寓07",
+      "label": "学生宿舍",
+      "x": 608,
+      "z": 636,
+      "base": 4,
+      "width": 34,
+      "depth": 75,
+      "height": 40,
+      "angle": -90,
+      "entrance": [
+        652,
+        69,
+        636
+      ],
+      "object_id": "B057",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "星天苑公寓08",
+      "label": "学生宿舍",
+      "x": 608,
+      "z": 589,
+      "base": 4,
+      "width": 34,
+      "depth": 75,
+      "height": 40,
+      "angle": -90,
+      "entrance": [
+        652,
+        69,
+        589
+      ],
+      "object_id": "B058",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "星天苑公寓09",
+      "label": "学生宿舍",
+      "x": 608,
+      "z": 541,
+      "base": 4,
+      "width": 34,
+      "depth": 75,
+      "height": 40,
+      "angle": -90,
+      "entrance": [
+        652,
+        69,
+        541
+      ],
+      "object_id": "B059",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "星天苑公寓10",
+      "label": "学生宿舍",
+      "x": 608,
+      "z": 494,
+      "base": 4,
+      "width": 34,
+      "depth": 75,
+      "height": 40,
+      "angle": -90,
+      "entrance": [
+        652,
+        69,
+        494
+      ],
+      "object_id": "B060",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "星天苑公寓11",
+      "label": "学生宿舍",
+      "x": 608,
+      "z": 446,
+      "base": 4,
+      "width": 34,
+      "depth": 75,
+      "height": 40,
+      "angle": -90,
+      "entrance": [
+        652,
+        69,
+        446
+      ],
+      "object_id": "B061",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "星天苑公寓12",
+      "label": "学生宿舍",
+      "x": 608,
+      "z": 398,
+      "base": 4,
+      "width": 34,
+      "depth": 75,
+      "height": 40,
+      "angle": -90,
+      "entrance": [
+        652,
+        69,
+        398
+      ],
+      "object_id": "B062",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "云天苑公寓01",
+      "label": "学生宿舍",
+      "x": 936,
+      "z": 492,
+      "base": 4,
+      "width": 42,
+      "depth": 83,
+      "height": 40,
+      "angle": -90,
+      "entrance": [
+        984,
+        69,
+        492
+      ],
+      "object_id": "B063",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "云天苑公寓02",
+      "label": "学生宿舍",
+      "x": 936,
+      "z": 419,
+      "base": 4,
+      "width": 42,
+      "depth": 83,
+      "height": 40,
+      "angle": -90,
+      "entrance": [
+        984,
+        69,
+        419
+      ],
+      "object_id": "B064",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "云天苑公寓03",
+      "label": "学生宿舍",
+      "x": 936,
+      "z": 346,
+      "base": 4,
+      "width": 42,
+      "depth": 83,
+      "height": 40,
+      "angle": -90,
+      "entrance": [
+        984,
+        69,
+        346
+      ],
+      "object_id": "B065",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "云天苑公寓04",
+      "label": "学生宿舍",
+      "x": 936,
+      "z": 272,
+      "base": 4,
+      "width": 42,
+      "depth": 83,
+      "height": 40,
+      "angle": -90,
+      "entrance": [
+        984,
+        69,
+        272
+      ],
+      "object_id": "B066",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "云天苑公寓05",
+      "label": "学生宿舍",
+      "x": 1094,
+      "z": 471,
+      "base": 4,
+      "width": 42,
+      "depth": 83,
+      "height": 40,
+      "angle": -90,
+      "entrance": [
+        1142,
+        69,
+        471
+      ],
+      "object_id": "B067",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "云天苑公寓06",
+      "label": "学生宿舍",
+      "x": 1094,
+      "z": 398,
+      "base": 4,
+      "width": 42,
+      "depth": 83,
+      "height": 40,
+      "angle": -90,
+      "entrance": [
+        1142,
+        69,
+        398
+      ],
+      "object_id": "B068",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "云天苑公寓07",
+      "label": "学生宿舍",
+      "x": 1094,
+      "z": 325,
+      "base": 4,
+      "width": 42,
+      "depth": 83,
+      "height": 40,
+      "angle": -90,
+      "entrance": [
+        1142,
+        69,
+        325
+      ],
+      "object_id": "B069",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "云天苑公寓08",
+      "label": "学生宿舍",
+      "x": 1094,
+      "z": 252,
+      "base": 4,
+      "width": 42,
+      "depth": 83,
+      "height": 40,
+      "angle": -90,
+      "entrance": [
+        1142,
+        69,
+        252
+      ],
+      "object_id": "B070",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "星天苑篮球场",
+      "label": "篮球场组团",
+      "x": 366,
+      "z": 771,
+      "base": 4,
+      "width": 90,
+      "depth": 96,
+      "height": 9,
+      "angle": -90,
+      "entrance": [
+        421,
+        69,
+        771
+      ],
+      "object_id": "B071",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "海天苑运动场",
+      "label": "室外球场",
+      "x": 304,
+      "z": 1850,
+      "base": 4,
+      "width": 56,
+      "depth": 190,
+      "height": 9,
+      "angle": -90,
+      "entrance": [
+        406,
+        69,
+        1850
+      ],
+      "object_id": "B072",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "配套楼1",
+      "label": "按地图补全外观",
+      "x": 275,
+      "z": 2328,
+      "base": 4,
+      "width": 118,
+      "depth": 78,
+      "height": 28,
+      "angle": -90,
+      "entrance": [
+        321,
+        69,
+        2328
+      ],
+      "object_id": "B073",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "配套楼2",
+      "label": "按地图补全外观",
+      "x": 281,
+      "z": 2216,
+      "base": 4,
+      "width": 45,
+      "depth": 91,
+      "height": 28,
+      "angle": -90,
+      "entrance": [
+        334,
+        69,
+        2216
+      ],
+      "object_id": "B074",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "配套楼3",
+      "label": "按地图补全外观",
+      "x": 273,
+      "z": 2095,
+      "base": 4,
+      "width": 56,
+      "depth": 154,
+      "height": 28,
+      "angle": -90,
+      "entrance": [
+        357,
+        69,
+        2095
+      ],
+      "object_id": "B075",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "配套楼4",
+      "label": "按地图补全外观",
+      "x": 403,
+      "z": 2323,
+      "base": 4,
+      "width": 95,
+      "depth": 37,
+      "height": 28,
+      "angle": -90,
+      "entrance": [
+        428,
+        69,
+        2323
+      ],
+      "object_id": "B076",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "配套楼5",
+      "label": "按地图补全外观",
+      "x": 190,
+      "z": 1412,
+      "base": 4,
+      "width": 67,
+      "depth": 32,
+      "height": 28,
+      "angle": -90,
+      "entrance": [
+        213,
+        69,
+        1412
+      ],
+      "object_id": "B077",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "配套楼6",
+      "label": "按地图补全外观",
+      "x": 231,
+      "z": 704,
+      "base": 4,
+      "width": 42,
+      "depth": 41,
+      "height": 28,
+      "angle": -90,
+      "entrance": [
+        258,
+        69,
+        704
+      ],
+      "object_id": "B078",
+      "model_source": "adapted campus typology"
+    },
+    {
+      "name": "配套楼7",
+      "label": "按地图补全外观",
+      "x": 234,
+      "z": 478,
+      "base": 4,
+      "width": 42,
+      "depth": 42,
+      "height": 28,
+      "angle": 90,
+      "entrance": [
+        206,
+        69,
+        478
+      ],
+      "object_id": "B079",
+      "model_source": "adapted campus typology"
+    }
+  ],
+  "coordinate_version": "nwpu-illustrated-map-2025-north-up-v1",
+  "release": "NWPU-rebuild-20260924",
+  "objects": [
+    {
+      "name": "图书馆与启真楼",
+      "label": "斜坡玻璃立面 / 阅览区",
+      "x": 785,
+      "z": 1078,
+      "base": 4,
+      "width": 210,
+      "depth": 150,
+      "height": 78,
+      "angle": -90,
+      "entrance": [
+        867,
+        69,
+        1078
+      ],
+      "object_id": "B001",
+      "model_source": "rebuild",
+      "map_uv": [
+        1091,
+        650
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "启翔楼",
+      "label": "中式屋顶 / 庭院",
+      "x": 754,
+      "z": 1854,
+      "base": 4,
+      "width": 144,
+      "depth": 116,
+      "height": 46,
+      "angle": -90,
+      "entrance": [
+        819,
+        69,
+        1854
+      ],
+      "object_id": "B002",
+      "model_source": "rebuild",
+      "map_uv": [
+        635,
+        638
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "军工素质教育实践中心",
+      "label": "博物馆 / 静态航空展品",
+      "x": 556,
+      "z": 2146,
+      "base": 4,
+      "width": 210,
+      "depth": 248,
+      "height": 28,
+      "angle": -90,
+      "entrance": [
+        687,
+        69,
+        2146
+      ],
+      "object_id": "B003",
+      "model_source": "rebuild",
+      "map_uv": [
+        463,
+        562
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "航空宇航支撑学科创新中心",
+      "label": "现代院落组团",
+      "x": 301,
+      "z": 1967,
+      "base": 4,
+      "width": 142,
+      "depth": 118,
+      "height": 40,
+      "angle": -90,
+      "entrance": [
+        367,
+        69,
+        1967
+      ],
+      "object_id": "B004",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        568,
+        464
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "海天苑大楼",
+      "label": "学院楼群 / 设计补全内装",
+      "x": 699,
+      "z": 1486,
+      "base": 4,
+      "width": 192,
+      "depth": 170,
+      "height": 52,
+      "angle": -90,
+      "entrance": [
+        791,
+        69,
+        1486
+      ],
+      "object_id": "B005",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        851,
+        617
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "海天苑餐厅",
+      "label": "餐饮空间",
+      "x": 346,
+      "z": 1517,
+      "base": 4,
+      "width": 78,
+      "depth": 69,
+      "height": 22,
+      "angle": -90,
+      "entrance": [
+        388,
+        69,
+        1517
+      ],
+      "object_id": "B006",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        833,
+        481
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "艺术教育中心",
+      "label": "艺术教育",
+      "x": 340,
+      "z": 1593,
+      "base": 4,
+      "width": 57,
+      "depth": 58,
+      "height": 22,
+      "angle": -90,
+      "entrance": [
+        376,
+        69,
+        1593
+      ],
+      "object_id": "B007",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        788,
+        479
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "南山苑国际学术交流中心",
+      "label": "坡屋顶 / 院落",
+      "x": 1172,
+      "z": 1556,
+      "base": 4,
+      "width": 141,
+      "depth": 124,
+      "height": 34,
+      "angle": -90,
+      "entrance": [
+        1241,
+        69,
+        1556
+      ],
+      "object_id": "B008",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        810,
+        799
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "翱翔游泳馆",
+      "label": "室内泳池",
+      "x": 335,
+      "z": 1068,
+      "base": 4,
+      "width": 85,
+      "depth": 118,
+      "height": 23,
+      "angle": -90,
+      "entrance": [
+        401,
+        69,
+        1068
+      ],
+      "object_id": "B009",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        1097,
+        477
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "综合训练馆",
+      "label": "体育训练空间",
+      "x": 255,
+      "z": 832,
+      "base": 4,
+      "width": 56,
+      "depth": 66,
+      "height": 16,
+      "angle": -90,
+      "entrance": [
+        295,
+        69,
+        832
+      ],
+      "object_id": "B010",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        1236,
+        446
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "学生体质监测中心",
+      "label": "体育配套",
+      "x": 187,
+      "z": 1070,
+      "base": 4,
+      "width": 58,
+      "depth": 31,
+      "height": 16,
+      "angle": -90,
+      "entrance": [
+        210,
+        69,
+        1070
+      ],
+      "object_id": "B011",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        1096,
+        420
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "星天苑田径场",
+      "label": "跑道 / 足球场 / 看台",
+      "x": 361,
+      "z": 915,
+      "base": 4,
+      "width": 197,
+      "depth": 112,
+      "height": 16,
+      "angle": -90,
+      "entrance": [
+        424,
+        69,
+        915
+      ],
+      "object_id": "B012",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        1187,
+        487
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "实验大楼",
+      "label": "教学实验",
+      "x": 543,
+      "z": 1156,
+      "base": 4,
+      "width": 63,
+      "depth": 65,
+      "height": 34,
+      "angle": -90,
+      "entrance": [
+        582,
+        69,
+        1156
+      ],
+      "object_id": "B013",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        1045,
+        557
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "教学西楼",
+      "label": "连廊 / 四翼教学楼",
+      "x": 595,
+      "z": 949,
+      "base": 4,
+      "width": 178,
+      "depth": 156,
+      "height": 34,
+      "angle": -90,
+      "entrance": [
+        680,
+        69,
+        949
+      ],
+      "object_id": "B014",
+      "model_source": "rebuild",
+      "map_uv": [
+        1167,
+        577
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "教学东楼",
+      "label": "连廊 / 四翼教学楼",
+      "x": 957,
+      "z": 774,
+      "base": 4,
+      "width": 175,
+      "depth": 158,
+      "height": 34,
+      "angle": -90,
+      "entrance": [
+        1043,
+        69,
+        774
+      ],
+      "object_id": "B015",
+      "model_source": "rebuild",
+      "map_uv": [
+        1270,
+        716
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "翱翔学生中心",
+      "label": "中央庭院 / 屋顶绿化",
+      "x": 767,
+      "z": 553,
+      "base": 4,
+      "width": 137,
+      "depth": 105,
+      "height": 22,
+      "angle": -90,
+      "entrance": [
+        826,
+        69,
+        553
+      ],
+      "object_id": "B016",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        1400,
+        643
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "数字化大楼",
+      "label": "校园服务",
+      "x": 554,
+      "z": 748,
+      "base": 4,
+      "width": 82,
+      "depth": 71,
+      "height": 28,
+      "angle": -90,
+      "entrance": [
+        596,
+        69,
+        748
+      ],
+      "object_id": "B017",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        1285,
+        561
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "云天苑餐厅",
+      "label": "三层餐厅",
+      "x": 962,
+      "z": 556,
+      "base": 4,
+      "width": 82,
+      "depth": 71,
+      "height": 22,
+      "angle": -90,
+      "entrance": [
+        1004,
+        69,
+        556
+      ],
+      "object_id": "B018",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        1398,
+        718
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "翱翔体育馆",
+      "label": "双馆 / 篮球场 / 看台",
+      "x": 1214,
+      "z": 449,
+      "base": 4,
+      "width": 187,
+      "depth": 138,
+      "height": 44,
+      "angle": -90,
+      "entrance": [
+        1290,
+        69,
+        449
+      ],
+      "object_id": "B019",
+      "model_source": "rebuild",
+      "map_uv": [
+        1461,
+        815
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "云天苑田径场",
+      "label": "跑道 / 足球场 / 看台",
+      "x": 1258,
+      "z": 216,
+      "base": 4,
+      "width": 210,
+      "depth": 118,
+      "height": 16,
+      "angle": -90,
+      "entrance": [
+        1324,
+        69,
+        216
+      ],
+      "object_id": "B020",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        1598,
+        832
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "星天苑南餐厅",
+      "label": "星天苑餐饮",
+      "x": 473,
+      "z": 645,
+      "base": 4,
+      "width": 73,
+      "depth": 69,
+      "height": 22,
+      "angle": -90,
+      "entrance": [
+        514,
+        69,
+        645
+      ],
+      "object_id": "B021",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        1346,
+        530
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "星天苑北餐厅",
+      "label": "星天苑餐饮",
+      "x": 463,
+      "z": 366,
+      "base": 4,
+      "width": 61,
+      "depth": 68,
+      "height": 22,
+      "angle": -90,
+      "entrance": [
+        504,
+        69,
+        366
+      ],
+      "object_id": "B022",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        1510,
+        526
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "大学生双创楼",
+      "label": "创新创业空间",
+      "x": 335,
+      "z": 388,
+      "base": 4,
+      "width": 60,
+      "depth": 58,
+      "height": 28,
+      "angle": -90,
+      "entrance": [
+        371,
+        69,
+        388
+      ],
+      "object_id": "B023",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        1497,
+        477
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "东大门",
+      "label": "入口 / 参观出生区",
+      "x": 1406,
+      "z": 1049,
+      "base": 4,
+      "width": 220,
+      "depth": 42,
+      "height": 30,
+      "angle": -90,
+      "entrance": [
+        1434,
+        69,
+        1049
+      ],
+      "object_id": "B024",
+      "model_source": "rebuild",
+      "map_uv": [
+        1108,
+        889
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "物理科学与技术学院",
+      "label": "学院与教学配套",
+      "x": 1089,
+      "z": 1418,
+      "base": 4,
+      "width": 52,
+      "depth": 99,
+      "height": 34,
+      "angle": -90,
+      "entrance": [
+        1146,
+        69,
+        1418
+      ],
+      "object_id": "B025",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        891,
+        767
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "化学与化工学院",
+      "label": "学院与教学配套",
+      "x": 1061,
+      "z": 1344,
+      "base": 4,
+      "width": 52,
+      "depth": 100,
+      "height": 34,
+      "angle": -90,
+      "entrance": [
+        1118,
+        69,
+        1344
+      ],
+      "object_id": "B026",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        935,
+        756
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "自动化学院",
+      "label": "学院与教学配套",
+      "x": 1079,
+      "z": 1270,
+      "base": 4,
+      "width": 64,
+      "depth": 110,
+      "height": 34,
+      "angle": -90,
+      "entrance": [
+        1141,
+        69,
+        1270
+      ],
+      "object_id": "B027",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        978,
+        763
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "电子信息与微电子学院",
+      "label": "学院与教学配套",
+      "x": 1133,
+      "z": 1156,
+      "base": 4,
+      "width": 63,
+      "depth": 105,
+      "height": 34,
+      "angle": -90,
+      "entrance": [
+        1192,
+        69,
+        1156
+      ],
+      "object_id": "B028",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        1045,
+        784
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "力学与土木建筑学院",
+      "label": "学院与教学配套",
+      "x": 1115,
+      "z": 828,
+      "base": 4,
+      "width": 63,
+      "depth": 72,
+      "height": 34,
+      "angle": -90,
+      "entrance": [
+        1158,
+        69,
+        828
+      ],
+      "object_id": "B029",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        1238,
+        777
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "管理学院",
+      "label": "学院与教学配套",
+      "x": 1092,
+      "z": 964,
+      "base": 4,
+      "width": 65,
+      "depth": 75,
+      "height": 34,
+      "angle": -90,
+      "entrance": [
+        1136,
+        69,
+        964
+      ],
+      "object_id": "B030",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        1158,
+        768
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "动力与能源学院",
+      "label": "学院与教学配套",
+      "x": 1235,
+      "z": 905,
+      "base": 4,
+      "width": 75,
+      "depth": 75,
+      "height": 34,
+      "angle": -90,
+      "entrance": [
+        1280,
+        69,
+        905
+      ],
+      "object_id": "B031",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        1193,
+        823
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "计算机学院",
+      "label": "学院与教学配套",
+      "x": 1230,
+      "z": 794,
+      "base": 4,
+      "width": 75,
+      "depth": 76,
+      "height": 34,
+      "angle": -90,
+      "entrance": [
+        1275,
+        69,
+        794
+      ],
+      "object_id": "B032",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        1258,
+        821
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "公共政策与管理学院",
+      "label": "学院与教学配套",
+      "x": 1237,
+      "z": 701,
+      "base": 4,
+      "width": 61,
+      "depth": 75,
+      "height": 34,
+      "angle": -90,
+      "entrance": [
+        1282,
+        69,
+        701
+      ],
+      "object_id": "B033",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        1313,
+        824
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "马克思主义学院",
+      "label": "学院与教学配套",
+      "x": 1123,
+      "z": 670,
+      "base": 4,
+      "width": 50,
+      "depth": 55,
+      "height": 34,
+      "angle": -90,
+      "entrance": [
+        1158,
+        69,
+        670
+      ],
+      "object_id": "B034",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        1331,
+        780
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "网络空间安全学院",
+      "label": "学院与教学配套",
+      "x": 683,
+      "z": 582,
+      "base": 4,
+      "width": 112,
+      "depth": 32,
+      "height": 34,
+      "angle": -90,
+      "entrance": [
+        706,
+        69,
+        582
+      ],
+      "object_id": "B035",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        1383,
+        610.8461538461538
+      ],
+      "adaptation": {
+        "dx_blocks": -16,
+        "basis": "clearance from adjacent student-center plot"
+      },
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "工程实践训练中心",
+      "label": "学院与教学配套",
+      "x": 213,
+      "z": 621,
+      "base": 4,
+      "width": 80,
+      "depth": 43,
+      "height": 34,
+      "angle": -90,
+      "entrance": [
+        242,
+        69,
+        621
+      ],
+      "object_id": "B036",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        1360,
+        430
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "海天苑公寓南区1",
+      "label": "学生宿舍",
+      "x": 296,
+      "z": 1782,
+      "base": 4,
+      "width": 31,
+      "depth": 49,
+      "height": 40,
+      "angle": 90,
+      "entrance": [
+        264,
+        69,
+        1782
+      ],
+      "object_id": "B037",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        677,
+        462
+      ],
+      "adaptation": {
+        "entry_orientation": "west-facing; avoids the opposing plot",
+        "basis": "circulation adaptation, facade orientation not surveyed"
+      },
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "海天苑公寓南区2",
+      "label": "学生宿舍",
+      "x": 296,
+      "z": 1741,
+      "base": 4,
+      "width": 31,
+      "depth": 49,
+      "height": 40,
+      "angle": 90,
+      "entrance": [
+        264,
+        69,
+        1741
+      ],
+      "object_id": "B038",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        701,
+        462
+      ],
+      "adaptation": {
+        "entry_orientation": "west-facing; avoids the opposing plot",
+        "basis": "circulation adaptation, facade orientation not surveyed"
+      },
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "海天苑公寓南区3",
+      "label": "学生宿舍",
+      "x": 296,
+      "z": 1700,
+      "base": 4,
+      "width": 31,
+      "depth": 49,
+      "height": 40,
+      "angle": 90,
+      "entrance": [
+        264,
+        69,
+        1700
+      ],
+      "object_id": "B039",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        725,
+        462
+      ],
+      "adaptation": {
+        "entry_orientation": "west-facing; avoids the opposing plot",
+        "basis": "circulation adaptation, facade orientation not surveyed"
+      },
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "海天苑公寓南区4",
+      "label": "学生宿舍",
+      "x": 296,
+      "z": 1660,
+      "base": 4,
+      "width": 31,
+      "depth": 49,
+      "height": 40,
+      "angle": 90,
+      "entrance": [
+        264,
+        69,
+        1660
+      ],
+      "object_id": "B040",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        749,
+        462
+      ],
+      "adaptation": {
+        "entry_orientation": "west-facing; avoids the opposing plot",
+        "basis": "circulation adaptation, facade orientation not surveyed"
+      },
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "海天苑公寓南区5",
+      "label": "学生宿舍",
+      "x": 348,
+      "z": 1782,
+      "base": 4,
+      "width": 31,
+      "depth": 49,
+      "height": 40,
+      "angle": -90,
+      "entrance": [
+        380,
+        69,
+        1782
+      ],
+      "object_id": "B041",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        677,
+        482
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "海天苑公寓南区6",
+      "label": "学生宿舍",
+      "x": 348,
+      "z": 1741,
+      "base": 4,
+      "width": 31,
+      "depth": 49,
+      "height": 40,
+      "angle": -90,
+      "entrance": [
+        380,
+        69,
+        1741
+      ],
+      "object_id": "B042",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        701,
+        482
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "海天苑公寓南区7",
+      "label": "学生宿舍",
+      "x": 348,
+      "z": 1700,
+      "base": 4,
+      "width": 31,
+      "depth": 49,
+      "height": 40,
+      "angle": -90,
+      "entrance": [
+        380,
+        69,
+        1700
+      ],
+      "object_id": "B043",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        725,
+        482
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "海天苑公寓南区8",
+      "label": "学生宿舍",
+      "x": 348,
+      "z": 1660,
+      "base": 4,
+      "width": 31,
+      "depth": 49,
+      "height": 40,
+      "angle": -90,
+      "entrance": [
+        380,
+        69,
+        1660
+      ],
+      "object_id": "B044",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        749,
+        482
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "海天苑公寓北区1",
+      "label": "学生宿舍 / 示例内装",
+      "x": 249,
+      "z": 1605,
+      "base": 4,
+      "width": 32,
+      "depth": 61,
+      "height": 46,
+      "angle": -90,
+      "entrance": [
+        286,
+        69,
+        1605
+      ],
+      "object_id": "B045",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        781,
+        444
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "海天苑公寓北区2",
+      "label": "学生宿舍 / 示例内装",
+      "x": 239,
+      "z": 1561,
+      "base": 4,
+      "width": 32,
+      "depth": 61,
+      "height": 46,
+      "angle": -90,
+      "entrance": [
+        276,
+        69,
+        1561
+      ],
+      "object_id": "B046",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        807,
+        440
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "海天苑公寓北区3",
+      "label": "学生宿舍 / 示例内装",
+      "x": 249,
+      "z": 1517,
+      "base": 4,
+      "width": 32,
+      "depth": 61,
+      "height": 46,
+      "angle": -90,
+      "entrance": [
+        286,
+        69,
+        1517
+      ],
+      "object_id": "B047",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        833,
+        444
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "海天苑公寓北区4",
+      "label": "学生宿舍 / 示例内装",
+      "x": 244,
+      "z": 1469,
+      "base": 4,
+      "width": 32,
+      "depth": 61,
+      "height": 46,
+      "angle": -90,
+      "entrance": [
+        282,
+        69,
+        1469
+      ],
+      "object_id": "B048",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        861,
+        442
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "海天苑公寓北区5",
+      "label": "学生宿舍 / 示例内装",
+      "x": 262,
+      "z": 1418,
+      "base": 4,
+      "width": 32,
+      "depth": 61,
+      "height": 46,
+      "angle": -90,
+      "entrance": [
+        300,
+        69,
+        1418
+      ],
+      "object_id": "B049",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        891,
+        449
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "海天苑公寓北区6",
+      "label": "学生宿舍 / 示例内装",
+      "x": 330,
+      "z": 1400,
+      "base": 4,
+      "width": 32,
+      "depth": 61,
+      "height": 46,
+      "angle": -90,
+      "entrance": [
+        368,
+        69,
+        1400
+      ],
+      "object_id": "B050",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        902,
+        475
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "星天苑公寓01",
+      "label": "学生宿舍",
+      "x": 294,
+      "z": 670,
+      "base": 4,
+      "width": 34,
+      "depth": 75,
+      "height": 40,
+      "angle": -90,
+      "entrance": [
+        338,
+        69,
+        670
+      ],
+      "object_id": "B051",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        1331,
+        461
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "星天苑公寓02",
+      "label": "学生宿舍",
+      "x": 294,
+      "z": 623,
+      "base": 4,
+      "width": 34,
+      "depth": 75,
+      "height": 40,
+      "angle": -90,
+      "entrance": [
+        338,
+        69,
+        623
+      ],
+      "object_id": "B052",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        1359,
+        461
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "星天苑公寓03",
+      "label": "学生宿舍",
+      "x": 294,
+      "z": 575,
+      "base": 4,
+      "width": 34,
+      "depth": 75,
+      "height": 40,
+      "angle": -90,
+      "entrance": [
+        338,
+        69,
+        575
+      ],
+      "object_id": "B053",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        1387,
+        461
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "星天苑公寓04",
+      "label": "学生宿舍",
+      "x": 294,
+      "z": 528,
+      "base": 4,
+      "width": 34,
+      "depth": 75,
+      "height": 40,
+      "angle": -90,
+      "entrance": [
+        338,
+        69,
+        528
+      ],
+      "object_id": "B054",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        1415,
+        461
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "星天苑公寓05",
+      "label": "学生宿舍",
+      "x": 294,
+      "z": 480,
+      "base": 4,
+      "width": 34,
+      "depth": 75,
+      "height": 40,
+      "angle": -90,
+      "entrance": [
+        338,
+        69,
+        480
+      ],
+      "object_id": "B055",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        1443,
+        461
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "星天苑公寓06",
+      "label": "学生宿舍",
+      "x": 294,
+      "z": 432,
+      "base": 4,
+      "width": 34,
+      "depth": 75,
+      "height": 40,
+      "angle": -90,
+      "entrance": [
+        338,
+        69,
+        432
+      ],
+      "object_id": "B056",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        1471,
+        461
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "星天苑公寓07",
+      "label": "学生宿舍",
+      "x": 608,
+      "z": 636,
+      "base": 4,
+      "width": 34,
+      "depth": 75,
+      "height": 40,
+      "angle": -90,
+      "entrance": [
+        652,
+        69,
+        636
+      ],
+      "object_id": "B057",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        1351,
+        582
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "星天苑公寓08",
+      "label": "学生宿舍",
+      "x": 608,
+      "z": 589,
+      "base": 4,
+      "width": 34,
+      "depth": 75,
+      "height": 40,
+      "angle": -90,
+      "entrance": [
+        652,
+        69,
+        589
+      ],
+      "object_id": "B058",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        1379,
+        582
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "星天苑公寓09",
+      "label": "学生宿舍",
+      "x": 608,
+      "z": 541,
+      "base": 4,
+      "width": 34,
+      "depth": 75,
+      "height": 40,
+      "angle": -90,
+      "entrance": [
+        652,
+        69,
+        541
+      ],
+      "object_id": "B059",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        1407,
+        582
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "星天苑公寓10",
+      "label": "学生宿舍",
+      "x": 608,
+      "z": 494,
+      "base": 4,
+      "width": 34,
+      "depth": 75,
+      "height": 40,
+      "angle": -90,
+      "entrance": [
+        652,
+        69,
+        494
+      ],
+      "object_id": "B060",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        1435,
+        582
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "星天苑公寓11",
+      "label": "学生宿舍",
+      "x": 608,
+      "z": 446,
+      "base": 4,
+      "width": 34,
+      "depth": 75,
+      "height": 40,
+      "angle": -90,
+      "entrance": [
+        652,
+        69,
+        446
+      ],
+      "object_id": "B061",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        1463,
+        582
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "星天苑公寓12",
+      "label": "学生宿舍",
+      "x": 608,
+      "z": 398,
+      "base": 4,
+      "width": 34,
+      "depth": 75,
+      "height": 40,
+      "angle": -90,
+      "entrance": [
+        652,
+        69,
+        398
+      ],
+      "object_id": "B062",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        1491,
+        582
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "云天苑公寓01",
+      "label": "学生宿舍",
+      "x": 936,
+      "z": 492,
+      "base": 4,
+      "width": 42,
+      "depth": 83,
+      "height": 40,
+      "angle": -90,
+      "entrance": [
+        984,
+        69,
+        492
+      ],
+      "object_id": "B063",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        1436,
+        708
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "云天苑公寓02",
+      "label": "学生宿舍",
+      "x": 936,
+      "z": 419,
+      "base": 4,
+      "width": 42,
+      "depth": 83,
+      "height": 40,
+      "angle": -90,
+      "entrance": [
+        984,
+        69,
+        419
+      ],
+      "object_id": "B064",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        1479,
+        708
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "云天苑公寓03",
+      "label": "学生宿舍",
+      "x": 936,
+      "z": 346,
+      "base": 4,
+      "width": 42,
+      "depth": 83,
+      "height": 40,
+      "angle": -90,
+      "entrance": [
+        984,
+        69,
+        346
+      ],
+      "object_id": "B065",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        1522,
+        708
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "云天苑公寓04",
+      "label": "学生宿舍",
+      "x": 936,
+      "z": 272,
+      "base": 4,
+      "width": 42,
+      "depth": 83,
+      "height": 40,
+      "angle": -90,
+      "entrance": [
+        984,
+        69,
+        272
+      ],
+      "object_id": "B066",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        1565,
+        708
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "云天苑公寓05",
+      "label": "学生宿舍",
+      "x": 1094,
+      "z": 471,
+      "base": 4,
+      "width": 42,
+      "depth": 83,
+      "height": 40,
+      "angle": -90,
+      "entrance": [
+        1142,
+        69,
+        471
+      ],
+      "object_id": "B067",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        1448,
+        769
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "云天苑公寓06",
+      "label": "学生宿舍",
+      "x": 1094,
+      "z": 398,
+      "base": 4,
+      "width": 42,
+      "depth": 83,
+      "height": 40,
+      "angle": -90,
+      "entrance": [
+        1142,
+        69,
+        398
+      ],
+      "object_id": "B068",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        1491,
+        769
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "云天苑公寓07",
+      "label": "学生宿舍",
+      "x": 1094,
+      "z": 325,
+      "base": 4,
+      "width": 42,
+      "depth": 83,
+      "height": 40,
+      "angle": -90,
+      "entrance": [
+        1142,
+        69,
+        325
+      ],
+      "object_id": "B069",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        1534,
+        769
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "云天苑公寓08",
+      "label": "学生宿舍",
+      "x": 1094,
+      "z": 252,
+      "base": 4,
+      "width": 42,
+      "depth": 83,
+      "height": 40,
+      "angle": -90,
+      "entrance": [
+        1142,
+        69,
+        252
+      ],
+      "object_id": "B070",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        1577,
+        769
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "星天苑篮球场",
+      "label": "篮球场组团",
+      "x": 366,
+      "z": 771,
+      "base": 4,
+      "width": 90,
+      "depth": 96,
+      "height": 9,
+      "angle": -90,
+      "entrance": [
+        421,
+        69,
+        771
+      ],
+      "object_id": "B071",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        1272,
+        489
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "海天苑运动场",
+      "label": "室外球场",
+      "x": 304,
+      "z": 1850,
+      "base": 4,
+      "width": 56,
+      "depth": 190,
+      "height": 9,
+      "angle": -90,
+      "entrance": [
+        406,
+        69,
+        1850
+      ],
+      "object_id": "B072",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        637,
+        465
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "配套楼1",
+      "label": "按地图补全外观",
+      "x": 275,
+      "z": 2328,
+      "base": 4,
+      "width": 118,
+      "depth": 78,
+      "height": 28,
+      "angle": -90,
+      "entrance": [
+        321,
+        69,
+        2328
+      ],
+      "object_id": "B073",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        356,
+        454
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "配套楼2",
+      "label": "按地图补全外观",
+      "x": 281,
+      "z": 2216,
+      "base": 4,
+      "width": 45,
+      "depth": 91,
+      "height": 28,
+      "angle": -90,
+      "entrance": [
+        334,
+        69,
+        2216
+      ],
+      "object_id": "B074",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        422,
+        456
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "配套楼3",
+      "label": "按地图补全外观",
+      "x": 273,
+      "z": 2095,
+      "base": 4,
+      "width": 56,
+      "depth": 154,
+      "height": 28,
+      "angle": -90,
+      "entrance": [
+        357,
+        69,
+        2095
+      ],
+      "object_id": "B075",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        493,
+        453
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "配套楼4",
+      "label": "按地图补全外观",
+      "x": 403,
+      "z": 2323,
+      "base": 4,
+      "width": 95,
+      "depth": 37,
+      "height": 28,
+      "angle": -90,
+      "entrance": [
+        428,
+        69,
+        2323
+      ],
+      "object_id": "B076",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        359,
+        503
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "配套楼5",
+      "label": "按地图补全外观",
+      "x": 190,
+      "z": 1412,
+      "base": 4,
+      "width": 67,
+      "depth": 32,
+      "height": 28,
+      "angle": -90,
+      "entrance": [
+        213,
+        69,
+        1412
+      ],
+      "object_id": "B077",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        895,
+        421
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "配套楼6",
+      "label": "按地图补全外观",
+      "x": 231,
+      "z": 704,
+      "base": 4,
+      "width": 42,
+      "depth": 41,
+      "height": 28,
+      "angle": -90,
+      "entrance": [
+        258,
+        69,
+        704
+      ],
+      "object_id": "B078",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        1311,
+        437
+      ],
+      "adaptation": {},
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    },
+    {
+      "name": "配套楼7",
+      "label": "按地图补全外观",
+      "x": 234,
+      "z": 478,
+      "base": 4,
+      "width": 42,
+      "depth": 42,
+      "height": 28,
+      "angle": 90,
+      "entrance": [
+        206,
+        69,
+        478
+      ],
+      "object_id": "B079",
+      "model_source": "adapted campus typology",
+      "map_uv": [
+        1444,
+        438
+      ],
+      "adaptation": {
+        "entry_orientation": "west-facing; avoids the opposing plot",
+        "basis": "circulation adaptation, facade orientation not surveyed"
+      },
+      "evidence": "B: official map plus photos for landmarks; C: inferred ordinary facade/interior"
+    }
+  ]
+}

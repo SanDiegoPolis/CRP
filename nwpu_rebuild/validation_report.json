@@ -1,0 +1,265 @@
+{
+  "nbt_round_trip": {
+    "regions": 15,
+    "chunks": 15360,
+    "decoded_block_states_compared": 503316480,
+    "signs": 81,
+    "result": "PASS"
+  },
+  "walking_routes": [
+    {
+      "building": "图书馆与启真楼",
+      "check": "template entrance and upper-floor walking; two-block player clearance",
+      "target_heights": [
+        2,
+        8,
+        14,
+        20,
+        26,
+        32,
+        38
+      ],
+      "missing": [],
+      "reachable_positions": 40503,
+      "result": "PASS"
+    },
+    {
+      "building": "图书馆与启真楼",
+      "check": "placed world after rotation: arrival to interior and floors",
+      "arrival": [
+        867,
+        69,
+        1078
+      ],
+      "target_world_y": [
+        70,
+        76,
+        82,
+        88,
+        94,
+        100,
+        106
+      ],
+      "missing": [],
+      "reachable_positions": 98971,
+      "result": "PASS"
+    },
+    {
+      "building": "启翔楼",
+      "check": "template entrance and upper-floor walking; two-block player clearance",
+      "target_heights": [
+        2,
+        8,
+        14,
+        20,
+        26,
+        32
+      ],
+      "missing": [],
+      "reachable_positions": 12403,
+      "result": "PASS"
+    },
+    {
+      "building": "启翔楼",
+      "check": "placed world after rotation: arrival to interior and floors",
+      "arrival": [
+        819,
+        69,
+        1854
+      ],
+      "target_world_y": [
+        70,
+        76,
+        82,
+        88,
+        94,
+        100
+      ],
+      "missing": [],
+      "reachable_positions": 43634,
+      "result": "PASS"
+    },
+    {
+      "building": "军工素质教育实践中心",
+      "check": "template entrance and upper-floor walking; two-block player clearance",
+      "target_heights": [
+        2
+      ],
+      "missing": [],
+      "reachable_positions": 38040,
+      "result": "PASS"
+    },
+    {
+      "building": "军工素质教育实践中心",
+      "check": "placed world after rotation: arrival to interior and floors",
+      "arrival": [
+        687,
+        69,
+        2146
+      ],
+      "target_world_y": [
+        70
+      ],
+      "missing": [],
+      "reachable_positions": 116612,
+      "result": "PASS"
+    },
+    {
+      "building": "教学西楼",
+      "check": "template entrance and upper-floor walking; two-block player clearance",
+      "target_heights": [
+        2,
+        8,
+        14,
+        20,
+        26
+      ],
+      "missing": [],
+      "reachable_positions": 59571,
+      "result": "PASS"
+    },
+    {
+      "building": "教学西楼",
+      "check": "placed world after rotation: arrival to interior and floors",
+      "arrival": [
+        680,
+        69,
+        949
+      ],
+      "target_world_y": [
+        70,
+        76,
+        82,
+        88,
+        94
+      ],
+      "missing": [],
+      "reachable_positions": 105176,
+      "result": "PASS"
+    },
+    {
+      "building": "云天苑餐厅",
+      "check": "template entrance and upper-floor walking; two-block player clearance",
+      "target_heights": [
+        2,
+        8,
+        14
+      ],
+      "missing": [],
+      "reachable_positions": 11700,
+      "result": "PASS"
+    },
+    {
+      "building": "云天苑餐厅",
+      "check": "placed world after rotation: arrival to interior and floors",
+      "arrival": [
+        1004,
+        69,
+        556
+      ],
+      "target_world_y": [
+        70,
+        76,
+        82
+      ],
+      "missing": [],
+      "reachable_positions": 32466,
+      "result": "PASS"
+    },
+    {
+      "building": "翱翔体育馆",
+      "check": "template entrance and upper-floor walking; two-block player clearance",
+      "target_heights": [
+        2
+      ],
+      "missing": [],
+      "reachable_positions": 25617,
+      "result": "PASS"
+    },
+    {
+      "building": "翱翔体育馆",
+      "check": "placed world after rotation: arrival to interior and floors",
+      "arrival": [
+        1290,
+        69,
+        449
+      ],
+      "target_world_y": [
+        70
+      ],
+      "missing": [],
+      "reachable_positions": 86549,
+      "result": "PASS"
+    },
+    {
+      "building": "海天苑公寓北区1",
+      "check": "template entrance and upper-floor walking; two-block player clearance",
+      "target_heights": [
+        2,
+        8,
+        14,
+        20,
+        26,
+        32,
+        38
+      ],
+      "missing": [],
+      "reachable_positions": 6351,
+      "result": "PASS"
+    },
+    {
+      "building": "海天苑公寓北区1",
+      "check": "placed world after rotation: arrival to interior and floors",
+      "arrival": [
+        286,
+        69,
+        1605
+      ],
+      "target_world_y": [
+        70,
+        76,
+        82,
+        88,
+        94,
+        100,
+        106
+      ],
+      "missing": [],
+      "reachable_positions": 19290,
+      "result": "PASS"
+    }
+  ],
+  "official_server": {
+    "result": "PASS",
+    "server_version": "26.2",
+    "every_authored_chunk_loaded": 15360,
+    "landmark_blocks_checked": 44,
+    "authored_chunks_with_saved_lighting": 15360,
+    "clean_shutdown": true,
+    "world_errors": [],
+    "host_diagnostics": [
+      "[18:13:04] [ServerMain/ERROR]: Unable to locate English counter names in registry Perflib 009. Counters may need to be rebuilt: ",
+      "[18:13:07] [Yggdrasil Key Fetcher/ERROR]: Failed to request yggdrasil public key"
+    ],
+    "log": "validation/campus-26.2.log"
+  },
+  "final_saved_world_readback": {
+    "regions": 15,
+    "region_files_scanned": 35,
+    "chunks": 15360,
+    "runtime_neighbor_chunks_outside_authored_extent": 7332,
+    "decoded_block_states_compared": 503316480,
+    "signs": 81,
+    "result": "PASS"
+  },
+  "exterior_paved_routes": {
+    "result": "PASS",
+    "scope": "Spawn to each plot exterior entry within 3 blocks; feet at y69, 2-block clearance, paved support only. Indoor stairs checked separately.",
+    "reachable_paved_cells": 448979,
+    "plots_checked": 79
+  },
+  "building_overlap_review": {
+    "collisions": [],
+    "result": "PASS"
+  }
+}

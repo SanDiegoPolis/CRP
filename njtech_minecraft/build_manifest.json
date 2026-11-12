@@ -1,0 +1,5069 @@
+{
+  "title": "南京工业大学 · 江浦校区",
+  "version": "26.2",
+  "data_version": 4903,
+  "scale": "约 1.1 方块 / 米，局部体量适配",
+  "dimensions": [
+    2048,
+    160,
+    2560
+  ],
+  "spawn": [
+    1480,
+    69,
+    2276
+  ],
+  "chunks": 20480,
+  "palette": [
+    {
+      "Name": "minecraft:air"
+    },
+    {
+      "Name": "minecraft:grass_block",
+      "Properties": {
+        "snowy": "false"
+      }
+    },
+    {
+      "Name": "minecraft:stone"
+    },
+    {
+      "Name": "minecraft:dirt"
+    },
+    {
+      "Name": "minecraft:bedrock"
+    },
+    {
+      "Name": "minecraft:smooth_quartz"
+    },
+    {
+      "Name": "minecraft:white_concrete"
+    },
+    {
+      "Name": "minecraft:bricks"
+    },
+    {
+      "Name": "minecraft:terracotta"
+    },
+    {
+      "Name": "minecraft:white_terracotta"
+    },
+    {
+      "Name": "minecraft:polished_granite"
+    },
+    {
+      "Name": "minecraft:polished_deepslate"
+    },
+    {
+      "Name": "minecraft:gray_concrete"
+    },
+    {
+      "Name": "minecraft:smooth_stone"
+    },
+    {
+      "Name": "minecraft:polished_andesite"
+    },
+    {
+      "Name": "minecraft:black_concrete"
+    },
+    {
+      "Name": "minecraft:cyan_stained_glass"
+    },
+    {
+      "Name": "minecraft:glass"
+    },
+    {
+      "Name": "minecraft:light_blue_stained_glass"
+    },
+    {
+      "Name": "minecraft:water",
+      "Properties": {
+        "level": "0"
+      }
+    },
+    {
+      "Name": "minecraft:oak_planks"
+    },
+    {
+      "Name": "minecraft:spruce_planks"
+    },
+    {
+      "Name": "minecraft:oak_log",
+      "Properties": {
+        "axis": "y"
+      }
+    },
+    {
+      "Name": "minecraft:oak_leaves",
+      "Properties": {
+        "persistent": "true",
+        "distance": "1",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "Name": "minecraft:birch_leaves",
+      "Properties": {
+        "persistent": "true",
+        "distance": "1",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "Name": "minecraft:spruce_leaves",
+      "Properties": {
+        "persistent": "true",
+        "distance": "1",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "Name": "minecraft:birch_log",
+      "Properties": {
+        "axis": "y"
+      }
+    },
+    {
+      "Name": "minecraft:spruce_log",
+      "Properties": {
+        "axis": "y"
+      }
+    },
+    {
+      "Name": "minecraft:red_concrete"
+    },
+    {
+      "Name": "minecraft:yellow_concrete"
+    },
+    {
+      "Name": "minecraft:gold_block"
+    },
+    {
+      "Name": "minecraft:green_concrete"
+    },
+    {
+      "Name": "minecraft:lime_concrete"
+    },
+    {
+      "Name": "minecraft:blue_concrete"
+    },
+    {
+      "Name": "minecraft:orange_terracotta"
+    },
+    {
+      "Name": "minecraft:sea_lantern"
+    },
+    {
+      "Name": "minecraft:glowstone"
+    },
+    {
+      "Name": "minecraft:iron_block"
+    },
+    {
+      "Name": "minecraft:iron_bars",
+      "Properties": {
+        "north": "true",
+        "south": "true",
+        "east": "true",
+        "west": "true",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "Name": "minecraft:oak_fence",
+      "Properties": {
+        "north": "true",
+        "south": "true",
+        "east": "true",
+        "west": "true",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "Name": "minecraft:bookshelf"
+    },
+    {
+      "Name": "minecraft:barrel",
+      "Properties": {
+        "facing": "up",
+        "open": "false"
+      }
+    },
+    {
+      "Name": "minecraft:poppy"
+    },
+    {
+      "Name": "minecraft:dandelion"
+    },
+    {
+      "Name": "minecraft:azure_bluet"
+    },
+    {
+      "Name": "minecraft:short_grass"
+    },
+    {
+      "Name": "minecraft:farmland",
+      "Properties": {
+        "moisture": "7"
+      }
+    },
+    {
+      "Name": "minecraft:wheat",
+      "Properties": {
+        "age": "7"
+      }
+    },
+    {
+      "Name": "minecraft:carrots",
+      "Properties": {
+        "age": "7"
+      }
+    },
+    {
+      "Name": "minecraft:beetroots",
+      "Properties": {
+        "age": "3"
+      }
+    },
+    {
+      "Name": "minecraft:fern"
+    },
+    {
+      "Name": "minecraft:quartz_bricks"
+    },
+    {
+      "Name": "minecraft:light_gray_concrete"
+    },
+    {
+      "Name": "minecraft:green_terracotta"
+    },
+    {
+      "Name": "minecraft:warped_planks"
+    },
+    {
+      "Name": "minecraft:smooth_sandstone"
+    },
+    {
+      "Name": "minecraft:red_terracotta"
+    },
+    {
+      "Name": "minecraft:gray_terracotta"
+    },
+    {
+      "Name": "minecraft:gray_stained_glass"
+    },
+    {
+      "Name": "minecraft:cherry_leaves",
+      "Properties": {
+        "persistent": "true",
+        "distance": "1",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "Name": "minecraft:azalea_leaves",
+      "Properties": {
+        "persistent": "true",
+        "distance": "1",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "Name": "minecraft:oak_sign",
+      "Properties": {
+        "rotation": "8",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "Name": "minecraft:oak_sign",
+      "Properties": {
+        "rotation": "12",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "Name": "minecraft:oak_sign",
+      "Properties": {
+        "rotation": "7",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "Name": "minecraft:oak_sign",
+      "Properties": {
+        "rotation": "11",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "Name": "minecraft:oak_sign",
+      "Properties": {
+        "rotation": "6",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "Name": "minecraft:oak_sign",
+      "Properties": {
+        "rotation": "9",
+        "waterlogged": "false"
+      }
+    }
+  ],
+  "colors": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      103,
+      147,
+      74
+    ],
+    [
+      119,
+      121,
+      122
+    ],
+    [
+      129,
+      95,
+      66
+    ],
+    [
+      69,
+      69,
+      69
+    ],
+    [
+      231,
+      228,
+      219
+    ],
+    [
+      212,
+      214,
+      213
+    ],
+    [
+      162,
+      94,
+      80
+    ],
+    [
+      158,
+      108,
+      81
+    ],
+    [
+      202,
+      173,
+      163
+    ],
+    [
+      151,
+      107,
+      93
+    ],
+    [
+      65,
+      66,
+      71
+    ],
+    [
+      69,
+      72,
+      78
+    ],
+    [
+      160,
+      161,
+      160
+    ],
+    [
+      135,
+      138,
+      138
+    ],
+    [
+      35,
+      37,
+      40
+    ],
+    [
+      70,
+      131,
+      140
+    ],
+    [
+      168,
+      201,
+      205
+    ],
+    [
+      92,
+      158,
+      190
+    ],
+    [
+      61,
+      128,
+      179
+    ],
+    [
+      167,
+      130,
+      76
+    ],
+    [
+      111,
+      82,
+      48
+    ],
+    [
+      113,
+      89,
+      54
+    ],
+    [
+      62,
+      115,
+      49
+    ],
+    [
+      93,
+      138,
+      66
+    ],
+    [
+      45,
+      91,
+      59
+    ],
+    [
+      213,
+      209,
+      181
+    ],
+    [
+      92,
+      71,
+      45
+    ],
+    [
+      167,
+      54,
+      51
+    ],
+    [
+      227,
+      175,
+      40
+    ],
+    [
+      238,
+      200,
+      63
+    ],
+    [
+      75,
+      107,
+      50
+    ],
+    [
+      119,
+      161,
+      47
+    ],
+    [
+      63,
+      83,
+      154
+    ],
+    [
+      158,
+      80,
+      45
+    ],
+    [
+      174,
+      211,
+      197
+    ],
+    [
+      199,
+      164,
+      93
+    ],
+    [
+      209,
+      211,
+      210
+    ],
+    [
+      149,
+      155,
+      157
+    ],
+    [
+      137,
+      108,
+      63
+    ],
+    [
+      147,
+      116,
+      68
+    ],
+    [
+      128,
+      98,
+      57
+    ],
+    [
+      203,
+      62,
+      52
+    ],
+    [
+      241,
+      206,
+      54
+    ],
+    [
+      230,
+      230,
+      219
+    ],
+    [
+      87,
+      131,
+      60
+    ],
+    [
+      110,
+      75,
+      44
+    ],
+    [
+      192,
+      178,
+      68
+    ],
+    [
+      88,
+      143,
+      54
+    ],
+    [
+      116,
+      136,
+      58
+    ],
+    [
+      74,
+      123,
+      57
+    ],
+    [
+      210,
+      212,
+      207
+    ],
+    [
+      182,
+      190,
+      192
+    ],
+    [
+      108,
+      119,
+      72
+    ],
+    [
+      57,
+      114,
+      113
+    ],
+    [
+      218,
+      206,
+      173
+    ],
+    [
+      145,
+      77,
+      66
+    ],
+    [
+      80,
+      81,
+      79
+    ],
+    [
+      74,
+      111,
+      122
+    ],
+    [
+      220,
+      156,
+      178
+    ],
+    [
+      142,
+      151,
+      69
+    ],
+    [
+      155,
+      125,
+      78
+    ],
+    [
+      155,
+      125,
+      78
+    ],
+    [
+      155,
+      125,
+      78
+    ],
+    [
+      155,
+      125,
+      78
+    ],
+    [
+      155,
+      125,
+      78
+    ],
+    [
+      155,
+      125,
+      78
+    ]
+  ],
+  "landmarks": [
+    {
+      "name": "逸夫图书馆",
+      "label": "悬挑阅览体块 / 白色框架 / 六层室内",
+      "x": 1193,
+      "z": 1195,
+      "base": 4,
+      "width": 186,
+      "depth": 130,
+      "height": 39,
+      "angle": 90,
+      "entrance": [
+        1122,
+        69,
+        1195
+      ]
+    },
+    {
+      "name": "进学楼",
+      "label": "图书馆北侧教学配套",
+      "x": 1184,
+      "z": 1053,
+      "base": 4,
+      "width": 58,
+      "depth": 45,
+      "height": 34,
+      "angle": 90,
+      "entrance": [
+        1156,
+        69,
+        1053
+      ]
+    },
+    {
+      "name": "天宝阁（南工塔）",
+      "label": "竖向塔身 / 观景层 / 步行楼梯",
+      "x": 952,
+      "z": 621,
+      "base": 4,
+      "width": 86,
+      "depth": 93,
+      "height": 122,
+      "angle": 0,
+      "entrance": [
+        952,
+        69,
+        674
+      ]
+    },
+    {
+      "name": "仁智楼",
+      "label": "连廊与多翼教学组团",
+      "x": 952,
+      "z": 775,
+      "base": 4,
+      "width": 177,
+      "depth": 145,
+      "height": 37,
+      "angle": 0,
+      "entrance": [
+        952,
+        69,
+        854
+      ]
+    },
+    {
+      "name": "同和楼",
+      "label": "教学楼 / 灰色坡屋顶",
+      "x": 902,
+      "z": 910,
+      "base": 4,
+      "width": 125,
+      "depth": 88,
+      "height": 37,
+      "angle": 0,
+      "entrance": [
+        902,
+        69,
+        960
+      ]
+    },
+    {
+      "name": "厚学楼",
+      "label": "白色教学楼 / 中央入口",
+      "x": 1377,
+      "z": 2028,
+      "base": 4,
+      "width": 150,
+      "depth": 108,
+      "height": 34,
+      "angle": -25,
+      "entrance": [
+        1402,
+        69,
+        2082
+      ]
+    },
+    {
+      "name": "笃学楼",
+      "label": "浦江教学组团 / 玻璃门厅",
+      "x": 1449,
+      "z": 1852,
+      "base": 4,
+      "width": 150,
+      "depth": 108,
+      "height": 34,
+      "angle": -25,
+      "entrance": [
+        1474,
+        69,
+        1906
+      ]
+    },
+    {
+      "name": "明德楼",
+      "label": "行政楼 / 红色塔楼屋顶",
+      "x": 1250,
+      "z": 2103,
+      "base": 4,
+      "width": 108,
+      "depth": 58,
+      "height": 54,
+      "angle": -25,
+      "entrance": [
+        1265,
+        69,
+        2135
+      ]
+    },
+    {
+      "name": "笃行楼",
+      "label": "院落教学楼",
+      "x": 1287,
+      "z": 1836,
+      "base": 4,
+      "width": 95,
+      "depth": 64,
+      "height": 28,
+      "angle": -25,
+      "entrance": [
+        1303,
+        69,
+        1870
+      ]
+    },
+    {
+      "name": "崇德楼",
+      "label": "A—E 学科楼组团",
+      "x": 1290,
+      "z": 1685,
+      "base": 4,
+      "width": 140,
+      "depth": 94,
+      "height": 34,
+      "angle": -25,
+      "entrance": [
+        1312,
+        69,
+        1733
+      ]
+    },
+    {
+      "name": "尚德楼",
+      "label": "学科楼组团",
+      "x": 1470,
+      "z": 1710,
+      "base": 4,
+      "width": 128,
+      "depth": 93,
+      "height": 34,
+      "angle": -25,
+      "entrance": [
+        1492,
+        69,
+        1758
+      ]
+    },
+    {
+      "name": "弘毅楼",
+      "label": "四翼学院楼群",
+      "x": 1195,
+      "z": 1909,
+      "base": 4,
+      "width": 98,
+      "depth": 95,
+      "height": 28,
+      "angle": -25,
+      "entrance": [
+        1218,
+        69,
+        1957
+      ]
+    },
+    {
+      "name": "沉毅楼",
+      "label": "教学与实验空间",
+      "x": 1324,
+      "z": 1928,
+      "base": 4,
+      "width": 76,
+      "depth": 68,
+      "height": 28,
+      "angle": -25,
+      "entrance": [
+        1341,
+        69,
+        1964
+      ]
+    },
+    {
+      "name": "地坤楼",
+      "label": "东侧学科楼",
+      "x": 1103,
+      "z": 915,
+      "base": 4,
+      "width": 78,
+      "depth": 69,
+      "height": 34,
+      "angle": -25,
+      "entrance": [
+        1120,
+        69,
+        952
+      ]
+    },
+    {
+      "name": "天工楼",
+      "label": "东侧学科楼",
+      "x": 1204,
+      "z": 962,
+      "base": 4,
+      "width": 70,
+      "depth": 67,
+      "height": 34,
+      "angle": -25,
+      "entrance": [
+        1221,
+        69,
+        998
+      ]
+    },
+    {
+      "name": "立德楼",
+      "label": "学科楼",
+      "x": 1211,
+      "z": 864,
+      "base": 4,
+      "width": 55,
+      "depth": 53,
+      "height": 54,
+      "angle": -25,
+      "entrance": [
+        1225,
+        69,
+        893
+      ]
+    },
+    {
+      "name": "浦德楼",
+      "label": "东侧学院楼",
+      "x": 1308,
+      "z": 929,
+      "base": 4,
+      "width": 113,
+      "depth": 72,
+      "height": 28,
+      "angle": -25,
+      "entrance": [
+        1326,
+        69,
+        967
+      ]
+    },
+    {
+      "name": "国家生化工程技术研究中心",
+      "label": "科研楼组团",
+      "x": 1388,
+      "z": 1023,
+      "base": 4,
+      "width": 130,
+      "depth": 92,
+      "height": 28,
+      "angle": -25,
+      "entrance": [
+        1410,
+        69,
+        1070
+      ]
+    },
+    {
+      "name": "江苏省工业生物技术创新中心",
+      "label": "科研配套",
+      "x": 1504,
+      "z": 1146,
+      "base": 4,
+      "width": 108,
+      "depth": 94,
+      "height": 28,
+      "angle": -25,
+      "entrance": [
+        1526,
+        69,
+        1194
+      ]
+    },
+    {
+      "name": "行健体育馆",
+      "label": "弧形屋顶 / 玻璃立面 / 球场看台",
+      "x": 1645,
+      "z": 1634,
+      "base": 4,
+      "width": 136,
+      "depth": 122,
+      "height": 36,
+      "angle": -25,
+      "entrance": [
+        1673,
+        69,
+        1695
+      ]
+    },
+    {
+      "name": "游泳馆",
+      "label": "室内泳池 / 分道线",
+      "x": 1768,
+      "z": 1587,
+      "base": 4,
+      "width": 90,
+      "depth": 78,
+      "height": 36,
+      "angle": -25,
+      "entrance": [
+        1787,
+        69,
+        1628
+      ]
+    },
+    {
+      "name": "行健综合馆",
+      "label": "多功能运动空间",
+      "x": 1590,
+      "z": 1553,
+      "base": 4,
+      "width": 103,
+      "depth": 36,
+      "height": 22,
+      "angle": -25,
+      "entrance": [
+        1600,
+        69,
+        1575
+      ]
+    },
+    {
+      "name": "行健田径场",
+      "label": "田径跑道 / 足球场 / 看台",
+      "x": 1493,
+      "z": 1414,
+      "base": 4,
+      "width": 201,
+      "depth": 122,
+      "height": 16,
+      "angle": 67,
+      "entrance": [
+        1431,
+        69,
+        1440
+      ]
+    },
+    {
+      "name": "行健篮球场",
+      "label": "室外篮球场",
+      "x": 1483,
+      "z": 1589,
+      "base": 4,
+      "width": 85,
+      "depth": 70,
+      "height": 9,
+      "angle": -25,
+      "entrance": [
+        1500,
+        69,
+        1626
+      ]
+    },
+    {
+      "name": "卓远棒球场",
+      "label": "棒球场地",
+      "x": 1354,
+      "z": 1280,
+      "base": 4,
+      "width": 132,
+      "depth": 117,
+      "height": 9,
+      "angle": -25,
+      "entrance": [
+        1381,
+        69,
+        1338
+      ]
+    },
+    {
+      "name": "卓远垒球场",
+      "label": "垒球特色运动场",
+      "x": 1067,
+      "z": 2105,
+      "base": 4,
+      "width": 112,
+      "depth": 111,
+      "height": 9,
+      "angle": -30,
+      "entrance": [
+        1098,
+        69,
+        2158
+      ]
+    },
+    {
+      "name": "亚青田径场",
+      "label": "亚青村田径场",
+      "x": 556,
+      "z": 908,
+      "base": 4,
+      "width": 178,
+      "depth": 104,
+      "height": 16,
+      "angle": 90,
+      "entrance": [
+        498,
+        69,
+        908
+      ]
+    },
+    {
+      "name": "亚青村餐厅",
+      "label": "学生餐厅",
+      "x": 663,
+      "z": 803,
+      "base": 4,
+      "width": 86,
+      "depth": 52,
+      "height": 22,
+      "angle": 0,
+      "entrance": [
+        663,
+        69,
+        835
+      ]
+    },
+    {
+      "name": "象山苑餐厅",
+      "label": "镜湖北侧餐饮",
+      "x": 781,
+      "z": 868,
+      "base": 4,
+      "width": 62,
+      "depth": 64,
+      "height": 22,
+      "angle": -15,
+      "entrance": [
+        791,
+        69,
+        905
+      ]
+    },
+    {
+      "name": "北苑食堂",
+      "label": "学生餐厅",
+      "x": 999,
+      "z": 1418,
+      "base": 4,
+      "width": 64,
+      "depth": 42,
+      "height": 22,
+      "angle": -25,
+      "entrance": [
+        1010,
+        69,
+        1442
+      ]
+    },
+    {
+      "name": "西苑食堂",
+      "label": "学生餐厅",
+      "x": 1062,
+      "z": 1795,
+      "base": 4,
+      "width": 65,
+      "depth": 54,
+      "height": 22,
+      "angle": -20,
+      "entrance": [
+        1073,
+        69,
+        1826
+      ]
+    },
+    {
+      "name": "南苑食堂",
+      "label": "学生餐厅",
+      "x": 1151,
+      "z": 2023,
+      "base": 4,
+      "width": 73,
+      "depth": 42,
+      "height": 22,
+      "angle": -20,
+      "entrance": [
+        1160,
+        69,
+        2048
+      ]
+    },
+    {
+      "name": "乐苑体育馆",
+      "label": "学生服务片区体育馆",
+      "x": 1135,
+      "z": 1716,
+      "base": 4,
+      "width": 77,
+      "depth": 71,
+      "height": 36,
+      "angle": -25,
+      "entrance": [
+        1153,
+        69,
+        1754
+      ]
+    },
+    {
+      "name": "学生事务中心",
+      "label": "学生服务",
+      "x": 1189,
+      "z": 1642,
+      "base": 4,
+      "width": 48,
+      "depth": 37,
+      "height": 28,
+      "angle": -25,
+      "entrance": [
+        1199,
+        69,
+        1664
+      ]
+    },
+    {
+      "name": "博雅堂",
+      "label": "教务办公",
+      "x": 1286,
+      "z": 2158,
+      "base": 4,
+      "width": 88,
+      "depth": 36,
+      "height": 22,
+      "angle": -25,
+      "entrance": [
+        1296,
+        69,
+        2180
+      ]
+    },
+    {
+      "name": "博学楼",
+      "label": "教学办公",
+      "x": 1318,
+      "z": 2204,
+      "base": 4,
+      "width": 104,
+      "depth": 40,
+      "height": 34,
+      "angle": -25,
+      "entrance": [
+        1329,
+        69,
+        2228
+      ]
+    },
+    {
+      "name": "明正楼",
+      "label": "行政办公",
+      "x": 1208,
+      "z": 2262,
+      "base": 4,
+      "width": 108,
+      "depth": 60,
+      "height": 28,
+      "angle": -25,
+      "entrance": [
+        1223,
+        69,
+        2295
+      ]
+    },
+    {
+      "name": "南门",
+      "label": "校名墙 / 入校广场",
+      "x": 1494,
+      "z": 2220,
+      "base": 4,
+      "width": 169,
+      "depth": 40,
+      "height": 19,
+      "angle": -35,
+      "entrance": [
+        1509,
+        69,
+        2241
+      ]
+    },
+    {
+      "name": "校医院",
+      "label": "校园医院",
+      "x": 854,
+      "z": 1253,
+      "base": 4,
+      "width": 74,
+      "depth": 49,
+      "height": 22,
+      "angle": -25,
+      "entrance": [
+        867,
+        69,
+        1281
+      ]
+    },
+    {
+      "name": "南苑公寓01",
+      "label": "六层宿舍 / 示例内装",
+      "x": 1044,
+      "z": 1931,
+      "base": 4,
+      "width": 45,
+      "depth": 25,
+      "height": 42,
+      "angle": -25,
+      "entrance": [
+        1052,
+        69,
+        1948
+      ]
+    },
+    {
+      "name": "镜湖",
+      "label": "长湖 / 湖滨步道",
+      "x": 816,
+      "z": 1058,
+      "base": 3,
+      "width": 30,
+      "depth": 30,
+      "height": 2,
+      "angle": 0,
+      "entrance": [
+        816,
+        68,
+        1058
+      ]
+    },
+    {
+      "name": "同济湖",
+      "label": "北苑湖景",
+      "x": 937,
+      "z": 1363,
+      "base": 3,
+      "width": 30,
+      "depth": 30,
+      "height": 2,
+      "angle": 0,
+      "entrance": [
+        937,
+        68,
+        1363
+      ]
+    },
+    {
+      "name": "学府苑湖区",
+      "label": "北部住宅与水系",
+      "x": 1199,
+      "z": 408,
+      "base": 3,
+      "width": 30,
+      "depth": 30,
+      "height": 2,
+      "angle": 0,
+      "entrance": [
+        1199,
+        68,
+        408
+      ]
+    },
+    {
+      "name": "行知湖",
+      "label": "南门西侧湖景",
+      "x": 1356,
+      "z": 2315,
+      "base": 3,
+      "width": 30,
+      "depth": 30,
+      "height": 2,
+      "angle": 0,
+      "entrance": [
+        1356,
+        68,
+        2315
+      ]
+    },
+    {
+      "name": "象山与林间步道",
+      "label": "山地园林 / 高差适配",
+      "x": 1022,
+      "z": 1058,
+      "base": 25,
+      "width": 30,
+      "depth": 30,
+      "height": 2,
+      "angle": 0,
+      "entrance": [
+        1022,
+        90,
+        1058
+      ]
+    },
+    {
+      "name": "出生点",
+      "label": "南门外 / 面向校园",
+      "x": 1480,
+      "z": 2276,
+      "base": 4,
+      "width": 30,
+      "depth": 30,
+      "height": 2,
+      "angle": 0,
+      "entrance": [
+        1480,
+        69,
+        2276
+      ]
+    }
+  ],
+  "navigation_checks": [
+    {
+      "name": "逸夫图书馆",
+      "template_shape": [
+        156,
+        138,
+        194
+      ],
+      "width": 186,
+      "depth": 130,
+      "targets": [
+        2,
+        8,
+        14,
+        20,
+        26,
+        32
+      ]
+    },
+    {
+      "name": "天宝阁（南工塔）",
+      "template_shape": [
+        156,
+        101,
+        94
+      ],
+      "width": 86,
+      "depth": 93,
+      "targets": [
+        2,
+        14,
+        30,
+        50,
+        78,
+        90
+      ]
+    },
+    {
+      "name": "仁智楼",
+      "template_shape": [
+        156,
+        153,
+        185
+      ],
+      "width": 177,
+      "depth": 145,
+      "targets": [
+        2,
+        8,
+        14,
+        20,
+        26
+      ]
+    },
+    {
+      "name": "厚学楼",
+      "template_shape": [
+        156,
+        116,
+        158
+      ],
+      "width": 150,
+      "depth": 108,
+      "targets": [
+        2,
+        8,
+        14,
+        20,
+        26
+      ]
+    },
+    {
+      "name": "笃学楼",
+      "template_shape": [
+        156,
+        116,
+        158
+      ],
+      "width": 150,
+      "depth": 108,
+      "targets": [
+        2,
+        8,
+        14,
+        20,
+        26
+      ]
+    },
+    {
+      "name": "明德楼",
+      "template_shape": [
+        156,
+        66,
+        116
+      ],
+      "width": 108,
+      "depth": 58,
+      "targets": [
+        2,
+        8,
+        14,
+        20,
+        26
+      ]
+    },
+    {
+      "name": "行健体育馆",
+      "template_shape": [
+        156,
+        130,
+        144
+      ],
+      "width": 136,
+      "depth": 122,
+      "targets": [
+        2
+      ]
+    },
+    {
+      "name": "南苑公寓01",
+      "template_shape": [
+        156,
+        33,
+        53
+      ],
+      "width": 45,
+      "depth": 25,
+      "targets": [
+        2,
+        8,
+        14,
+        20,
+        26,
+        32
+      ]
+    }
+  ],
+  "source_map": "南京工业大学 2023 学业指南，第 75 页（PDF 第 79 页）",
+  "above_terrain_blocks": 5146260,
+  "building_groups": [
+    {
+      "name": "逸夫图书馆",
+      "label": "悬挑阅览体块 / 白色框架 / 六层室内",
+      "x": 1193,
+      "z": 1195,
+      "base": 4,
+      "width": 186,
+      "depth": 130,
+      "height": 39,
+      "angle": 90,
+      "entrance": [
+        1122,
+        69,
+        1195
+      ]
+    },
+    {
+      "name": "进学楼",
+      "label": "图书馆北侧教学配套",
+      "x": 1184,
+      "z": 1053,
+      "base": 4,
+      "width": 58,
+      "depth": 45,
+      "height": 34,
+      "angle": 90,
+      "entrance": [
+        1156,
+        69,
+        1053
+      ]
+    },
+    {
+      "name": "天宝阁（南工塔）",
+      "label": "竖向塔身 / 观景层 / 步行楼梯",
+      "x": 952,
+      "z": 621,
+      "base": 4,
+      "width": 86,
+      "depth": 93,
+      "height": 122,
+      "angle": 0,
+      "entrance": [
+        952,
+        69,
+        674
+      ]
+    },
+    {
+      "name": "仁智楼",
+      "label": "连廊与多翼教学组团",
+      "x": 952,
+      "z": 775,
+      "base": 4,
+      "width": 177,
+      "depth": 145,
+      "height": 37,
+      "angle": 0,
+      "entrance": [
+        952,
+        69,
+        854
+      ]
+    },
+    {
+      "name": "同和楼",
+      "label": "教学楼 / 灰色坡屋顶",
+      "x": 902,
+      "z": 910,
+      "base": 4,
+      "width": 125,
+      "depth": 88,
+      "height": 37,
+      "angle": 0,
+      "entrance": [
+        902,
+        69,
+        960
+      ]
+    },
+    {
+      "name": "厚学楼",
+      "label": "白色教学楼 / 中央入口",
+      "x": 1377,
+      "z": 2028,
+      "base": 4,
+      "width": 150,
+      "depth": 108,
+      "height": 34,
+      "angle": -25,
+      "entrance": [
+        1402,
+        69,
+        2082
+      ]
+    },
+    {
+      "name": "笃学楼",
+      "label": "浦江教学组团 / 玻璃门厅",
+      "x": 1449,
+      "z": 1852,
+      "base": 4,
+      "width": 150,
+      "depth": 108,
+      "height": 34,
+      "angle": -25,
+      "entrance": [
+        1474,
+        69,
+        1906
+      ]
+    },
+    {
+      "name": "明德楼",
+      "label": "行政楼 / 红色塔楼屋顶",
+      "x": 1250,
+      "z": 2103,
+      "base": 4,
+      "width": 108,
+      "depth": 58,
+      "height": 54,
+      "angle": -25,
+      "entrance": [
+        1265,
+        69,
+        2135
+      ]
+    },
+    {
+      "name": "笃行楼",
+      "label": "院落教学楼",
+      "x": 1287,
+      "z": 1836,
+      "base": 4,
+      "width": 95,
+      "depth": 64,
+      "height": 28,
+      "angle": -25,
+      "entrance": [
+        1303,
+        69,
+        1870
+      ]
+    },
+    {
+      "name": "崇德楼",
+      "label": "A—E 学科楼组团",
+      "x": 1290,
+      "z": 1685,
+      "base": 4,
+      "width": 140,
+      "depth": 94,
+      "height": 34,
+      "angle": -25,
+      "entrance": [
+        1312,
+        69,
+        1733
+      ]
+    },
+    {
+      "name": "尚德楼",
+      "label": "学科楼组团",
+      "x": 1470,
+      "z": 1710,
+      "base": 4,
+      "width": 128,
+      "depth": 93,
+      "height": 34,
+      "angle": -25,
+      "entrance": [
+        1492,
+        69,
+        1758
+      ]
+    },
+    {
+      "name": "弘毅楼",
+      "label": "四翼学院楼群",
+      "x": 1195,
+      "z": 1909,
+      "base": 4,
+      "width": 98,
+      "depth": 95,
+      "height": 28,
+      "angle": -25,
+      "entrance": [
+        1218,
+        69,
+        1957
+      ]
+    },
+    {
+      "name": "沉毅楼",
+      "label": "教学与实验空间",
+      "x": 1324,
+      "z": 1928,
+      "base": 4,
+      "width": 76,
+      "depth": 68,
+      "height": 28,
+      "angle": -25,
+      "entrance": [
+        1341,
+        69,
+        1964
+      ]
+    },
+    {
+      "name": "沉毅南楼",
+      "label": "教学配套",
+      "x": 1263,
+      "z": 1984,
+      "base": 4,
+      "width": 46,
+      "depth": 32,
+      "height": 28,
+      "angle": -25,
+      "entrance": [
+        1272,
+        69,
+        2004
+      ]
+    },
+    {
+      "name": "地坤楼",
+      "label": "东侧学科楼",
+      "x": 1103,
+      "z": 915,
+      "base": 4,
+      "width": 78,
+      "depth": 69,
+      "height": 34,
+      "angle": -25,
+      "entrance": [
+        1120,
+        69,
+        952
+      ]
+    },
+    {
+      "name": "天工楼",
+      "label": "东侧学科楼",
+      "x": 1204,
+      "z": 962,
+      "base": 4,
+      "width": 70,
+      "depth": 67,
+      "height": 34,
+      "angle": -25,
+      "entrance": [
+        1221,
+        69,
+        998
+      ]
+    },
+    {
+      "name": "立德楼",
+      "label": "学科楼",
+      "x": 1211,
+      "z": 864,
+      "base": 4,
+      "width": 55,
+      "depth": 53,
+      "height": 54,
+      "angle": -25,
+      "entrance": [
+        1225,
+        69,
+        893
+      ]
+    },
+    {
+      "name": "浦德楼",
+      "label": "东侧学院楼",
+      "x": 1308,
+      "z": 929,
+      "base": 4,
+      "width": 113,
+      "depth": 72,
+      "height": 28,
+      "angle": -25,
+      "entrance": [
+        1326,
+        69,
+        967
+      ]
+    },
+    {
+      "name": "厚德楼",
+      "label": "学科楼",
+      "x": 1265,
+      "z": 1041,
+      "base": 4,
+      "width": 73,
+      "depth": 38,
+      "height": 28,
+      "angle": -25,
+      "entrance": [
+        1276,
+        69,
+        1064
+      ]
+    },
+    {
+      "name": "国家生化工程技术研究中心",
+      "label": "科研楼组团",
+      "x": 1388,
+      "z": 1023,
+      "base": 4,
+      "width": 130,
+      "depth": 92,
+      "height": 28,
+      "angle": -25,
+      "entrance": [
+        1410,
+        69,
+        1070
+      ]
+    },
+    {
+      "name": "江苏省工业生物技术创新中心",
+      "label": "科研配套",
+      "x": 1504,
+      "z": 1146,
+      "base": 4,
+      "width": 108,
+      "depth": 94,
+      "height": 28,
+      "angle": -25,
+      "entrance": [
+        1526,
+        69,
+        1194
+      ]
+    },
+    {
+      "name": "热科学与工程实验楼",
+      "label": "科研配套",
+      "x": 1603,
+      "z": 1206,
+      "base": 4,
+      "width": 54,
+      "depth": 34,
+      "height": 22,
+      "angle": -25,
+      "entrance": [
+        1613,
+        69,
+        1227
+      ]
+    },
+    {
+      "name": "天佑楼",
+      "label": "校园配套",
+      "x": 1587,
+      "z": 1312,
+      "base": 4,
+      "width": 44,
+      "depth": 50,
+      "height": 28,
+      "angle": -25,
+      "entrance": [
+        1600,
+        69,
+        1340
+      ]
+    },
+    {
+      "name": "行健体育馆",
+      "label": "弧形屋顶 / 玻璃立面 / 球场看台",
+      "x": 1645,
+      "z": 1634,
+      "base": 4,
+      "width": 136,
+      "depth": 122,
+      "height": 36,
+      "angle": -25,
+      "entrance": [
+        1673,
+        69,
+        1695
+      ]
+    },
+    {
+      "name": "游泳馆",
+      "label": "室内泳池 / 分道线",
+      "x": 1768,
+      "z": 1587,
+      "base": 4,
+      "width": 90,
+      "depth": 78,
+      "height": 36,
+      "angle": -25,
+      "entrance": [
+        1787,
+        69,
+        1628
+      ]
+    },
+    {
+      "name": "行健综合馆",
+      "label": "多功能运动空间",
+      "x": 1590,
+      "z": 1553,
+      "base": 4,
+      "width": 103,
+      "depth": 36,
+      "height": 22,
+      "angle": -25,
+      "entrance": [
+        1600,
+        69,
+        1575
+      ]
+    },
+    {
+      "name": "行健田径场",
+      "label": "田径跑道 / 足球场 / 看台",
+      "x": 1493,
+      "z": 1414,
+      "base": 4,
+      "width": 201,
+      "depth": 122,
+      "height": 16,
+      "angle": 67,
+      "entrance": [
+        1431,
+        69,
+        1440
+      ]
+    },
+    {
+      "name": "行健篮球场",
+      "label": "室外篮球场",
+      "x": 1483,
+      "z": 1589,
+      "base": 4,
+      "width": 85,
+      "depth": 70,
+      "height": 9,
+      "angle": -25,
+      "entrance": [
+        1500,
+        69,
+        1626
+      ]
+    },
+    {
+      "name": "卓远棒球场",
+      "label": "棒球场地",
+      "x": 1354,
+      "z": 1280,
+      "base": 4,
+      "width": 132,
+      "depth": 117,
+      "height": 9,
+      "angle": -25,
+      "entrance": [
+        1381,
+        69,
+        1338
+      ]
+    },
+    {
+      "name": "卓远垒球场",
+      "label": "垒球特色运动场",
+      "x": 1067,
+      "z": 2105,
+      "base": 4,
+      "width": 112,
+      "depth": 111,
+      "height": 9,
+      "angle": -30,
+      "entrance": [
+        1098,
+        69,
+        2158
+      ]
+    },
+    {
+      "name": "亚青田径场",
+      "label": "亚青村田径场",
+      "x": 556,
+      "z": 908,
+      "base": 4,
+      "width": 178,
+      "depth": 104,
+      "height": 16,
+      "angle": 90,
+      "entrance": [
+        498,
+        69,
+        908
+      ]
+    },
+    {
+      "name": "亚青村餐厅",
+      "label": "学生餐厅",
+      "x": 663,
+      "z": 803,
+      "base": 4,
+      "width": 86,
+      "depth": 52,
+      "height": 22,
+      "angle": 0,
+      "entrance": [
+        663,
+        69,
+        835
+      ]
+    },
+    {
+      "name": "亚青网球场",
+      "label": "运动配套",
+      "x": 549,
+      "z": 788,
+      "base": 4,
+      "width": 47,
+      "depth": 25,
+      "height": 3,
+      "angle": 0,
+      "entrance": [
+        549,
+        69,
+        806
+      ]
+    },
+    {
+      "name": "象山苑餐厅",
+      "label": "镜湖北侧餐饮",
+      "x": 781,
+      "z": 868,
+      "base": 4,
+      "width": 62,
+      "depth": 64,
+      "height": 22,
+      "angle": -15,
+      "entrance": [
+        791,
+        69,
+        905
+      ]
+    },
+    {
+      "name": "北苑食堂",
+      "label": "学生餐厅",
+      "x": 999,
+      "z": 1418,
+      "base": 4,
+      "width": 64,
+      "depth": 42,
+      "height": 22,
+      "angle": -25,
+      "entrance": [
+        1010,
+        69,
+        1442
+      ]
+    },
+    {
+      "name": "西苑食堂",
+      "label": "学生餐厅",
+      "x": 1062,
+      "z": 1795,
+      "base": 4,
+      "width": 65,
+      "depth": 54,
+      "height": 22,
+      "angle": -20,
+      "entrance": [
+        1073,
+        69,
+        1826
+      ]
+    },
+    {
+      "name": "南苑食堂",
+      "label": "学生餐厅",
+      "x": 1151,
+      "z": 2023,
+      "base": 4,
+      "width": 73,
+      "depth": 42,
+      "height": 22,
+      "angle": -20,
+      "entrance": [
+        1160,
+        69,
+        2048
+      ]
+    },
+    {
+      "name": "1902餐厅",
+      "label": "餐饮空间",
+      "x": 1675,
+      "z": 1517,
+      "base": 4,
+      "width": 45,
+      "depth": 26,
+      "height": 22,
+      "angle": -25,
+      "entrance": [
+        1683,
+        69,
+        1534
+      ]
+    },
+    {
+      "name": "乐苑体育馆",
+      "label": "学生服务片区体育馆",
+      "x": 1135,
+      "z": 1716,
+      "base": 4,
+      "width": 77,
+      "depth": 71,
+      "height": 36,
+      "angle": -25,
+      "entrance": [
+        1153,
+        69,
+        1754
+      ]
+    },
+    {
+      "name": "学生事务中心",
+      "label": "学生服务",
+      "x": 1189,
+      "z": 1642,
+      "base": 4,
+      "width": 48,
+      "depth": 37,
+      "height": 28,
+      "angle": -25,
+      "entrance": [
+        1199,
+        69,
+        1664
+      ]
+    },
+    {
+      "name": "雅集馆",
+      "label": "校园文化空间",
+      "x": 1114,
+      "z": 1968,
+      "base": 4,
+      "width": 63,
+      "depth": 44,
+      "height": 54,
+      "angle": -25,
+      "entrance": [
+        1126,
+        69,
+        1993
+      ]
+    },
+    {
+      "name": "博雅堂",
+      "label": "教务办公",
+      "x": 1286,
+      "z": 2158,
+      "base": 4,
+      "width": 88,
+      "depth": 36,
+      "height": 22,
+      "angle": -25,
+      "entrance": [
+        1296,
+        69,
+        2180
+      ]
+    },
+    {
+      "name": "博学楼",
+      "label": "教学办公",
+      "x": 1318,
+      "z": 2204,
+      "base": 4,
+      "width": 104,
+      "depth": 40,
+      "height": 34,
+      "angle": -25,
+      "entrance": [
+        1329,
+        69,
+        2228
+      ]
+    },
+    {
+      "name": "明正楼",
+      "label": "行政办公",
+      "x": 1208,
+      "z": 2262,
+      "base": 4,
+      "width": 108,
+      "depth": 60,
+      "height": 28,
+      "angle": -25,
+      "entrance": [
+        1223,
+        69,
+        2295
+      ]
+    },
+    {
+      "name": "南门",
+      "label": "校名墙 / 入校广场",
+      "x": 1494,
+      "z": 2220,
+      "base": 4,
+      "width": 169,
+      "depth": 40,
+      "height": 19,
+      "angle": -35,
+      "entrance": [
+        1509,
+        69,
+        2241
+      ]
+    },
+    {
+      "name": "西门",
+      "label": "亚青村入口",
+      "x": 474,
+      "z": 1024,
+      "base": 4,
+      "width": 60,
+      "depth": 24,
+      "height": 19,
+      "angle": 90,
+      "entrance": [
+        456,
+        69,
+        1024
+      ]
+    },
+    {
+      "name": "校医院",
+      "label": "校园医院",
+      "x": 854,
+      "z": 1253,
+      "base": 4,
+      "width": 74,
+      "depth": 49,
+      "height": 22,
+      "angle": -25,
+      "entrance": [
+        867,
+        69,
+        1281
+      ]
+    },
+    {
+      "name": "东苑网球场",
+      "label": "网球场组团",
+      "x": 1130,
+      "z": 1542,
+      "base": 4,
+      "width": 86,
+      "depth": 86,
+      "height": 9,
+      "angle": -25,
+      "entrance": [
+        1151,
+        69,
+        1586
+      ]
+    },
+    {
+      "name": "东苑器械场",
+      "label": "健身运动区",
+      "x": 1255,
+      "z": 1592,
+      "base": 4,
+      "width": 80,
+      "depth": 62,
+      "height": 9,
+      "angle": -25,
+      "entrance": [
+        1271,
+        69,
+        1626
+      ]
+    },
+    {
+      "name": "亚青村公寓01",
+      "label": "",
+      "x": 435,
+      "z": 568,
+      "base": 4,
+      "width": 35,
+      "depth": 25,
+      "height": 42,
+      "angle": 0,
+      "entrance": [
+        435,
+        69,
+        586
+      ]
+    },
+    {
+      "name": "亚青村公寓02",
+      "label": "",
+      "x": 487,
+      "z": 568,
+      "base": 4,
+      "width": 35,
+      "depth": 25,
+      "height": 42,
+      "angle": 0,
+      "entrance": [
+        487,
+        69,
+        586
+      ]
+    },
+    {
+      "name": "亚青村公寓03",
+      "label": "",
+      "x": 546,
+      "z": 568,
+      "base": 4,
+      "width": 44,
+      "depth": 25,
+      "height": 42,
+      "angle": 0,
+      "entrance": [
+        546,
+        69,
+        586
+      ]
+    },
+    {
+      "name": "亚青村公寓04",
+      "label": "",
+      "x": 607,
+      "z": 568,
+      "base": 4,
+      "width": 44,
+      "depth": 25,
+      "height": 42,
+      "angle": 0,
+      "entrance": [
+        607,
+        69,
+        586
+      ]
+    },
+    {
+      "name": "亚青村公寓05",
+      "label": "",
+      "x": 432,
+      "z": 610,
+      "base": 4,
+      "width": 35,
+      "depth": 25,
+      "height": 42,
+      "angle": 0,
+      "entrance": [
+        432,
+        69,
+        628
+      ]
+    },
+    {
+      "name": "亚青村公寓06",
+      "label": "",
+      "x": 484,
+      "z": 610,
+      "base": 4,
+      "width": 35,
+      "depth": 25,
+      "height": 42,
+      "angle": 0,
+      "entrance": [
+        484,
+        69,
+        628
+      ]
+    },
+    {
+      "name": "亚青村公寓07",
+      "label": "",
+      "x": 542,
+      "z": 610,
+      "base": 4,
+      "width": 44,
+      "depth": 25,
+      "height": 42,
+      "angle": 0,
+      "entrance": [
+        542,
+        69,
+        628
+      ]
+    },
+    {
+      "name": "亚青村公寓08",
+      "label": "",
+      "x": 603,
+      "z": 610,
+      "base": 4,
+      "width": 44,
+      "depth": 25,
+      "height": 42,
+      "angle": 0,
+      "entrance": [
+        603,
+        69,
+        628
+      ]
+    },
+    {
+      "name": "亚青村公寓09",
+      "label": "",
+      "x": 428,
+      "z": 652,
+      "base": 4,
+      "width": 35,
+      "depth": 25,
+      "height": 42,
+      "angle": 0,
+      "entrance": [
+        428,
+        69,
+        670
+      ]
+    },
+    {
+      "name": "亚青村公寓10",
+      "label": "",
+      "x": 480,
+      "z": 652,
+      "base": 4,
+      "width": 35,
+      "depth": 25,
+      "height": 42,
+      "angle": 0,
+      "entrance": [
+        480,
+        69,
+        670
+      ]
+    },
+    {
+      "name": "亚青村公寓11",
+      "label": "",
+      "x": 542,
+      "z": 652,
+      "base": 4,
+      "width": 44,
+      "depth": 25,
+      "height": 42,
+      "angle": 0,
+      "entrance": [
+        542,
+        69,
+        670
+      ]
+    },
+    {
+      "name": "亚青村公寓12",
+      "label": "",
+      "x": 567,
+      "z": 696,
+      "base": 4,
+      "width": 44,
+      "depth": 25,
+      "height": 42,
+      "angle": 0,
+      "entrance": [
+        567,
+        69,
+        714
+      ]
+    },
+    {
+      "name": "亚青村公寓13",
+      "label": "",
+      "x": 425,
+      "z": 696,
+      "base": 4,
+      "width": 35,
+      "depth": 25,
+      "height": 42,
+      "angle": 0,
+      "entrance": [
+        425,
+        69,
+        714
+      ]
+    },
+    {
+      "name": "亚青村公寓14",
+      "label": "",
+      "x": 477,
+      "z": 696,
+      "base": 4,
+      "width": 35,
+      "depth": 25,
+      "height": 42,
+      "angle": 0,
+      "entrance": [
+        477,
+        69,
+        714
+      ]
+    },
+    {
+      "name": "亚青村公寓15",
+      "label": "",
+      "x": 542,
+      "z": 740,
+      "base": 4,
+      "width": 44,
+      "depth": 25,
+      "height": 42,
+      "angle": 0,
+      "entrance": [
+        542,
+        69,
+        758
+      ]
+    },
+    {
+      "name": "亚青村公寓16",
+      "label": "",
+      "x": 631,
+      "z": 720,
+      "base": 4,
+      "width": 44,
+      "depth": 25,
+      "height": 42,
+      "angle": 0,
+      "entrance": [
+        631,
+        69,
+        738
+      ]
+    },
+    {
+      "name": "亚青村公寓17",
+      "label": "",
+      "x": 422,
+      "z": 742,
+      "base": 4,
+      "width": 35,
+      "depth": 25,
+      "height": 42,
+      "angle": 0,
+      "entrance": [
+        422,
+        69,
+        760
+      ]
+    },
+    {
+      "name": "亚青村公寓18",
+      "label": "",
+      "x": 474,
+      "z": 742,
+      "base": 4,
+      "width": 35,
+      "depth": 25,
+      "height": 42,
+      "angle": 0,
+      "entrance": [
+        474,
+        69,
+        760
+      ]
+    },
+    {
+      "name": "亚青村公寓19",
+      "label": "",
+      "x": 486,
+      "z": 786,
+      "base": 4,
+      "width": 44,
+      "depth": 25,
+      "height": 42,
+      "angle": 0,
+      "entrance": [
+        486,
+        69,
+        804
+      ]
+    },
+    {
+      "name": "亚青村公寓20",
+      "label": "",
+      "x": 667,
+      "z": 678,
+      "base": 4,
+      "width": 44,
+      "depth": 25,
+      "height": 42,
+      "angle": 0,
+      "entrance": [
+        667,
+        69,
+        696
+      ]
+    },
+    {
+      "name": "亚青村公寓21",
+      "label": "",
+      "x": 419,
+      "z": 786,
+      "base": 4,
+      "width": 35,
+      "depth": 25,
+      "height": 42,
+      "angle": 0,
+      "entrance": [
+        419,
+        69,
+        804
+      ]
+    },
+    {
+      "name": "亚青村公寓22",
+      "label": "",
+      "x": 462,
+      "z": 830,
+      "base": 4,
+      "width": 35,
+      "depth": 25,
+      "height": 42,
+      "angle": 0,
+      "entrance": [
+        462,
+        69,
+        848
+      ]
+    },
+    {
+      "name": "亚青村公寓23",
+      "label": "",
+      "x": 642,
+      "z": 860,
+      "base": 4,
+      "width": 44,
+      "depth": 25,
+      "height": 42,
+      "angle": 0,
+      "entrance": [
+        642,
+        69,
+        878
+      ]
+    },
+    {
+      "name": "亚青村公寓24",
+      "label": "",
+      "x": 695,
+      "z": 747,
+      "base": 4,
+      "width": 44,
+      "depth": 25,
+      "height": 42,
+      "angle": 0,
+      "entrance": [
+        695,
+        69,
+        766
+      ]
+    },
+    {
+      "name": "亚青村公寓25",
+      "label": "",
+      "x": 407,
+      "z": 829,
+      "base": 4,
+      "width": 35,
+      "depth": 25,
+      "height": 42,
+      "angle": 0,
+      "entrance": [
+        407,
+        69,
+        848
+      ]
+    },
+    {
+      "name": "亚青村公寓26",
+      "label": "",
+      "x": 459,
+      "z": 873,
+      "base": 4,
+      "width": 35,
+      "depth": 25,
+      "height": 42,
+      "angle": 0,
+      "entrance": [
+        459,
+        69,
+        892
+      ]
+    },
+    {
+      "name": "亚青村公寓27",
+      "label": "",
+      "x": 401,
+      "z": 873,
+      "base": 4,
+      "width": 44,
+      "depth": 25,
+      "height": 42,
+      "angle": 0,
+      "entrance": [
+        401,
+        69,
+        892
+      ]
+    },
+    {
+      "name": "亚青村公寓28",
+      "label": "",
+      "x": 457,
+      "z": 917,
+      "base": 4,
+      "width": 44,
+      "depth": 25,
+      "height": 42,
+      "angle": 0,
+      "entrance": [
+        457,
+        69,
+        936
+      ]
+    },
+    {
+      "name": "亚青村公寓29",
+      "label": "",
+      "x": 441,
+      "z": 963,
+      "base": 4,
+      "width": 72,
+      "depth": 29,
+      "height": 42,
+      "angle": 0,
+      "entrance": [
+        441,
+        69,
+        984
+      ]
+    },
+    {
+      "name": "亚青村公寓30",
+      "label": "",
+      "x": 592,
+      "z": 374,
+      "base": 4,
+      "width": 73,
+      "depth": 29,
+      "height": 42,
+      "angle": 0,
+      "entrance": [
+        592,
+        69,
+        394
+      ]
+    },
+    {
+      "name": "亚青村公寓31",
+      "label": "",
+      "x": 590,
+      "z": 422,
+      "base": 4,
+      "width": 69,
+      "depth": 29,
+      "height": 42,
+      "angle": 0,
+      "entrance": [
+        590,
+        69,
+        442
+      ]
+    },
+    {
+      "name": "亚青村公寓32",
+      "label": "",
+      "x": 565,
+      "z": 468,
+      "base": 4,
+      "width": 75,
+      "depth": 29,
+      "height": 42,
+      "angle": 0,
+      "entrance": [
+        565,
+        69,
+        488
+      ]
+    },
+    {
+      "name": "亚青村公寓33",
+      "label": "",
+      "x": 486,
+      "z": 509,
+      "base": 4,
+      "width": 44,
+      "depth": 29,
+      "height": 42,
+      "angle": 0,
+      "entrance": [
+        486,
+        69,
+        530
+      ]
+    },
+    {
+      "name": "亚青村公寓34",
+      "label": "",
+      "x": 577,
+      "z": 517,
+      "base": 4,
+      "width": 57,
+      "depth": 29,
+      "height": 42,
+      "angle": 0,
+      "entrance": [
+        577,
+        69,
+        538
+      ]
+    },
+    {
+      "name": "亚青村公寓35",
+      "label": "",
+      "x": 420,
+      "z": 523,
+      "base": 4,
+      "width": 48,
+      "depth": 29,
+      "height": 42,
+      "angle": 0,
+      "entrance": [
+        420,
+        69,
+        544
+      ]
+    },
+    {
+      "name": "亚青村公寓36",
+      "label": "",
+      "x": 486,
+      "z": 461,
+      "base": 4,
+      "width": 43,
+      "depth": 29,
+      "height": 42,
+      "angle": 0,
+      "entrance": [
+        486,
+        69,
+        482
+      ]
+    },
+    {
+      "name": "亚青村公寓37",
+      "label": "",
+      "x": 658,
+      "z": 502,
+      "base": 4,
+      "width": 65,
+      "depth": 29,
+      "height": 42,
+      "angle": 0,
+      "entrance": [
+        658,
+        69,
+        522
+      ]
+    },
+    {
+      "name": "亚青村公寓38",
+      "label": "",
+      "x": 682,
+      "z": 548,
+      "base": 4,
+      "width": 70,
+      "depth": 29,
+      "height": 42,
+      "angle": 0,
+      "entrance": [
+        682,
+        69,
+        568
+      ]
+    },
+    {
+      "name": "亚青村公寓39",
+      "label": "",
+      "x": 674,
+      "z": 906,
+      "base": 4,
+      "width": 80,
+      "depth": 29,
+      "height": 42,
+      "angle": 0,
+      "entrance": [
+        674,
+        69,
+        926
+      ]
+    },
+    {
+      "name": "亚青村公寓40",
+      "label": "",
+      "x": 674,
+      "z": 953,
+      "base": 4,
+      "width": 79,
+      "depth": 29,
+      "height": 42,
+      "angle": 0,
+      "entrance": [
+        674,
+        69,
+        974
+      ]
+    },
+    {
+      "name": "亚青村公寓41",
+      "label": "",
+      "x": 674,
+      "z": 1002,
+      "base": 4,
+      "width": 80,
+      "depth": 29,
+      "height": 42,
+      "angle": 0,
+      "entrance": [
+        674,
+        69,
+        1022
+      ]
+    },
+    {
+      "name": "象山苑公寓01",
+      "label": "",
+      "x": 668,
+      "z": 606,
+      "base": 4,
+      "width": 41,
+      "depth": 26,
+      "height": 42,
+      "angle": -15,
+      "entrance": [
+        673,
+        69,
+        624
+      ]
+    },
+    {
+      "name": "象山苑公寓02",
+      "label": "",
+      "x": 722,
+      "z": 636,
+      "base": 4,
+      "width": 41,
+      "depth": 26,
+      "height": 42,
+      "angle": -15,
+      "entrance": [
+        727,
+        69,
+        654
+      ]
+    },
+    {
+      "name": "象山苑公寓03",
+      "label": "",
+      "x": 734,
+      "z": 678,
+      "base": 4,
+      "width": 41,
+      "depth": 26,
+      "height": 42,
+      "angle": -15,
+      "entrance": [
+        739,
+        69,
+        696
+      ]
+    },
+    {
+      "name": "象山苑公寓04",
+      "label": "",
+      "x": 753,
+      "z": 718,
+      "base": 4,
+      "width": 41,
+      "depth": 26,
+      "height": 42,
+      "angle": -15,
+      "entrance": [
+        758,
+        69,
+        736
+      ]
+    },
+    {
+      "name": "象山苑公寓05",
+      "label": "",
+      "x": 751,
+      "z": 786,
+      "base": 4,
+      "width": 41,
+      "depth": 26,
+      "height": 42,
+      "angle": -15,
+      "entrance": [
+        756,
+        69,
+        804
+      ]
+    },
+    {
+      "name": "象山苑公寓06",
+      "label": "",
+      "x": 802,
+      "z": 750,
+      "base": 4,
+      "width": 41,
+      "depth": 26,
+      "height": 42,
+      "angle": -15,
+      "entrance": [
+        807,
+        69,
+        768
+      ]
+    },
+    {
+      "name": "象山苑公寓07",
+      "label": "",
+      "x": 789,
+      "z": 656,
+      "base": 4,
+      "width": 41,
+      "depth": 26,
+      "height": 42,
+      "angle": -15,
+      "entrance": [
+        794,
+        69,
+        674
+      ]
+    },
+    {
+      "name": "象山苑公寓08",
+      "label": "",
+      "x": 776,
+      "z": 612,
+      "base": 4,
+      "width": 41,
+      "depth": 26,
+      "height": 42,
+      "angle": -15,
+      "entrance": [
+        781,
+        69,
+        630
+      ]
+    },
+    {
+      "name": "象山苑公寓09",
+      "label": "",
+      "x": 810,
+      "z": 703,
+      "base": 4,
+      "width": 41,
+      "depth": 26,
+      "height": 42,
+      "angle": -15,
+      "entrance": [
+        815,
+        69,
+        721
+      ]
+    },
+    {
+      "name": "象山苑公寓10",
+      "label": "",
+      "x": 816,
+      "z": 794,
+      "base": 4,
+      "width": 41,
+      "depth": 26,
+      "height": 42,
+      "angle": -15,
+      "entrance": [
+        821,
+        69,
+        812
+      ]
+    },
+    {
+      "name": "檀香苑公寓01",
+      "label": "",
+      "x": 867,
+      "z": 670,
+      "base": 4,
+      "width": 35,
+      "depth": 27,
+      "height": 42,
+      "angle": 0,
+      "entrance": [
+        867,
+        69,
+        690
+      ]
+    },
+    {
+      "name": "檀香苑公寓02",
+      "label": "",
+      "x": 706,
+      "z": 861,
+      "base": 4,
+      "width": 35,
+      "depth": 27,
+      "height": 42,
+      "angle": 0,
+      "entrance": [
+        706,
+        69,
+        880
+      ]
+    },
+    {
+      "name": "檀香苑公寓03",
+      "label": "",
+      "x": 846,
+      "z": 626,
+      "base": 4,
+      "width": 35,
+      "depth": 27,
+      "height": 42,
+      "angle": 0,
+      "entrance": [
+        846,
+        69,
+        646
+      ]
+    },
+    {
+      "name": "檀香苑公寓04",
+      "label": "",
+      "x": 832,
+      "z": 582,
+      "base": 4,
+      "width": 35,
+      "depth": 27,
+      "height": 42,
+      "angle": 0,
+      "entrance": [
+        832,
+        69,
+        602
+      ]
+    },
+    {
+      "name": "檀香苑公寓05",
+      "label": "",
+      "x": 762,
+      "z": 564,
+      "base": 4,
+      "width": 35,
+      "depth": 27,
+      "height": 42,
+      "angle": 0,
+      "entrance": [
+        762,
+        69,
+        584
+      ]
+    },
+    {
+      "name": "檀香苑公寓06",
+      "label": "",
+      "x": 826,
+      "z": 536,
+      "base": 4,
+      "width": 35,
+      "depth": 27,
+      "height": 42,
+      "angle": 0,
+      "entrance": [
+        826,
+        69,
+        556
+      ]
+    },
+    {
+      "name": "檀香苑公寓07",
+      "label": "",
+      "x": 772,
+      "z": 518,
+      "base": 4,
+      "width": 35,
+      "depth": 27,
+      "height": 42,
+      "angle": 0,
+      "entrance": [
+        772,
+        69,
+        538
+      ]
+    },
+    {
+      "name": "檀香苑公寓08",
+      "label": "",
+      "x": 884,
+      "z": 544,
+      "base": 4,
+      "width": 35,
+      "depth": 27,
+      "height": 42,
+      "angle": 0,
+      "entrance": [
+        884,
+        69,
+        564
+      ]
+    },
+    {
+      "name": "檀香苑公寓09",
+      "label": "",
+      "x": 827,
+      "z": 492,
+      "base": 4,
+      "width": 35,
+      "depth": 27,
+      "height": 42,
+      "angle": 0,
+      "entrance": [
+        827,
+        69,
+        512
+      ]
+    },
+    {
+      "name": "檀香苑公寓10",
+      "label": "",
+      "x": 880,
+      "z": 500,
+      "base": 4,
+      "width": 35,
+      "depth": 27,
+      "height": 42,
+      "angle": 0,
+      "entrance": [
+        880,
+        69,
+        520
+      ]
+    },
+    {
+      "name": "檀香苑公寓11",
+      "label": "",
+      "x": 754,
+      "z": 471,
+      "base": 4,
+      "width": 73,
+      "depth": 27,
+      "height": 42,
+      "angle": 0,
+      "entrance": [
+        754,
+        69,
+        490
+      ]
+    },
+    {
+      "name": "学府苑住宅组团01",
+      "label": "",
+      "x": 758,
+      "z": 320,
+      "base": 4,
+      "width": 31,
+      "depth": 24,
+      "height": 19,
+      "angle": -15,
+      "entrance": [
+        763,
+        69,
+        337
+      ]
+    },
+    {
+      "name": "学府苑住宅组团02",
+      "label": "",
+      "x": 807,
+      "z": 311,
+      "base": 4,
+      "width": 31,
+      "depth": 24,
+      "height": 19,
+      "angle": -15,
+      "entrance": [
+        812,
+        69,
+        328
+      ]
+    },
+    {
+      "name": "学府苑住宅组团03",
+      "label": "",
+      "x": 855,
+      "z": 301,
+      "base": 4,
+      "width": 31,
+      "depth": 24,
+      "height": 19,
+      "angle": -15,
+      "entrance": [
+        860,
+        69,
+        318
+      ]
+    },
+    {
+      "name": "学府苑住宅组团04",
+      "label": "",
+      "x": 901,
+      "z": 287,
+      "base": 4,
+      "width": 31,
+      "depth": 24,
+      "height": 19,
+      "angle": -15,
+      "entrance": [
+        906,
+        69,
+        304
+      ]
+    },
+    {
+      "name": "学府苑住宅组团05",
+      "label": "",
+      "x": 963,
+      "z": 288,
+      "base": 4,
+      "width": 31,
+      "depth": 24,
+      "height": 19,
+      "angle": -15,
+      "entrance": [
+        968,
+        69,
+        305
+      ]
+    },
+    {
+      "name": "学府苑住宅组团06",
+      "label": "",
+      "x": 922,
+      "z": 324,
+      "base": 4,
+      "width": 31,
+      "depth": 24,
+      "height": 19,
+      "angle": -15,
+      "entrance": [
+        927,
+        69,
+        341
+      ]
+    },
+    {
+      "name": "学府苑住宅组团07",
+      "label": "",
+      "x": 874,
+      "z": 343,
+      "base": 4,
+      "width": 31,
+      "depth": 24,
+      "height": 19,
+      "angle": -15,
+      "entrance": [
+        879,
+        69,
+        360
+      ]
+    },
+    {
+      "name": "学府苑住宅组团08",
+      "label": "",
+      "x": 823,
+      "z": 352,
+      "base": 4,
+      "width": 31,
+      "depth": 24,
+      "height": 19,
+      "angle": -15,
+      "entrance": [
+        828,
+        69,
+        369
+      ]
+    },
+    {
+      "name": "学府苑住宅组团09",
+      "label": "",
+      "x": 769,
+      "z": 359,
+      "base": 4,
+      "width": 31,
+      "depth": 24,
+      "height": 19,
+      "angle": -15,
+      "entrance": [
+        774,
+        69,
+        376
+      ]
+    },
+    {
+      "name": "学府苑住宅组团10",
+      "label": "",
+      "x": 1019,
+      "z": 185,
+      "base": 4,
+      "width": 31,
+      "depth": 24,
+      "height": 19,
+      "angle": -15,
+      "entrance": [
+        1024,
+        69,
+        202
+      ]
+    },
+    {
+      "name": "学府苑住宅组团11",
+      "label": "",
+      "x": 1067,
+      "z": 178,
+      "base": 4,
+      "width": 31,
+      "depth": 24,
+      "height": 19,
+      "angle": -15,
+      "entrance": [
+        1072,
+        69,
+        195
+      ]
+    },
+    {
+      "name": "学府苑住宅组团12",
+      "label": "",
+      "x": 1118,
+      "z": 185,
+      "base": 4,
+      "width": 31,
+      "depth": 24,
+      "height": 19,
+      "angle": -15,
+      "entrance": [
+        1123,
+        69,
+        202
+      ]
+    },
+    {
+      "name": "学府苑住宅组团13",
+      "label": "",
+      "x": 1136,
+      "z": 223,
+      "base": 4,
+      "width": 31,
+      "depth": 24,
+      "height": 19,
+      "angle": -15,
+      "entrance": [
+        1141,
+        69,
+        240
+      ]
+    },
+    {
+      "name": "学府苑住宅组团14",
+      "label": "",
+      "x": 1150,
+      "z": 263,
+      "base": 4,
+      "width": 31,
+      "depth": 24,
+      "height": 19,
+      "angle": -15,
+      "entrance": [
+        1155,
+        69,
+        280
+      ]
+    },
+    {
+      "name": "学府苑住宅组团15",
+      "label": "",
+      "x": 1171,
+      "z": 299,
+      "base": 4,
+      "width": 31,
+      "depth": 24,
+      "height": 19,
+      "angle": -15,
+      "entrance": [
+        1176,
+        69,
+        316
+      ]
+    },
+    {
+      "name": "学府苑住宅组团16",
+      "label": "",
+      "x": 1220,
+      "z": 298,
+      "base": 4,
+      "width": 31,
+      "depth": 24,
+      "height": 19,
+      "angle": -15,
+      "entrance": [
+        1225,
+        69,
+        315
+      ]
+    },
+    {
+      "name": "学府苑住宅组团17",
+      "label": "",
+      "x": 1269,
+      "z": 295,
+      "base": 4,
+      "width": 31,
+      "depth": 24,
+      "height": 19,
+      "angle": -15,
+      "entrance": [
+        1274,
+        69,
+        312
+      ]
+    },
+    {
+      "name": "学府苑住宅组团18",
+      "label": "",
+      "x": 1298,
+      "z": 330,
+      "base": 4,
+      "width": 31,
+      "depth": 24,
+      "height": 19,
+      "angle": -15,
+      "entrance": [
+        1303,
+        69,
+        347
+      ]
+    },
+    {
+      "name": "学府苑住宅组团19",
+      "label": "",
+      "x": 1026,
+      "z": 246,
+      "base": 4,
+      "width": 31,
+      "depth": 24,
+      "height": 19,
+      "angle": -15,
+      "entrance": [
+        1031,
+        69,
+        263
+      ]
+    },
+    {
+      "name": "学府苑住宅组团20",
+      "label": "",
+      "x": 1050,
+      "z": 282,
+      "base": 4,
+      "width": 31,
+      "depth": 24,
+      "height": 19,
+      "angle": -15,
+      "entrance": [
+        1055,
+        69,
+        299
+      ]
+    },
+    {
+      "name": "学府苑住宅组团21",
+      "label": "",
+      "x": 1101,
+      "z": 289,
+      "base": 4,
+      "width": 31,
+      "depth": 24,
+      "height": 19,
+      "angle": -15,
+      "entrance": [
+        1106,
+        69,
+        306
+      ]
+    },
+    {
+      "name": "学府苑住宅组团22",
+      "label": "",
+      "x": 1122,
+      "z": 329,
+      "base": 4,
+      "width": 31,
+      "depth": 24,
+      "height": 19,
+      "angle": -15,
+      "entrance": [
+        1127,
+        69,
+        346
+      ]
+    },
+    {
+      "name": "学府苑住宅组团23",
+      "label": "",
+      "x": 1160,
+      "z": 361,
+      "base": 4,
+      "width": 31,
+      "depth": 24,
+      "height": 19,
+      "angle": -15,
+      "entrance": [
+        1165,
+        69,
+        378
+      ]
+    },
+    {
+      "name": "学府苑住宅组团24",
+      "label": "",
+      "x": 1228,
+      "z": 338,
+      "base": 4,
+      "width": 31,
+      "depth": 24,
+      "height": 19,
+      "angle": -15,
+      "entrance": [
+        1233,
+        69,
+        355
+      ]
+    },
+    {
+      "name": "学府苑住宅组团25",
+      "label": "",
+      "x": 1224,
+      "z": 255,
+      "base": 4,
+      "width": 31,
+      "depth": 24,
+      "height": 19,
+      "angle": -15,
+      "entrance": [
+        1229,
+        69,
+        272
+      ]
+    },
+    {
+      "name": "学府苑住宅组团26",
+      "label": "",
+      "x": 758,
+      "z": 405,
+      "base": 4,
+      "width": 31,
+      "depth": 24,
+      "height": 19,
+      "angle": 15,
+      "entrance": [
+        753,
+        69,
+        422
+      ]
+    },
+    {
+      "name": "学府苑住宅组团27",
+      "label": "",
+      "x": 809,
+      "z": 403,
+      "base": 4,
+      "width": 31,
+      "depth": 24,
+      "height": 19,
+      "angle": 15,
+      "entrance": [
+        804,
+        69,
+        420
+      ]
+    },
+    {
+      "name": "学府苑住宅组团28",
+      "label": "",
+      "x": 860,
+      "z": 409,
+      "base": 4,
+      "width": 31,
+      "depth": 24,
+      "height": 19,
+      "angle": 15,
+      "entrance": [
+        855,
+        69,
+        426
+      ]
+    },
+    {
+      "name": "学府苑住宅组团29",
+      "label": "",
+      "x": 908,
+      "z": 420,
+      "base": 4,
+      "width": 31,
+      "depth": 24,
+      "height": 19,
+      "angle": 15,
+      "entrance": [
+        903,
+        69,
+        437
+      ]
+    },
+    {
+      "name": "学府苑住宅组团30",
+      "label": "",
+      "x": 952,
+      "z": 444,
+      "base": 4,
+      "width": 31,
+      "depth": 24,
+      "height": 19,
+      "angle": 15,
+      "entrance": [
+        947,
+        69,
+        461
+      ]
+    },
+    {
+      "name": "学府苑住宅组团31",
+      "label": "",
+      "x": 996,
+      "z": 469,
+      "base": 4,
+      "width": 31,
+      "depth": 24,
+      "height": 19,
+      "angle": 15,
+      "entrance": [
+        991,
+        69,
+        486
+      ]
+    },
+    {
+      "name": "学府苑住宅组团32",
+      "label": "",
+      "x": 1041,
+      "z": 498,
+      "base": 4,
+      "width": 31,
+      "depth": 24,
+      "height": 19,
+      "angle": 15,
+      "entrance": [
+        1036,
+        69,
+        515
+      ]
+    },
+    {
+      "name": "学府苑住宅组团33",
+      "label": "",
+      "x": 1066,
+      "z": 421,
+      "base": 4,
+      "width": 31,
+      "depth": 24,
+      "height": 19,
+      "angle": 15,
+      "entrance": [
+        1061,
+        69,
+        438
+      ]
+    },
+    {
+      "name": "学府苑住宅组团34",
+      "label": "",
+      "x": 1009,
+      "z": 428,
+      "base": 4,
+      "width": 31,
+      "depth": 24,
+      "height": 19,
+      "angle": 15,
+      "entrance": [
+        1004,
+        69,
+        445
+      ]
+    },
+    {
+      "name": "学府苑住宅组团35",
+      "label": "",
+      "x": 964,
+      "z": 403,
+      "base": 4,
+      "width": 31,
+      "depth": 24,
+      "height": 19,
+      "angle": 15,
+      "entrance": [
+        959,
+        69,
+        420
+      ]
+    },
+    {
+      "name": "学府苑住宅组团36",
+      "label": "",
+      "x": 704,
+      "z": 421,
+      "base": 4,
+      "width": 31,
+      "depth": 24,
+      "height": 19,
+      "angle": 15,
+      "entrance": [
+        699,
+        69,
+        438
+      ]
+    },
+    {
+      "name": "学府苑住宅组团37",
+      "label": "",
+      "x": 713,
+      "z": 378,
+      "base": 4,
+      "width": 31,
+      "depth": 24,
+      "height": 19,
+      "angle": 15,
+      "entrance": [
+        708,
+        69,
+        395
+      ]
+    },
+    {
+      "name": "学府苑住宅组团38",
+      "label": "",
+      "x": 661,
+      "z": 452,
+      "base": 4,
+      "width": 31,
+      "depth": 24,
+      "height": 19,
+      "angle": 15,
+      "entrance": [
+        656,
+        69,
+        469
+      ]
+    },
+    {
+      "name": "学府苑住宅组团39",
+      "label": "",
+      "x": 971,
+      "z": 361,
+      "base": 4,
+      "width": 31,
+      "depth": 24,
+      "height": 19,
+      "angle": 15,
+      "entrance": [
+        966,
+        69,
+        378
+      ]
+    },
+    {
+      "name": "学府苑住宅组团40",
+      "label": "",
+      "x": 1022,
+      "z": 389,
+      "base": 4,
+      "width": 31,
+      "depth": 24,
+      "height": 19,
+      "angle": 15,
+      "entrance": [
+        1017,
+        69,
+        406
+      ]
+    },
+    {
+      "name": "学府苑住宅组团41",
+      "label": "",
+      "x": 1026,
+      "z": 345,
+      "base": 4,
+      "width": 31,
+      "depth": 24,
+      "height": 19,
+      "angle": 15,
+      "entrance": [
+        1021,
+        69,
+        362
+      ]
+    },
+    {
+      "name": "学府苑住宅组团42",
+      "label": "",
+      "x": 988,
+      "z": 510,
+      "base": 4,
+      "width": 31,
+      "depth": 24,
+      "height": 19,
+      "angle": 15,
+      "entrance": [
+        983,
+        69,
+        527
+      ]
+    },
+    {
+      "name": "学府苑住宅组团43",
+      "label": "",
+      "x": 1255,
+      "z": 576,
+      "base": 4,
+      "width": 31,
+      "depth": 24,
+      "height": 19,
+      "angle": 15,
+      "entrance": [
+        1250,
+        69,
+        593
+      ]
+    },
+    {
+      "name": "学府苑住宅组团44",
+      "label": "",
+      "x": 1293,
+      "z": 624,
+      "base": 4,
+      "width": 31,
+      "depth": 24,
+      "height": 19,
+      "angle": 15,
+      "entrance": [
+        1288,
+        69,
+        641
+      ]
+    },
+    {
+      "name": "学府苑住宅组团45",
+      "label": "",
+      "x": 1242,
+      "z": 624,
+      "base": 4,
+      "width": 31,
+      "depth": 24,
+      "height": 19,
+      "angle": 15,
+      "entrance": [
+        1237,
+        69,
+        641
+      ]
+    },
+    {
+      "name": "学府苑住宅组团46",
+      "label": "",
+      "x": 1210,
+      "z": 658,
+      "base": 4,
+      "width": 31,
+      "depth": 24,
+      "height": 19,
+      "angle": 15,
+      "entrance": [
+        1205,
+        69,
+        675
+      ]
+    },
+    {
+      "name": "学府苑住宅组团47",
+      "label": "",
+      "x": 1181,
+      "z": 768,
+      "base": 4,
+      "width": 31,
+      "depth": 24,
+      "height": 19,
+      "angle": 15,
+      "entrance": [
+        1176,
+        69,
+        785
+      ]
+    },
+    {
+      "name": "学府苑住宅组团48",
+      "label": "",
+      "x": 1232,
+      "z": 766,
+      "base": 4,
+      "width": 31,
+      "depth": 24,
+      "height": 19,
+      "angle": 15,
+      "entrance": [
+        1227,
+        69,
+        783
+      ]
+    },
+    {
+      "name": "学府苑住宅组团49",
+      "label": "",
+      "x": 1254,
+      "z": 729,
+      "base": 4,
+      "width": 31,
+      "depth": 24,
+      "height": 19,
+      "angle": 15,
+      "entrance": [
+        1249,
+        69,
+        746
+      ]
+    },
+    {
+      "name": "学府苑住宅组团50",
+      "label": "",
+      "x": 1303,
+      "z": 733,
+      "base": 4,
+      "width": 31,
+      "depth": 24,
+      "height": 19,
+      "angle": 15,
+      "entrance": [
+        1298,
+        69,
+        750
+      ]
+    },
+    {
+      "name": "学府苑住宅组团51",
+      "label": "",
+      "x": 1269,
+      "z": 818,
+      "base": 4,
+      "width": 31,
+      "depth": 24,
+      "height": 19,
+      "angle": 15,
+      "entrance": [
+        1264,
+        69,
+        835
+      ]
+    },
+    {
+      "name": "学府苑住宅组团52",
+      "label": "",
+      "x": 1293,
+      "z": 783,
+      "base": 4,
+      "width": 31,
+      "depth": 24,
+      "height": 19,
+      "angle": 15,
+      "entrance": [
+        1288,
+        69,
+        800
+      ]
+    },
+    {
+      "name": "学府苑住宅组团53",
+      "label": "",
+      "x": 1340,
+      "z": 795,
+      "base": 4,
+      "width": 31,
+      "depth": 24,
+      "height": 19,
+      "angle": 15,
+      "entrance": [
+        1335,
+        69,
+        812
+      ]
+    },
+    {
+      "name": "北苑公寓01",
+      "label": "",
+      "x": 1184,
+      "z": 1431,
+      "base": 4,
+      "width": 30,
+      "depth": 22,
+      "height": 19,
+      "angle": -25,
+      "entrance": [
+        1191,
+        69,
+        1446
+      ]
+    },
+    {
+      "name": "北苑公寓02",
+      "label": "",
+      "x": 1234,
+      "z": 1426,
+      "base": 4,
+      "width": 30,
+      "depth": 22,
+      "height": 19,
+      "angle": -25,
+      "entrance": [
+        1241,
+        69,
+        1441
+      ]
+    },
+    {
+      "name": "北苑公寓03",
+      "label": "",
+      "x": 1280,
+      "z": 1410,
+      "base": 4,
+      "width": 30,
+      "depth": 22,
+      "height": 19,
+      "angle": -25,
+      "entrance": [
+        1287,
+        69,
+        1425
+      ]
+    },
+    {
+      "name": "北苑公寓04",
+      "label": "",
+      "x": 1274,
+      "z": 1370,
+      "base": 4,
+      "width": 30,
+      "depth": 22,
+      "height": 19,
+      "angle": -25,
+      "entrance": [
+        1281,
+        69,
+        1385
+      ]
+    },
+    {
+      "name": "北苑公寓05",
+      "label": "",
+      "x": 1227,
+      "z": 1385,
+      "base": 4,
+      "width": 30,
+      "depth": 22,
+      "height": 19,
+      "angle": -25,
+      "entrance": [
+        1234,
+        69,
+        1400
+      ]
+    },
+    {
+      "name": "北苑公寓06",
+      "label": "",
+      "x": 1210,
+      "z": 1350,
+      "base": 4,
+      "width": 30,
+      "depth": 22,
+      "height": 19,
+      "angle": -25,
+      "entrance": [
+        1217,
+        69,
+        1365
+      ]
+    },
+    {
+      "name": "北苑公寓07",
+      "label": "",
+      "x": 1167,
+      "z": 1371,
+      "base": 4,
+      "width": 30,
+      "depth": 22,
+      "height": 19,
+      "angle": -25,
+      "entrance": [
+        1174,
+        69,
+        1386
+      ]
+    },
+    {
+      "name": "北苑公寓08",
+      "label": "",
+      "x": 1164,
+      "z": 1328,
+      "base": 4,
+      "width": 30,
+      "depth": 22,
+      "height": 19,
+      "angle": -25,
+      "entrance": [
+        1171,
+        69,
+        1343
+      ]
+    },
+    {
+      "name": "北苑公寓09",
+      "label": "",
+      "x": 1253,
+      "z": 1324,
+      "base": 4,
+      "width": 30,
+      "depth": 22,
+      "height": 19,
+      "angle": -25,
+      "entrance": [
+        1260,
+        69,
+        1339
+      ]
+    },
+    {
+      "name": "北苑公寓10",
+      "label": "",
+      "x": 1290,
+      "z": 1214,
+      "base": 4,
+      "width": 30,
+      "depth": 22,
+      "height": 19,
+      "angle": -25,
+      "entrance": [
+        1297,
+        69,
+        1229
+      ]
+    },
+    {
+      "name": "北苑公寓11",
+      "label": "",
+      "x": 1288,
+      "z": 1170,
+      "base": 4,
+      "width": 30,
+      "depth": 22,
+      "height": 19,
+      "angle": -25,
+      "entrance": [
+        1295,
+        69,
+        1185
+      ]
+    },
+    {
+      "name": "北苑公寓12",
+      "label": "",
+      "x": 1324,
+      "z": 1390,
+      "base": 4,
+      "width": 30,
+      "depth": 22,
+      "height": 19,
+      "angle": -25,
+      "entrance": [
+        1331,
+        69,
+        1405
+      ]
+    },
+    {
+      "name": "北苑公寓13",
+      "label": "",
+      "x": 1306,
+      "z": 1442,
+      "base": 4,
+      "width": 30,
+      "depth": 22,
+      "height": 19,
+      "angle": -25,
+      "entrance": [
+        1313,
+        69,
+        1457
+      ]
+    },
+    {
+      "name": "北苑公寓14",
+      "label": "",
+      "x": 886,
+      "z": 1458,
+      "base": 4,
+      "width": 30,
+      "depth": 22,
+      "height": 19,
+      "angle": -25,
+      "entrance": [
+        893,
+        69,
+        1473
+      ]
+    },
+    {
+      "name": "北苑公寓15",
+      "label": "",
+      "x": 933,
+      "z": 1444,
+      "base": 4,
+      "width": 30,
+      "depth": 22,
+      "height": 19,
+      "angle": -25,
+      "entrance": [
+        940,
+        69,
+        1459
+      ]
+    },
+    {
+      "name": "北苑公寓16",
+      "label": "",
+      "x": 951,
+      "z": 1479,
+      "base": 4,
+      "width": 30,
+      "depth": 22,
+      "height": 19,
+      "angle": -25,
+      "entrance": [
+        958,
+        69,
+        1494
+      ]
+    },
+    {
+      "name": "北苑公寓17",
+      "label": "",
+      "x": 885,
+      "z": 1413,
+      "base": 4,
+      "width": 30,
+      "depth": 22,
+      "height": 19,
+      "angle": -25,
+      "entrance": [
+        892,
+        69,
+        1428
+      ]
+    },
+    {
+      "name": "北苑公寓18",
+      "label": "",
+      "x": 867,
+      "z": 1375,
+      "base": 4,
+      "width": 30,
+      "depth": 22,
+      "height": 19,
+      "angle": -25,
+      "entrance": [
+        874,
+        69,
+        1390
+      ]
+    },
+    {
+      "name": "北苑公寓19",
+      "label": "",
+      "x": 859,
+      "z": 1334,
+      "base": 4,
+      "width": 30,
+      "depth": 22,
+      "height": 19,
+      "angle": -25,
+      "entrance": [
+        866,
+        69,
+        1349
+      ]
+    },
+    {
+      "name": "北苑公寓20",
+      "label": "",
+      "x": 812,
+      "z": 1349,
+      "base": 4,
+      "width": 30,
+      "depth": 22,
+      "height": 19,
+      "angle": -25,
+      "entrance": [
+        819,
+        69,
+        1364
+      ]
+    },
+    {
+      "name": "北苑公寓21",
+      "label": "",
+      "x": 803,
+      "z": 1310,
+      "base": 4,
+      "width": 30,
+      "depth": 22,
+      "height": 19,
+      "angle": -25,
+      "entrance": [
+        810,
+        69,
+        1325
+      ]
+    },
+    {
+      "name": "东苑公寓01",
+      "label": "",
+      "x": 1023,
+      "z": 1510,
+      "base": 4,
+      "width": 57,
+      "depth": 28,
+      "height": 42,
+      "angle": -25,
+      "entrance": [
+        1031,
+        69,
+        1528
+      ]
+    },
+    {
+      "name": "东苑公寓02",
+      "label": "",
+      "x": 1040,
+      "z": 1560,
+      "base": 4,
+      "width": 57,
+      "depth": 28,
+      "height": 42,
+      "angle": -25,
+      "entrance": [
+        1048,
+        69,
+        1578
+      ]
+    },
+    {
+      "name": "东苑公寓03",
+      "label": "",
+      "x": 1058,
+      "z": 1602,
+      "base": 4,
+      "width": 57,
+      "depth": 28,
+      "height": 42,
+      "angle": -25,
+      "entrance": [
+        1066,
+        69,
+        1620
+      ]
+    },
+    {
+      "name": "东苑公寓04",
+      "label": "",
+      "x": 1088,
+      "z": 1643,
+      "base": 4,
+      "width": 57,
+      "depth": 28,
+      "height": 42,
+      "angle": -25,
+      "entrance": [
+        1096,
+        69,
+        1661
+      ]
+    },
+    {
+      "name": "东苑公寓05",
+      "label": "",
+      "x": 1021,
+      "z": 1677,
+      "base": 4,
+      "width": 57,
+      "depth": 28,
+      "height": 42,
+      "angle": -25,
+      "entrance": [
+        1029,
+        69,
+        1695
+      ]
+    },
+    {
+      "name": "东苑公寓06",
+      "label": "",
+      "x": 1042,
+      "z": 1717,
+      "base": 4,
+      "width": 57,
+      "depth": 28,
+      "height": 42,
+      "angle": -25,
+      "entrance": [
+        1050,
+        69,
+        1735
+      ]
+    },
+    {
+      "name": "东苑公寓07",
+      "label": "",
+      "x": 992,
+      "z": 1638,
+      "base": 4,
+      "width": 57,
+      "depth": 28,
+      "height": 42,
+      "angle": -25,
+      "entrance": [
+        1000,
+        69,
+        1656
+      ]
+    },
+    {
+      "name": "东苑公寓08",
+      "label": "",
+      "x": 963,
+      "z": 1729,
+      "base": 4,
+      "width": 57,
+      "depth": 28,
+      "height": 42,
+      "angle": -25,
+      "entrance": [
+        971,
+        69,
+        1747
+      ]
+    },
+    {
+      "name": "东苑公寓09",
+      "label": "",
+      "x": 970,
+      "z": 1775,
+      "base": 4,
+      "width": 57,
+      "depth": 28,
+      "height": 42,
+      "angle": -25,
+      "entrance": [
+        978,
+        69,
+        1793
+      ]
+    },
+    {
+      "name": "东苑公寓10",
+      "label": "",
+      "x": 1144,
+      "z": 1785,
+      "base": 4,
+      "width": 57,
+      "depth": 28,
+      "height": 42,
+      "angle": -25,
+      "entrance": [
+        1152,
+        69,
+        1803
+      ]
+    },
+    {
+      "name": "东苑公寓11",
+      "label": "",
+      "x": 1159,
+      "z": 1828,
+      "base": 4,
+      "width": 57,
+      "depth": 28,
+      "height": 42,
+      "angle": -25,
+      "entrance": [
+        1167,
+        69,
+        1846
+      ]
+    },
+    {
+      "name": "西苑公寓01",
+      "label": "",
+      "x": 953,
+      "z": 1604,
+      "base": 4,
+      "width": 32,
+      "depth": 26,
+      "height": 42,
+      "angle": -25,
+      "entrance": [
+        961,
+        69,
+        1621
+      ]
+    },
+    {
+      "name": "西苑公寓02",
+      "label": "",
+      "x": 936,
+      "z": 1665,
+      "base": 4,
+      "width": 32,
+      "depth": 26,
+      "height": 42,
+      "angle": -25,
+      "entrance": [
+        944,
+        69,
+        1682
+      ]
+    },
+    {
+      "name": "西苑公寓03",
+      "label": "",
+      "x": 909,
+      "z": 1628,
+      "base": 4,
+      "width": 32,
+      "depth": 26,
+      "height": 42,
+      "angle": -25,
+      "entrance": [
+        917,
+        69,
+        1645
+      ]
+    },
+    {
+      "name": "西苑公寓04",
+      "label": "",
+      "x": 901,
+      "z": 1708,
+      "base": 4,
+      "width": 32,
+      "depth": 26,
+      "height": 42,
+      "angle": -25,
+      "entrance": [
+        909,
+        69,
+        1725
+      ]
+    },
+    {
+      "name": "西苑公寓05",
+      "label": "",
+      "x": 904,
+      "z": 1754,
+      "base": 4,
+      "width": 32,
+      "depth": 26,
+      "height": 42,
+      "angle": -25,
+      "entrance": [
+        912,
+        69,
+        1771
+      ]
+    },
+    {
+      "name": "西苑公寓06",
+      "label": "",
+      "x": 964,
+      "z": 1826,
+      "base": 4,
+      "width": 32,
+      "depth": 26,
+      "height": 42,
+      "angle": -25,
+      "entrance": [
+        972,
+        69,
+        1843
+      ]
+    },
+    {
+      "name": "西苑公寓07",
+      "label": "",
+      "x": 913,
+      "z": 1799,
+      "base": 4,
+      "width": 32,
+      "depth": 26,
+      "height": 42,
+      "angle": -25,
+      "entrance": [
+        921,
+        69,
+        1816
+      ]
+    },
+    {
+      "name": "西苑公寓08",
+      "label": "",
+      "x": 975,
+      "z": 1869,
+      "base": 4,
+      "width": 32,
+      "depth": 26,
+      "height": 42,
+      "angle": -25,
+      "entrance": [
+        983,
+        69,
+        1886
+      ]
+    },
+    {
+      "name": "西苑公寓09",
+      "label": "",
+      "x": 1013,
+      "z": 1899,
+      "base": 4,
+      "width": 32,
+      "depth": 26,
+      "height": 42,
+      "angle": -25,
+      "entrance": [
+        1021,
+        69,
+        1916
+      ]
+    },
+    {
+      "name": "南苑公寓01",
+      "label": "六层宿舍 / 示例内装",
+      "x": 1044,
+      "z": 1931,
+      "base": 4,
+      "width": 45,
+      "depth": 25,
+      "height": 42,
+      "angle": -25,
+      "entrance": [
+        1052,
+        69,
+        1948
+      ]
+    },
+    {
+      "name": "南苑公寓02",
+      "label": "六层宿舍 / 示例内装",
+      "x": 1084,
+      "z": 1871,
+      "base": 4,
+      "width": 45,
+      "depth": 25,
+      "height": 42,
+      "angle": -25,
+      "entrance": [
+        1092,
+        69,
+        1888
+      ]
+    },
+    {
+      "name": "南苑公寓03",
+      "label": "六层宿舍 / 示例内装",
+      "x": 1039,
+      "z": 1980,
+      "base": 4,
+      "width": 45,
+      "depth": 25,
+      "height": 42,
+      "angle": -25,
+      "entrance": [
+        1047,
+        69,
+        1997
+      ]
+    },
+    {
+      "name": "南苑公寓04",
+      "label": "六层宿舍 / 示例内装",
+      "x": 988,
+      "z": 1958,
+      "base": 4,
+      "width": 45,
+      "depth": 25,
+      "height": 42,
+      "angle": -25,
+      "entrance": [
+        996,
+        69,
+        1975
+      ]
+    },
+    {
+      "name": "南苑公寓05",
+      "label": "六层宿舍 / 示例内装",
+      "x": 998,
+      "z": 2038,
+      "base": 4,
+      "width": 45,
+      "depth": 25,
+      "height": 42,
+      "angle": -25,
+      "entrance": [
+        1006,
+        69,
+        2055
+      ]
+    },
+    {
+      "name": "南苑公寓06",
+      "label": "六层宿舍 / 示例内装",
+      "x": 1168,
+      "z": 2074,
+      "base": 4,
+      "width": 45,
+      "depth": 25,
+      "height": 42,
+      "angle": -25,
+      "entrance": [
+        1176,
+        69,
+        2091
+      ]
+    },
+    {
+      "name": "南苑公寓07",
+      "label": "六层宿舍 / 示例内装",
+      "x": 1141,
+      "z": 2162,
+      "base": 4,
+      "width": 45,
+      "depth": 25,
+      "height": 42,
+      "angle": -25,
+      "entrance": [
+        1149,
+        69,
+        2179
+      ]
+    },
+    {
+      "name": "南苑公寓08",
+      "label": "六层宿舍 / 示例内装",
+      "x": 1088,
+      "z": 2195,
+      "base": 4,
+      "width": 45,
+      "depth": 25,
+      "height": 42,
+      "angle": -25,
+      "entrance": [
+        1096,
+        69,
+        2212
+      ]
+    },
+    {
+      "name": "南苑公寓09",
+      "label": "六层宿舍 / 示例内装",
+      "x": 1142,
+      "z": 2216,
+      "base": 4,
+      "width": 45,
+      "depth": 25,
+      "height": 42,
+      "angle": -25,
+      "entrance": [
+        1150,
+        69,
+        2233
+      ]
+    },
+    {
+      "name": "南苑公寓10",
+      "label": "六层宿舍 / 示例内装",
+      "x": 1205,
+      "z": 2198,
+      "base": 4,
+      "width": 45,
+      "depth": 25,
+      "height": 42,
+      "angle": -25,
+      "entrance": [
+        1213,
+        69,
+        2215
+      ]
+    },
+    {
+      "name": "景星苑公寓01",
+      "label": "",
+      "x": 1620,
+      "z": 1384,
+      "base": 4,
+      "width": 80,
+      "depth": 27,
+      "height": 52,
+      "angle": 10,
+      "entrance": [
+        1617,
+        69,
+        1403
+      ]
+    },
+    {
+      "name": "景星苑公寓02",
+      "label": "",
+      "x": 1664,
+      "z": 1436,
+      "base": 4,
+      "width": 80,
+      "depth": 27,
+      "height": 52,
+      "angle": 10,
+      "entrance": [
+        1661,
+        69,
+        1455
+      ]
+    },
+    {
+      "name": "景星苑公寓03",
+      "label": "",
+      "x": 1760,
+      "z": 1452,
+      "base": 4,
+      "width": 80,
+      "depth": 27,
+      "height": 52,
+      "angle": 10,
+      "entrance": [
+        1757,
+        69,
+        1471
+      ]
+    },
+    {
+      "name": "景星苑公寓04",
+      "label": "",
+      "x": 1719,
+      "z": 1400,
+      "base": 4,
+      "width": 80,
+      "depth": 27,
+      "height": 52,
+      "angle": 10,
+      "entrance": [
+        1716,
+        69,
+        1419
+      ]
+    },
+    {
+      "name": "景星苑公寓05",
+      "label": "",
+      "x": 1682,
+      "z": 1349,
+      "base": 4,
+      "width": 80,
+      "depth": 27,
+      "height": 52,
+      "angle": 10,
+      "entrance": [
+        1679,
+        69,
+        1368
+      ]
+    },
+    {
+      "name": "景星苑公寓06",
+      "label": "",
+      "x": 1682,
+      "z": 1304,
+      "base": 4,
+      "width": 80,
+      "depth": 27,
+      "height": 52,
+      "angle": 10,
+      "entrance": [
+        1679,
+        69,
+        1323
+      ]
+    }
+  ],
+  "trees": 6470,
+  "spawn_yaw": 150,
+  "spawn_pitch": -8
+}

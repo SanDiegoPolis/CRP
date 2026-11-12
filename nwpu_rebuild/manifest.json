@@ -1,0 +1,608 @@
+{
+  "release": "NWPU-rebuild-20260924",
+  "coordinate_version": "nwpu-illustrated-map-2025-north-up-v1",
+  "minecraft_version": "26.2",
+  "files": [
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/data/minecraft/custom_boss_events.dat",
+      "sha256": "109b72faf6cc8256c38c76506d99ddd00389fb9a7f45e9008f99e2c08ea3bea7"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/data/minecraft/game_rules.dat",
+      "sha256": "8102c29d462b5330c6bdd62e68f8629b3726f16697c7ff81b145aa3c77eb4d71"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/data/minecraft/random_sequences.dat",
+      "sha256": "1ade18391e9ffdc703b951278ea8777c7dacfc709a8e07616bd8d732beea497b"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/data/minecraft/scheduled_events.dat",
+      "sha256": "ce2e6dd5438c192edd35018243c99fb343b268a2a471ce3cb85c2a65184c163e"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/data/minecraft/scoreboard.dat",
+      "sha256": "109b72faf6cc8256c38c76506d99ddd00389fb9a7f45e9008f99e2c08ea3bea7"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/data/minecraft/stopwatches.dat",
+      "sha256": "e1cfab0753c6040172525467c952005cdfe616fc209a15fc06cd0028dc0b80d6"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/data/minecraft/weather.dat",
+      "sha256": "205d17c1d50e03d26394461e6af34d333a57cb74719261341dcb7f3cd0dbc05c"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/data/minecraft/world_clocks.dat",
+      "sha256": "0da38454b5a7c7d80a536e828c54eb772031474d7128cb8ec207174d3afa9c37"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/data/minecraft/world_gen_settings.dat",
+      "sha256": "89acfd88443c18568c01240c650b693c3f2d134bff65c2a77d6c7cbcd5c0ccb9"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/data/minecraft/chunk_tickets.dat",
+      "sha256": "109b72faf6cc8256c38c76506d99ddd00389fb9a7f45e9008f99e2c08ea3bea7"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/data/minecraft/raids.dat",
+      "sha256": "a88294b1560d97de87c98941c55b8294896cbf35080a3a021957f5ad773d82df"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/data/minecraft/world_border.dat",
+      "sha256": "db53306eeaa8468faf0ad141256319c533c6cc3b9703e9f1f34947e9ad4ef083"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/entities/r.-1.-1.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/entities/r.-1.0.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/entities/r.-1.1.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/entities/r.-1.2.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/entities/r.-1.3.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/entities/r.-1.4.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/entities/r.-1.5.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/entities/r.0.-1.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/entities/r.0.0.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/entities/r.0.1.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/entities/r.0.2.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/entities/r.0.3.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/entities/r.0.4.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/entities/r.0.5.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/entities/r.1.-1.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/entities/r.1.0.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/entities/r.1.1.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/entities/r.1.2.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/entities/r.1.3.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/entities/r.1.4.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/entities/r.1.5.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/entities/r.2.-1.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/entities/r.2.0.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/entities/r.2.1.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/entities/r.2.2.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/entities/r.2.3.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/entities/r.2.4.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/entities/r.2.5.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/entities/r.3.-1.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/entities/r.3.0.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/entities/r.3.1.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/entities/r.3.2.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/entities/r.3.3.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/entities/r.3.4.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/entities/r.3.5.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/poi/r.-1.-1.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/poi/r.-1.0.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/poi/r.-1.1.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/poi/r.-1.2.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/poi/r.-1.3.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/poi/r.-1.4.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/poi/r.-1.5.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/poi/r.0.-1.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/poi/r.0.0.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/poi/r.0.1.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/poi/r.0.2.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/poi/r.0.3.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/poi/r.0.4.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/poi/r.0.5.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/poi/r.1.-1.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/poi/r.1.0.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/poi/r.1.1.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/poi/r.1.2.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/poi/r.1.3.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/poi/r.1.4.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/poi/r.1.5.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/poi/r.2.-1.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/poi/r.2.0.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/poi/r.2.1.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/poi/r.2.2.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/poi/r.2.3.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/poi/r.2.4.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/poi/r.2.5.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/poi/r.3.-1.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/poi/r.3.0.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/poi/r.3.1.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/poi/r.3.2.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/poi/r.3.3.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/poi/r.3.4.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/poi/r.3.5.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/region/r.-1.-1.mca",
+      "sha256": "e79b183443bed24625e75a30f7614576e122f4e451ccb560033167aad5b0a5ce"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/region/r.-1.0.mca",
+      "sha256": "5eb328231395a88c86b018894dc231ed5223a2d232716d1d34e0397deb32c1d8"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/region/r.-1.1.mca",
+      "sha256": "25ea04d490cc5d87579c182e71614a66847dc766b9755fc86ba265b29b9feaa6"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/region/r.-1.2.mca",
+      "sha256": "941ef0e337544db4dedb9115822c4c566673c5a7d6fd7d598d26ee34e86c8ade"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/region/r.-1.3.mca",
+      "sha256": "835a271ba07242605ce5b9fd534d77da15e290c6fe594b67c9b24138c11cc80e"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/region/r.-1.4.mca",
+      "sha256": "549f6aa3f9417bc89778145f48040d439ab5fcef9495c83425361725eca64aff"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/region/r.-1.5.mca",
+      "sha256": "6eda606ad9902209cf701a95fea5814b12122f255955024f3c32045ed99ae6ca"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/region/r.0.-1.mca",
+      "sha256": "d8d16365f19a745a79bfd9f0803a79923e7923d1679c18cb7b68abd30db4400a"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/region/r.0.0.mca",
+      "sha256": "89c24a3551ab5d3206b93892dae83a9627a744452c566cddf4cbb4e25eb133c9"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/region/r.0.1.mca",
+      "sha256": "a54559c19b5926b8ead06cbb61d3dba0c62498844914eb1d0278c548bf24167c"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/region/r.0.2.mca",
+      "sha256": "13cd5970f4c147e3d90fa478ee492c21d36122cefa4d18863f5d71b4cd450a71"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/region/r.0.3.mca",
+      "sha256": "f4dd1bd82442f9397e976a2ccc770d5ac1df69878b9b09b56fdb621bb6b3489d"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/region/r.0.4.mca",
+      "sha256": "079385fcdd0fd67f7cbc68f7e3e5a98b1cbda04f9a97cd7cd31befd808138df8"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/region/r.0.5.mca",
+      "sha256": "4a418abcfee81b9b4ef0e6ba8222a3861e683c27646e3784a91a4cf66ac0044f"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/region/r.1.-1.mca",
+      "sha256": "69cf14b7aedd2d241d8bd12fef57f9a28d19852a1a0e69e9b7806f92881d438d"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/region/r.1.0.mca",
+      "sha256": "bb0ba69d67058515467a176417b4fc974a6bb6bf8b87a09889c3087bf846c0bd"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/region/r.1.1.mca",
+      "sha256": "34a305aff0c39a3fda90904feb2eead1a9ff1842c219a992960078dc4c8f0b6d"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/region/r.1.2.mca",
+      "sha256": "da57cad298360add800b830c138cd68a26327d67d6abb8181062b4702676d437"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/region/r.1.3.mca",
+      "sha256": "79d9819a060b53df09658b9d86a912d3e16d3f66de1269de1e726dd6e59becdc"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/region/r.1.4.mca",
+      "sha256": "1d80eeb900a1fe2e741b0c7b6f293e3f26c6e1e7c70e43e92b594e7492e24539"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/region/r.1.5.mca",
+      "sha256": "48069629e2e1e3b5ff86875970081f42e599f73313ff229ecac6cc95336591cc"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/region/r.2.-1.mca",
+      "sha256": "7cc21c1b506836752eabd9903138930ee15bcf48712074b883ea12a586b1b9dc"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/region/r.2.0.mca",
+      "sha256": "098f897bf388d341321a0971361ba04966182b8d38e310e3cc89169f5ce1d173"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/region/r.2.1.mca",
+      "sha256": "04a9d693338fdf51b7f1e662e3f946e376d48a52a325933f5e58c91e5b7eac7e"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/region/r.2.2.mca",
+      "sha256": "cc8fe5d9ea97a3635a391a8b3ed40d90bb1c1ffda933fc80b0d540e00dc5b198"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/region/r.2.3.mca",
+      "sha256": "61b63b4099822c135cb8fe11c4f255c223c037096885c33860e725695681f20c"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/region/r.2.4.mca",
+      "sha256": "d9a2adedd8027a7a583c50b25724c885ca42b9ee11c53d2f4df44ad45163d81d"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/region/r.2.5.mca",
+      "sha256": "a0ff671b8efbd76a0bbb7f5bf420e41ac3ff5fe25ee96182f084f09d0fedd563"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/region/r.3.-1.mca",
+      "sha256": "a5a3783745c033bebbf1bc820f9383c412e3d4ff67f355ddf6d89bafa7b1b661"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/region/r.3.0.mca",
+      "sha256": "0053278baa05bd0a765dcf2ae7bc63b19794d343e6b9080028afe6db09ff6f82"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/region/r.3.1.mca",
+      "sha256": "827cf0835f8119174c6c61ed9cc8b92b214cc0bc6655e7c26c3be30ca128fede"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/region/r.3.2.mca",
+      "sha256": "3e2357fb5510e7208834845aacc769e7a437ba24498e86e81e598dfd1a72e6fa"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/region/r.3.3.mca",
+      "sha256": "e5b26c8f103a7431adb60c0c6aa06e608f7738d3808a5027d5d6049013e24f1f"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/region/r.3.4.mca",
+      "sha256": "541cdfbbe7fdc5a4e70bd41de718f53df77a7cfcf99cc72a14b11ae11f9eb49b"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/overworld/region/r.3.5.mca",
+      "sha256": "7e5dc5a2e9db0c50257e2a7df4247f06908fdde1edc7109bbd183025d38e3eb4"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/the_end/data/minecraft/chunk_tickets.dat",
+      "sha256": "109b72faf6cc8256c38c76506d99ddd00389fb9a7f45e9008f99e2c08ea3bea7"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/the_end/data/minecraft/ender_dragon_fight.dat",
+      "sha256": "c37c608845515cf8f24a46aec84238dff9b473b278ee4ef53734f5dbd316af22"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/the_end/data/minecraft/raids.dat",
+      "sha256": "a88294b1560d97de87c98941c55b8294896cbf35080a3a021957f5ad773d82df"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/the_end/data/minecraft/world_border.dat",
+      "sha256": "db53306eeaa8468faf0ad141256319c533c6cc3b9703e9f1f34947e9ad4ef083"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/the_nether/data/minecraft/chunk_tickets.dat",
+      "sha256": "109b72faf6cc8256c38c76506d99ddd00389fb9a7f45e9008f99e2c08ea3bea7"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/the_nether/data/minecraft/raids.dat",
+      "sha256": "a88294b1560d97de87c98941c55b8294896cbf35080a3a021957f5ad773d82df"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/dimensions/minecraft/the_nether/data/minecraft/world_border.dat",
+      "sha256": "db53306eeaa8468faf0ad141256319c533c6cc3b9703e9f1f34947e9ad4ef083"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/icon.png",
+      "sha256": "bf44d56bb363413decf5483037cca0fe08a4bb365d9bd7bd6051aee9b1b8e519"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/level.dat",
+      "sha256": "53749e469b2ea4392895133eb79b7335806c343e765c962b6c9b5f1cd085bfe1"
+    },
+    {
+      "file": "NWPU_Changan_Rebuild_26.2/校园说明.md",
+      "sha256": "26a50ff75e9665799806c13efe05fc013c2ccbc68140aaa3a0728e7498fb505f"
+    },
+    {
+      "file": "使用说明.md",
+      "sha256": "26a50ff75e9665799806c13efe05fc013c2ccbc68140aaa3a0728e7498fb505f"
+    },
+    {
+      "file": "校园导览.png",
+      "sha256": "c76c8d45516d60a6fef4cd39b54b07bac4c20d91fb785fe0ef7f31286f0feb22"
+    },
+    {
+      "file": "校园鸟瞰.png",
+      "sha256": "769839b37ef0ab302054e83b20682cd5a6c2da215dc0d1fd4f854b608c64333f"
+    },
+    {
+      "file": "图书馆与启真湖.png",
+      "sha256": "f7b9e8ecea872f1335a1c986661bb17b78a5b7365ae1723a9182301b0768432a"
+    },
+    {
+      "file": "启翔楼与启翔湖.png",
+      "sha256": "346c735a4012e6c96037748cc86963324a24abd1ce7fd95953fe69fa1d16bb35"
+    },
+    {
+      "file": "翱翔体育馆.png",
+      "sha256": "667b1dab71b08d38cc320dc2e84b4a234bcbd91ac0e630963c3748d8f0e0e4e1"
+    },
+    {
+      "file": "东门与何尊广场.png",
+      "sha256": "a4684823ff1a20083041876031fd1cc89b560aaf3ebb7f00b061b055e60f2e08"
+    },
+    {
+      "file": "博物馆航空展区.png",
+      "sha256": "86bae76fc5b5d52bfdded0a995ad6ac42491aee43348bd433d64e095c9057d83"
+    },
+    {
+      "file": "重制前后对比.png",
+      "sha256": "2c140cfd69dbbc7f14e43e5641b2b897599262ba18717aa71fa337ca7728e906"
+    },
+    {
+      "file": "实景与模型核对.png",
+      "sha256": "c49b6c87dd9f62886ec6abe63aa9e50d4bf69477d688b190db8577c892142f19"
+    },
+    {
+      "file": "validation_report.json",
+      "sha256": "33650cf6990bdba6bd91cf09101bbf4354a2340407906e4f168ff4585e5fdbce"
+    },
+    {
+      "file": "planning/evidence.json",
+      "sha256": "4019b6915f9a281656214e4a3de21a301eb7713c0178a1e6d63b0ebf61eb4f7d"
+    },
+    {
+      "file": "planning/changes.json",
+      "sha256": "9c21544ca06c3ef43fc8da12599c8398ee2a3320219c87f04bfc02149021533f"
+    },
+    {
+      "file": "planning/visual-review.json",
+      "sha256": "aaecf70f1cedfaece277e4b32b4b51002f789fb2721c6f83aa7003c388c9ec19"
+    },
+    {
+      "file": "planning/exterior-route-validation.json",
+      "sha256": "4d3f9ef7d2cb89aa8ef534f985d0bdf38f9369c980c6fd252e139c980c2569f2"
+    },
+    {
+      "file": "planning/building-collision-review.json",
+      "sha256": "25ef516690263d81abd6e780c960db0cafff2684aedba056d1f9a6a0ea71d96b"
+    },
+    {
+      "file": "planning/final-region-binding.json",
+      "sha256": "e28a82f26917341610b89d00c1ef241d2806c6f211c6b61f60d790cd523d4d08"
+    },
+    {
+      "file": "planning/baseline.json",
+      "sha256": "3bb0bdf337133282d8bc585bfd79c2b5fca29065abe1432a54aaaa91747384cf"
+    },
+    {
+      "file": "planning/project-brief.md",
+      "sha256": "66f1bcbe2734276609c72a3b6d1bf6720666d6f6b3b9e5fe91d58251be2374a1"
+    }
+  ],
+  "validation_reports": [
+    {
+      "file": "validation_report.json",
+      "sha256": "33650cf6990bdba6bd91cf09101bbf4354a2340407906e4f168ff4585e5fdbce",
+      "kind": "world-runtime-and-roundtrip"
+    },
+    {
+      "file": "planning/exterior-route-validation.json",
+      "sha256": "4d3f9ef7d2cb89aa8ef534f985d0bdf38f9369c980c6fd252e139c980c2569f2",
+      "kind": "routes"
+    },
+    {
+      "file": "planning/visual-review.json",
+      "sha256": "aaecf70f1cedfaece277e4b32b4b51002f789fb2721c6f83aa7003c388c9ec19",
+      "kind": "visual"
+    }
+  ]
+}

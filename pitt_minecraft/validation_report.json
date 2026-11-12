@@ -1,0 +1,182 @@
+{
+  "nbt_round_trip": {
+    "regions": 12,
+    "chunks": 8960,
+    "decoded_block_states_compared": 477102080,
+    "signs": 27,
+    "result": "PASS"
+  },
+  "walking_routes": [
+    {
+      "building": "Cathedral of Learning",
+      "check": "template entrance and upper-floor walking; two-block player clearance",
+      "target_heights": [
+        2,
+        22,
+        82,
+        166,
+        170
+      ],
+      "missing": [],
+      "reachable_positions": 99311,
+      "result": "PASS"
+    },
+    {
+      "building": "Cathedral of Learning",
+      "check": "placed world after rotation: arrival to interior and floors",
+      "arrival": [
+        1328,
+        70,
+        526
+      ],
+      "target_world_y": [
+        70,
+        90,
+        150,
+        234,
+        238
+      ],
+      "missing": [],
+      "reachable_positions": 117271,
+      "result": "PASS"
+    },
+    {
+      "building": "Heinz Memorial Chapel",
+      "check": "template entrance and upper-floor walking; two-block player clearance",
+      "target_heights": [
+        2
+      ],
+      "missing": [],
+      "reachable_positions": 2921,
+      "result": "PASS"
+    },
+    {
+      "building": "Heinz Memorial Chapel",
+      "check": "placed world after rotation: arrival to interior and floors",
+      "arrival": [
+        1378,
+        69,
+        402
+      ],
+      "target_world_y": [
+        70
+      ],
+      "missing": [],
+      "reachable_positions": 15657,
+      "result": "PASS"
+    },
+    {
+      "building": "William Pitt Union",
+      "check": "template entrance and upper-floor walking; two-block player clearance",
+      "target_heights": [
+        3,
+        8,
+        13,
+        18,
+        23,
+        28,
+        33,
+        38,
+        43
+      ],
+      "missing": [],
+      "reachable_positions": 40251,
+      "result": "PASS"
+    },
+    {
+      "building": "William Pitt Union",
+      "check": "placed world after rotation: arrival to interior and floors",
+      "arrival": [
+        1161,
+        69,
+        601
+      ],
+      "target_world_y": [
+        71,
+        76,
+        81,
+        86,
+        91,
+        96,
+        101,
+        106,
+        111
+      ],
+      "missing": [],
+      "reachable_positions": 53605,
+      "result": "PASS"
+    },
+    {
+      "building": "Hillman Library",
+      "check": "template entrance and upper-floor walking; two-block player clearance",
+      "target_heights": [
+        3,
+        8,
+        13,
+        18,
+        23
+      ],
+      "missing": [],
+      "reachable_positions": 26626,
+      "result": "PASS"
+    },
+    {
+      "building": "Hillman Library",
+      "check": "placed world after rotation: arrival to interior and floors",
+      "arrival": [
+        1217,
+        69,
+        721
+      ],
+      "target_world_y": [
+        71,
+        76,
+        81,
+        86,
+        91
+      ],
+      "missing": [],
+      "reachable_positions": 43719,
+      "result": "PASS"
+    },
+    {
+      "building": "Petersen Events Center",
+      "check": "template entrance and upper-floor walking; two-block player clearance",
+      "target_heights": [
+        2
+      ],
+      "missing": [],
+      "reachable_positions": 20062,
+      "result": "PASS"
+    },
+    {
+      "building": "Petersen Events Center",
+      "check": "placed world after rotation: arrival to interior and floors",
+      "arrival": [
+        521,
+        85,
+        560
+      ],
+      "target_world_y": [
+        89
+      ],
+      "missing": [],
+      "reachable_positions": 49772,
+      "result": "PASS"
+    }
+  ],
+  "official_server": {
+    "result": "PASS",
+    "server_version": "26.2",
+    "every_authored_chunk_loaded": 8960,
+    "landmark_blocks_checked": 27,
+    "authored_chunks_with_saved_lighting": 8960,
+    "clean_shutdown": true,
+    "world_errors": [],
+    "host_diagnostics": [
+      "[15:33:27] [ServerMain/ERROR]: Unable to locate English counter names in registry Perflib 009. Counters may need to be rebuilt: ",
+      "[15:33:31] [Yggdrasil Key Fetcher/ERROR]: Failed to request yggdrasil public key"
+    ],
+    "log": "validation/campus-26.2.log"
+  }
+}

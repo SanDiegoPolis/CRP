@@ -1,0 +1,122 @@
+from pathlib import Path
+import json,zipfile,hashlib,shutil
+import nbt
+ROOT=Path(__file__).resolve().parent.parent
+WORLD=ROOT/'NWPU_Changan_26.2'
+
+def main():
+    m=json.loads((ROOT/'build_manifest.json').read_text(encoding='utf-8'))
+    report=json.loads((ROOT/'validation_report.json').read_text(encoding='utf-8'))
+    assert report['official_server']['result']=='PASS'
+    assert report['official_server']['authored_chunks_with_saved_lighting']==m['chunks']
+    assert all(c['result']=='PASS' for c in report['walking_routes'])
+    data=nbt.plain(nbt.C(nbt.load(WORLD/'level.dat')))['Data']
+    assert data['DataVersion']==4903 and data['GameType']==1 and data['allowCommands']==1
+    assert data['spawn']['pos']==m['spawn']
+    sx,sy,sz=m['spawn'];rows=[]
+    for c in report['walking_routes']:
+        if 'arrival' in c:rows.append('| '+c['building']+' | `/tp @s '+' '.join(map(str,c['arrival']))+'` |')
+    readme=f'''# 西北工业大学 · 长安校区
+
+Minecraft Java 版 **26.2 原版**存档 · 约 **1.1:1**
+
+## 安装与打开
+
+1. 解压「西北工业大学_长安校区_Java26.2.zip」。
+2. 将其中的 **NWPU_Changan_26.2** 文件夹复制到你使用的 **26.2 游戏目录的 saves 文件夹**。
+3. 启动 Java 版 26.2 → 单人游戏 → 选择「西北工业大学｜长安校区 1.1:1」。
+
+正确目录关系是 `saves/NWPU_Changan_26.2/level.dat`。
+同级应有 `dimensions`、`data` 和 `icon.png`。
+官方启动器默认存档目录通常为 `%APPDATA%\\.minecraft\\saves`。
+使用版本隔离的启动器，请放入 **26.2 实例自身的游戏目录**。
+
+无需模组、材质包或数据包。此包为 Java 版世界，不适用于基岩版。
+建议先用 16 区块视距，再按电脑性能调整；首次进入请等待附近建筑加载。
+
+## 开始参观
+
+- 创造模式，晴天中午，已开启命令。
+- 出生点位于东门外：`{sx} {sy} {sz}`，向西面朝校园。
+- 双击空格飞行，空格上升，Shift 下降。
+- 建筑和主要景观旁有中文路牌，附图「校园导览.png」为北向朝上的编号地图。
+
+推荐路线：**东大门 → 何尊与勇士广场 → 图书馆与启真楼 → 启真湖 →
+教学西楼 / 教学东楼 → 翱翔体育馆 → 学生生活区 → 启翔湖与启翔楼 → 博物馆航空展区**。
+
+| 地点 | 传送命令 |
+|---|---|
+| 东门外出生点 | `/tp @s {sx} {sy} {sz}` |
+{chr(10).join(rows)}
+| 校园上空 | `/tp @s 1100 230 1400 90 40` |
+
+## 建造内容
+
+世界范围 **1536 × 2560 方块**，共 **{m['chunks']} 个预制区块**，
+约 **{m['above_terrain_blocks']/10000:.1f} 万个地上非空气方块**，含 **79 个建筑与场地组团**、44 个导览地标及约 3500 棵景观树。
+比例按约 **1.1 方块对应现实 1 米**安排；个别间距、体量和楼层高度作了游戏适配。
+
+### 重点建筑与景观
+
+- **图书馆与启真楼**：弧形玻璃立面、斜坡屋顶、竖向骨架与顶部立杆，配低层侧翼、草坪和小型玻璃采光体；内部有书架、阅览桌、灯光及可通行楼梯。
+- **东大门**：成组立柱、柱头浅钵造型、横梁和中文校名，作为主要参观入口。
+- **启翔楼**：四角较高的楼体、中式坡屋顶、前厅与中央庭院。
+- **启真湖、启翔湖**：依据地图描绘水域及步道关系，增加桥面、沿岸绿化和观景步行空间。
+- **何尊与勇士广场**：铜色何尊、抽象石雕与六根主题柱。
+- **翱翔体育馆与游泳馆**：双馆屋顶、圆窗、室内球场与看台，以及泳池示意空间。
+- **教学东楼、教学西楼**：四翼组团、连廊、教室和庭院。
+- **海天苑、星天苑、云天苑**：学生公寓、餐厅、两处田径场及室外球场。
+- **军工素质教育实践中心**：白色低层展馆、玻璃连廊、8 架静态飞机模型与一座火箭展示造型；展品为游戏中的外观示意。
+- **学院与配套建筑**：海天苑大楼、南山苑国际学术交流中心、艺术教育中心、数字化大楼、翱翔学生中心、工程实践训练中心，以及物理、化工、自动化、电子信息、动力、计算机、管理等学院组团。
+
+## 资料与精度
+
+本作品依据**学校官方导览图和建筑实景照片近似还原**，不是测绘级校园模型。
+主要布局采用学校国际学生招生简章第 41–42 页的长安校区图；PDF 文件元数据为 2025 年。
+重点外观采用学校党委宣传部发布的校园照片，部分拍摄于 2022–2024 年。
+较早的校园平面图仅作辅助对照，不能保证涵盖 2026 年全部新建、改造或用途变化。
+
+官方导览图带有透视和示意简化，因此整体比例是估算值。
+已将图面方向旋转为游戏中的北向朝上，并调整部分建筑间距、门洞和楼梯，以方便玩家参观。
+普通学院楼、宿舍内部、部分庭院和景观细节属于设计补全；没有逐间复刻真实教室或宿舍。
+
+## 验证
+
+- 方块名称和属性均核对官方 26.2 注册表。
+- 独立解码 15 个区域文件、{m['chunks']} 个区块，比对 **503,316,480** 个上部方块状态。
+- 使用**官方 Java 26.2 服务端**逐区加载，确认全部预制区块可用，并核对 44 处地标方块。
+- 全部预制区块完成服务端光照计算和保存，服务端正常关闭，无世界加载错误。
+- 图书馆、启翔楼、博物馆、教学西楼、云天苑餐厅、翱翔体育馆及一栋海天苑公寓，通过两格高玩家的入口与指定楼层通行检查；建筑模型和旋转后的世界落位均有检查。
+- 当前环境使用官方服务端与离线方块渲染验证，未进行桌面游戏客户端画面实测。
+- 完整结果见 `validation_report.json`。
+
+预览图片直接由实际存档方块数据渲染，**不是游戏客户端截图**。
+
+## 参考来源
+
+1. [学校国际学生招生简章：长安校区导览图，第 41–42 页](https://npuinternationalcollege.nwpu.edu.cn/__local/E/6E/25/5F37628D7D0C7315914F51E5518_4F623DF5_1F4A3A2.pdf)
+2. [学校国际教育学院：校园地图](https://npuinternationalcollege.nwpu.edu.cn/gywm/xydt.htm)
+3. [学校官网：建校 86 周年，100 张图片看西工大的历史变化](https://www.nwpu.edu.cn/info/1198/92938.htm)
+4. [学校研究生招生信息网：校园风光](https://yzb.nwpu.edu.cn/new/xxjj/xyfg.htm)
+5. [Minecraft Java 26.2 官方说明](https://www.minecraft.net/en-us/article/minecraft-java-edition-26-2)
+6. [Minecraft Java 26.1 官方存档目录变更说明](https://www.minecraft.net/en-us/article/minecraft-java-edition-26-1)
+
+官方 26.2 服务端 SHA-1：`823e2250d24b3ddac457a60c92a6a941943fcd6a`。
+'''
+    (ROOT/'使用说明.md').write_text(readme,encoding='utf-8');shutil.copyfile(ROOT/'使用说明.md',WORLD/'校园说明.md')
+    extras=['使用说明.md','校园导览.png','校园鸟瞰.png','图书馆与启真湖.png','东大门与何尊广场.png','启翔湖与博物馆.png','validation_report.json']
+    target=ROOT/'西北工业大学_长安校区_Java26.2.zip'
+    with zipfile.ZipFile(target,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
+        for p in sorted(WORLD.rglob('*')):
+            if p.is_file() and p.name not in {'session.lock','level.dat_old','.DS_Store'}:z.write(p,str(p.relative_to(ROOT)))
+        for name in extras:z.write(ROOT/name,name)
+    with zipfile.ZipFile(target) as z:
+        assert z.testzip() is None
+        assert 'NWPU_Changan_26.2/level.dat' in z.namelist()
+        assert any('/dimensions/minecraft/overworld/region/' in n for n in z.namelist());count=len(z.namelist())
+    digest=hashlib.sha256(target.read_bytes()).hexdigest()
+    (ROOT/'SHA256.txt').write_text(digest+'  '+target.name+'\n',encoding='utf-8')
+    out={'archive':str(target),'bytes':target.stat().st_size,'files':count,'sha256':digest,'world':str(WORLD),'validated':True}
+    (ROOT/'delivery_manifest.json').write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding='utf-8');print(json.dumps(out,ensure_ascii=False),flush=True)
+
+if __name__=='__main__':main()

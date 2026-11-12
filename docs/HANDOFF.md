@@ -1,5 +1,7 @@
 # CRP 项目交接
 
+2026-11-12 更新：五份游戏 ZIP、全部校园生成源码、通用技能、校验报告及运行资料已加入仓库。使用 `python cloud.py restore all` 恢复数据，参见根 README。
+
 最后整理：2026-11-12。对话原文见 [conversation.md](conversation.md)，机器可读版见 [conversation.json](conversation.json)。
 
 ## 用户约定
@@ -12,7 +14,7 @@
 
 ## 已交付成果
 
-下表于本次交接时核对了本地 build_manifest.json 和 delivery_manifest.json。世界与 ZIP 仍位于本地，未作为本次对话备份上传。
+下表于本次交接时核对了本地 build_manifest.json 和 delivery_manifest.json。世界 ZIP 与生成源码现已上传到仓库；先按根 README 恢复运行数据。
 
 | 学校及校区 | 本地子目录 | 游戏世界 | 创作区块数 |
 | --- | --- | --- | --- |
@@ -38,11 +40,11 @@
 - 已将 `minecraft-campus-rebuild` 整理为“Minecraft 高校校园复原”通用技能；当时通过格式检查及 21 项工具测试。
 - 技能约定：先核实校区/版本/比例、冻结坐标、区分来源与估计，先验证代表建筑，检查最终文件与实际通路，按范围交付。
 - 此技能包含组件合并、差分、文件审计和项目账本工具，不是自带任意校园模型的完整自动生成引擎。
-- 之前位于 Downloads 的技能目录现已无法找到；可检查本地 `D:/gpt/skill-work` 中的整理副本和 ZIP。本次没有上传技能文件。
-- 各学校工程有 tools、research、验证报告、预览、世界与交付 ZIP。共享 Java 25、官方 26.2 服务端及注册表原位于 ccucm_minecraft/tools；这些是本地依赖，本次未上传。
+- 之前位于 Downloads 的技能目录现已无法找到；可检查本地 `D:/gpt/skill-work` 中的整理副本和 ZIP。技能现已上传至 `.agents/skills/minecraft-campus-rebuild/`。
+- 各学校工程有 tools、research、验证报告、预览、世界与交付 ZIP。共享 Java 25、官方 26.2 服务端及注册表原位于 ccucm_minecraft/tools；模板、注册表和缓存位于 assets 运行资料分卷，恢复脚本会解包；Java 和官方服务端另行安装/下载。
 - 重制版入口：nwpu_rebuild/tools/build_rebuild.py、validate.py、render.py、release.py。初始化脚本 prepare.py 会覆盖已改工具，已有工程不要重复运行初始化。
 - 根目录 sync_world.ps1 用于同步经过验证的世界。
 
 ## 继续处理时
 
-先取得所需本地文件或将其另行上传，再核对相应项目 AGENTS.md、正式清单、坐标版本、报告摘要和安装记录。不要把本仓库中的文字记录当作已经存在于云端的存档、源码或技能；不要凭历史 PASS 宣称改动后的新文件已验证。
+先取得所需本地文件或将其另行上传，再核对相应项目 AGENTS.md、正式清单、坐标版本、报告摘要和安装记录。仓库已包含存档、源码与技能，先按根 README 准备云端运行环境；不要凭历史 PASS 宣称改动后的新文件已验证。

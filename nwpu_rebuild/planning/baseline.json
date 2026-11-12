@@ -1,0 +1,87 @@
+{
+  "baseline_relative": "../nwpu_minecraft",
+  "baseline_files": {
+    "build_manifest.json": "bf402b399ffe3a0384944befd3862dc1300f2699e81b24b7071e6039caf68f53",
+    "validation_report.json": "49c2b86becac53e99e4b6a552e2b32302b7b8e853019160ae5fc23af32151937",
+    "西北工业大学_长安校区_Java26.2.zip": "05973e6faefe10ece3014dc87501687663b10befd93546d2fe658f8133d98940"
+  },
+  "source_files": {
+    "aerial.png": "789a6cafd9cc6e645304ac061c65ab478cd44f41395ae5c80174a22249cab100",
+    "aircraft.png": "90678e2dd7340f3c10f0c564281eaa9b1c29fd69ad4f85d9f2da82c7c29d8efe",
+    "arena.png": "ea005dc2d0172c991d0088b91e771b8a024aee54fff74d7b43fe599c47d8dfc4",
+    "dormitories.png": "7d92344ea9721a7100a7ffa7dc630a0f3bf38e54ff6d4a1f1bf416190b85501c",
+    "east-gate.png": "8feeaf7f74e643e45f98bcc283b623a6ce96ccd3b0156e33b0b46da4d8b40782",
+    "layout-2025.png": "5902747650d261214efd947153f062f9b0519fd5ae26446229c027971cb20a6e",
+    "library.png": "9fc3532a020eb2c3c5ff9f3225034d46612cadb1e2ce4c370b3e639652e03dec",
+    "qixiang.png": "89941d6c29f2dbebd30c0a711885f5560639fe94c81b8bcee6a48a618e306002",
+    "warriors.png": "503b365bfc6b0a104bcdc12f614a84ef5bf881d3fc06d13180896aaecc3ecea1"
+  },
+  "coordinate_version": "nwpu-illustrated-map-2025-north-up-v1",
+  "transform": {
+    "x": "70 + (v - 375) * 2.6",
+    "z": "60 + (1690 - u) * 1.7",
+    "y": "model_y + 64",
+    "map_view_size": [
+      1920,
+      1311
+    ]
+  },
+  "coordinate_control_points": [
+    {
+      "name": "东门",
+      "map_uv": [
+        1108,
+        889
+      ],
+      "world_xz": [
+        1406,
+        1049
+      ]
+    },
+    {
+      "name": "图书馆",
+      "map_uv": [
+        1091,
+        650
+      ],
+      "world_xz": [
+        785,
+        1078
+      ]
+    },
+    {
+      "name": "启翔楼",
+      "map_uv": [
+        635,
+        638
+      ],
+      "world_xz": [
+        754,
+        1854
+      ]
+    },
+    {
+      "name": "体育馆",
+      "map_uv": [
+        1461,
+        815
+      ],
+      "world_xz": [
+        1214,
+        449
+      ]
+    },
+    {
+      "name": "博物馆",
+      "map_uv": [
+        463,
+        562
+      ],
+      "world_xz": [
+        556,
+        2146
+      ]
+    }
+  ],
+  "limitation": "Control points preserve the established illustrated-map registration, not independent survey accuracy."
+}

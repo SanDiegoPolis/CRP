@@ -1,0 +1,871 @@
+[
+  {
+    "name": "图书馆与启真楼",
+    "arrival": [
+      867,
+      69,
+      1078
+    ],
+    "nodes": 1,
+    "start_adjustment_blocks": 1.0,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "启翔楼",
+    "arrival": [
+      819,
+      69,
+      1854
+    ],
+    "nodes": 61,
+    "start_adjustment_blocks": 0.0,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "军工素质教育实践中心",
+    "arrival": [
+      687,
+      69,
+      2146
+    ],
+    "nodes": 39,
+    "start_adjustment_blocks": 1.0,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "航空宇航支撑学科创新中心",
+    "arrival": [
+      367,
+      69,
+      1967
+    ],
+    "nodes": 15,
+    "start_adjustment_blocks": 2.24,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "海天苑大楼",
+    "arrival": [
+      791,
+      69,
+      1486
+    ],
+    "nodes": 48,
+    "start_adjustment_blocks": 1.41,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "海天苑餐厅",
+    "arrival": [
+      388,
+      69,
+      1517
+    ],
+    "nodes": 18,
+    "start_adjustment_blocks": 1.41,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "艺术教育中心",
+    "arrival": [
+      376,
+      69,
+      1593
+    ],
+    "nodes": 16,
+    "start_adjustment_blocks": 1.0,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "南山苑国际学术交流中心",
+    "arrival": [
+      1241,
+      69,
+      1556
+    ],
+    "nodes": 19,
+    "start_adjustment_blocks": 1.41,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "翱翔游泳馆",
+    "arrival": [
+      401,
+      69,
+      1068
+    ],
+    "nodes": 14,
+    "start_adjustment_blocks": 2.0,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "综合训练馆",
+    "arrival": [
+      295,
+      69,
+      832
+    ],
+    "nodes": 42,
+    "start_adjustment_blocks": 1.41,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "学生体质监测中心",
+    "arrival": [
+      210,
+      69,
+      1070
+    ],
+    "nodes": 22,
+    "start_adjustment_blocks": 1.0,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "星天苑田径场",
+    "arrival": [
+      424,
+      69,
+      915
+    ],
+    "nodes": 5,
+    "start_adjustment_blocks": 1.0,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "实验大楼",
+    "arrival": [
+      582,
+      69,
+      1156
+    ],
+    "nodes": 18,
+    "start_adjustment_blocks": 1.0,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "教学西楼",
+    "arrival": [
+      680,
+      69,
+      949
+    ],
+    "nodes": 54,
+    "start_adjustment_blocks": 1.41,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "教学东楼",
+    "arrival": [
+      1043,
+      69,
+      774
+    ],
+    "nodes": 50,
+    "start_adjustment_blocks": 1.0,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "翱翔学生中心",
+    "arrival": [
+      826,
+      69,
+      553
+    ],
+    "nodes": 27,
+    "start_adjustment_blocks": 1.41,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "数字化大楼",
+    "arrival": [
+      596,
+      69,
+      748
+    ],
+    "nodes": 20,
+    "start_adjustment_blocks": 1.41,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "云天苑餐厅",
+    "arrival": [
+      1004,
+      69,
+      556
+    ],
+    "nodes": 21,
+    "start_adjustment_blocks": 1.41,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "翱翔体育馆",
+    "arrival": [
+      1290,
+      69,
+      449
+    ],
+    "nodes": 6,
+    "start_adjustment_blocks": 1.0,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "云天苑田径场",
+    "arrival": [
+      1324,
+      69,
+      216
+    ],
+    "nodes": 22,
+    "start_adjustment_blocks": 1.0,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "星天苑南餐厅",
+    "arrival": [
+      514,
+      69,
+      645
+    ],
+    "nodes": 10,
+    "start_adjustment_blocks": 1.0,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "星天苑北餐厅",
+    "arrival": [
+      504,
+      69,
+      366
+    ],
+    "nodes": 15,
+    "start_adjustment_blocks": 0.0,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "大学生双创楼",
+    "arrival": [
+      371,
+      69,
+      388
+    ],
+    "nodes": 10,
+    "start_adjustment_blocks": 1.41,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "东大门",
+    "arrival": [
+      1434,
+      69,
+      1049
+    ],
+    "nodes": 56,
+    "start_adjustment_blocks": 1.0,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "物理科学与技术学院",
+    "arrival": [
+      1146,
+      69,
+      1418
+    ],
+    "nodes": 53,
+    "start_adjustment_blocks": 1.0,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "化学与化工学院",
+    "arrival": [
+      1118,
+      69,
+      1344
+    ],
+    "nodes": 59,
+    "start_adjustment_blocks": 1.0,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "自动化学院",
+    "arrival": [
+      1141,
+      69,
+      1270
+    ],
+    "nodes": 28,
+    "start_adjustment_blocks": 1.41,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "电子信息与微电子学院",
+    "arrival": [
+      1192,
+      69,
+      1156
+    ],
+    "nodes": 9,
+    "start_adjustment_blocks": 1.41,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "力学与土木建筑学院",
+    "arrival": [
+      1158,
+      69,
+      828
+    ],
+    "nodes": 52,
+    "start_adjustment_blocks": 0.0,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "管理学院",
+    "arrival": [
+      1136,
+      69,
+      964
+    ],
+    "nodes": 18,
+    "start_adjustment_blocks": 1.41,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "动力与能源学院",
+    "arrival": [
+      1280,
+      69,
+      905
+    ],
+    "nodes": 9,
+    "start_adjustment_blocks": 1.41,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "计算机学院",
+    "arrival": [
+      1275,
+      69,
+      794
+    ],
+    "nodes": 11,
+    "start_adjustment_blocks": 1.0,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "公共政策与管理学院",
+    "arrival": [
+      1282,
+      69,
+      701
+    ],
+    "nodes": 9,
+    "start_adjustment_blocks": 1.41,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "马克思主义学院",
+    "arrival": [
+      1158,
+      69,
+      670
+    ],
+    "nodes": 17,
+    "start_adjustment_blocks": 1.0,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "网络空间安全学院",
+    "arrival": [
+      706,
+      69,
+      582
+    ],
+    "nodes": 22,
+    "start_adjustment_blocks": 1.0,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "工程实践训练中心",
+    "arrival": [
+      242,
+      69,
+      621
+    ],
+    "nodes": 30,
+    "start_adjustment_blocks": 1.0,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "海天苑公寓南区1",
+    "arrival": [
+      264,
+      69,
+      1782
+    ],
+    "nodes": 31,
+    "start_adjustment_blocks": 0.0,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "海天苑公寓南区2",
+    "arrival": [
+      264,
+      69,
+      1741
+    ],
+    "nodes": 30,
+    "start_adjustment_blocks": 1.0,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "海天苑公寓南区3",
+    "arrival": [
+      264,
+      69,
+      1700
+    ],
+    "nodes": 17,
+    "start_adjustment_blocks": 1.0,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "海天苑公寓南区4",
+    "arrival": [
+      264,
+      69,
+      1660
+    ],
+    "nodes": 3,
+    "start_adjustment_blocks": 1.0,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "海天苑公寓南区5",
+    "arrival": [
+      380,
+      69,
+      1782
+    ],
+    "nodes": 15,
+    "start_adjustment_blocks": 1.0,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "海天苑公寓南区6",
+    "arrival": [
+      380,
+      69,
+      1741
+    ],
+    "nodes": 16,
+    "start_adjustment_blocks": 1.41,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "海天苑公寓南区7",
+    "arrival": [
+      380,
+      69,
+      1700
+    ],
+    "nodes": 17,
+    "start_adjustment_blocks": 1.41,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "海天苑公寓南区8",
+    "arrival": [
+      380,
+      69,
+      1660
+    ],
+    "nodes": 3,
+    "start_adjustment_blocks": 1.41,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "海天苑公寓北区1",
+    "arrival": [
+      286,
+      69,
+      1605
+    ],
+    "nodes": 13,
+    "start_adjustment_blocks": 1.0,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "海天苑公寓北区2",
+    "arrival": [
+      276,
+      69,
+      1561
+    ],
+    "nodes": 29,
+    "start_adjustment_blocks": 1.0,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "海天苑公寓北区3",
+    "arrival": [
+      286,
+      69,
+      1517
+    ],
+    "nodes": 42,
+    "start_adjustment_blocks": 1.41,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "海天苑公寓北区4",
+    "arrival": [
+      282,
+      69,
+      1469
+    ],
+    "nodes": 42,
+    "start_adjustment_blocks": 1.0,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "海天苑公寓北区5",
+    "arrival": [
+      300,
+      69,
+      1418
+    ],
+    "nodes": 46,
+    "start_adjustment_blocks": 1.0,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "海天苑公寓北区6",
+    "arrival": [
+      368,
+      69,
+      1400
+    ],
+    "nodes": 23,
+    "start_adjustment_blocks": 1.41,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "星天苑公寓01",
+    "arrival": [
+      338,
+      69,
+      670
+    ],
+    "nodes": 9,
+    "start_adjustment_blocks": 1.41,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "星天苑公寓02",
+    "arrival": [
+      338,
+      69,
+      623
+    ],
+    "nodes": 24,
+    "start_adjustment_blocks": 1.41,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "星天苑公寓03",
+    "arrival": [
+      338,
+      69,
+      575
+    ],
+    "nodes": 31,
+    "start_adjustment_blocks": 1.41,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "星天苑公寓04",
+    "arrival": [
+      338,
+      69,
+      528
+    ],
+    "nodes": 30,
+    "start_adjustment_blocks": 1.0,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "星天苑公寓05",
+    "arrival": [
+      338,
+      69,
+      480
+    ],
+    "nodes": 29,
+    "start_adjustment_blocks": 1.0,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "星天苑公寓06",
+    "arrival": [
+      338,
+      69,
+      432
+    ],
+    "nodes": 27,
+    "start_adjustment_blocks": 1.0,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "星天苑公寓07",
+    "arrival": [
+      652,
+      69,
+      636
+    ],
+    "nodes": 6,
+    "start_adjustment_blocks": 1.0,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "星天苑公寓08",
+    "arrival": [
+      652,
+      69,
+      589
+    ],
+    "nodes": 22,
+    "start_adjustment_blocks": 1.41,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "星天苑公寓09",
+    "arrival": [
+      652,
+      69,
+      541
+    ],
+    "nodes": 38,
+    "start_adjustment_blocks": 1.41,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "星天苑公寓10",
+    "arrival": [
+      652,
+      69,
+      494
+    ],
+    "nodes": 53,
+    "start_adjustment_blocks": 1.41,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "星天苑公寓11",
+    "arrival": [
+      652,
+      69,
+      446
+    ],
+    "nodes": 48,
+    "start_adjustment_blocks": 1.41,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "星天苑公寓12",
+    "arrival": [
+      652,
+      69,
+      398
+    ],
+    "nodes": 37,
+    "start_adjustment_blocks": 1.41,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "云天苑公寓01",
+    "arrival": [
+      984,
+      69,
+      492
+    ],
+    "nodes": 47,
+    "start_adjustment_blocks": 0.0,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "云天苑公寓02",
+    "arrival": [
+      984,
+      69,
+      419
+    ],
+    "nodes": 67,
+    "start_adjustment_blocks": 1.0,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "云天苑公寓03",
+    "arrival": [
+      984,
+      69,
+      346
+    ],
+    "nodes": 46,
+    "start_adjustment_blocks": 1.0,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "云天苑公寓04",
+    "arrival": [
+      984,
+      69,
+      272
+    ],
+    "nodes": 22,
+    "start_adjustment_blocks": 1.0,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "云天苑公寓05",
+    "arrival": [
+      1142,
+      69,
+      471
+    ],
+    "nodes": 47,
+    "start_adjustment_blocks": 2.0,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "云天苑公寓06",
+    "arrival": [
+      1142,
+      69,
+      398
+    ],
+    "nodes": 71,
+    "start_adjustment_blocks": 2.24,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "云天苑公寓07",
+    "arrival": [
+      1142,
+      69,
+      325
+    ],
+    "nodes": 53,
+    "start_adjustment_blocks": 1.41,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "云天苑公寓08",
+    "arrival": [
+      1142,
+      69,
+      252
+    ],
+    "nodes": 28,
+    "start_adjustment_blocks": 1.0,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "星天苑篮球场",
+    "arrival": [
+      421,
+      69,
+      771
+    ],
+    "nodes": 5,
+    "start_adjustment_blocks": 1.0,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "海天苑运动场",
+    "arrival": [
+      406,
+      69,
+      1850
+    ],
+    "nodes": 5,
+    "start_adjustment_blocks": 1.41,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "配套楼1",
+    "arrival": [
+      321,
+      69,
+      2328
+    ],
+    "nodes": 27,
+    "start_adjustment_blocks": 0.0,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "配套楼2",
+    "arrival": [
+      334,
+      69,
+      2216
+    ],
+    "nodes": 62,
+    "start_adjustment_blocks": 1.41,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "配套楼3",
+    "arrival": [
+      357,
+      69,
+      2095
+    ],
+    "nodes": 51,
+    "start_adjustment_blocks": 1.0,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "配套楼4",
+    "arrival": [
+      428,
+      69,
+      2323
+    ],
+    "nodes": 58,
+    "start_adjustment_blocks": 1.41,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "配套楼5",
+    "arrival": [
+      213,
+      69,
+      1412
+    ],
+    "nodes": 24,
+    "start_adjustment_blocks": 1.0,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "配套楼6",
+    "arrival": [
+      258,
+      69,
+      704
+    ],
+    "nodes": 1,
+    "start_adjustment_blocks": 1.0,
+    "result": "ROUTE_BUILT"
+  },
+  {
+    "name": "配套楼7",
+    "arrival": [
+      206,
+      69,
+      478
+    ],
+    "nodes": 12,
+    "start_adjustment_blocks": 1.41,
+    "result": "ROUTE_BUILT"
+  }
+]
